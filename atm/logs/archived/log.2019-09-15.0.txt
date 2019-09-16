@@ -1,0 +1,259 @@
+2019-09-15 00:28:10,231 INFO com.atm.AtmApplication [main] Starting AtmApplication on Ariansyah with PID 1291 (/Users/ariansyah.nugroho/Downloads/G2Academy/Code/Project/atm/target/classes started by ariansyah.nugroho in /Users/ariansyah.nugroho/Downloads/G2Academy/Code/Project/atm)
+2019-09-15 00:28:10,233 DEBUG com.atm.AtmApplication [main] Running with Spring Boot v2.1.8.RELEASE, Spring v5.1.9.RELEASE
+2019-09-15 00:28:10,233 INFO com.atm.AtmApplication [main] The following profiles are active: @spring.profiles.active@
+2019-09-15 00:28:13,256 INFO com.atm.AtmApplication [main] Started AtmApplication in 3.483 seconds (JVM running for 4.319)
+2019-09-15 00:28:18,280 INFO com.atm.Client [main] Sisa Saldo 3400 dengan Nomor Rekening 123456
+2019-09-15 00:40:20,483 DEBUG org.hibernate.validator.messageinterpolation.ResourceBundleMessageInterpolator [background-preinit] Loaded expression factory via original TCCL
+2019-09-15 00:40:20,637 INFO com.atm.AtmApplication [main] Starting AtmApplication on Ariansyah with PID 1316 (/Users/ariansyah.nugroho/Downloads/G2Academy/Code/Project/atm/target/classes started by ariansyah.nugroho in /Users/ariansyah.nugroho/Downloads/G2Academy/Code/Project/atm)
+2019-09-15 00:40:20,638 DEBUG com.atm.AtmApplication [main] Running with Spring Boot v2.1.8.RELEASE, Spring v5.1.9.RELEASE
+2019-09-15 00:40:20,638 INFO com.atm.AtmApplication [main] The following profiles are active: @spring.profiles.active@
+2019-09-15 00:40:23,182 INFO com.atm.AtmApplication [main] Started AtmApplication in 3.032 seconds (JVM running for 4.261)
+2019-09-15 00:40:31,335 ERROR com.atm.controllers.iso.ISOBalanceController [main] test log
+2019-09-15 00:40:32,030 INFO com.atm.Client [main] Sisa Saldo 3400 dengan Nomor Rekening 123456
+2019-09-15 00:58:59,818 INFO com.atm.AtmApplication [main] Starting AtmApplication on Ariansyah with PID 1566 (/Users/ariansyah.nugroho/Downloads/G2Academy/Code/Project/atm/target/classes started by ariansyah.nugroho in /Users/ariansyah.nugroho/Downloads/G2Academy/Code/Project/atm)
+2019-09-15 00:58:59,819 DEBUG com.atm.AtmApplication [main] Running with Spring Boot v2.1.8.RELEASE, Spring v5.1.9.RELEASE
+2019-09-15 00:58:59,819 INFO com.atm.AtmApplication [main] The following profiles are active: @spring.profiles.active@
+2019-09-15 00:59:01,723 INFO com.atm.AtmApplication [main] Started AtmApplication in 2.351 seconds (JVM running for 3.309)
+2019-09-15 00:59:07,214 INFO com.atm.Client [main] Sisa Saldo 1000000 dengan Nomor Rekening 999999
+2019-09-15 01:19:32,049 INFO com.atm.AtmApplication [main] Starting AtmApplication on Ariansyah with PID 1614 (/Users/ariansyah.nugroho/Downloads/G2Academy/Code/Project/atm/target/classes started by ariansyah.nugroho in /Users/ariansyah.nugroho/Downloads/G2Academy/Code/Project/atm)
+2019-09-15 01:19:32,052 DEBUG com.atm.AtmApplication [main] Running with Spring Boot v2.1.8.RELEASE, Spring v5.1.9.RELEASE
+2019-09-15 01:19:32,052 INFO com.atm.AtmApplication [main] The following profiles are active: @spring.profiles.active@
+2019-09-15 01:19:34,519 INFO com.atm.AtmApplication [main] Started AtmApplication in 2.84 seconds (JVM running for 3.637)
+2019-09-15 01:19:39,508 INFO com.atm.services.BalanceService [http-nio-8084-exec-1] {Thread[RMI TCP Connection(2)-192.168.43.104,5,RMI Runtime]=[Ljava.lang.StackTraceElement;@4f07e1f8, Thread[http-nio-8084-exec-7,5,main]=[Ljava.lang.StackTraceElement;@302e556b, Thread[http-nio-8084-exec-5,5,main]=[Ljava.lang.StackTraceElement;@559a22c, Thread[http-nio-8084-BlockPoller,5,main]=[Ljava.lang.StackTraceElement;@15bf8339, Thread[mysql-cj-abandoned-connection-cleanup,5,main]=[Ljava.lang.StackTraceElement;@65c7b857, Thread[http-nio-8084-exec-1,5,main]=[Ljava.lang.StackTraceElement;@27802c89, Thread[http-nio-8084-exec-10,5,main]=[Ljava.lang.StackTraceElement;@6f80a297, Thread[container-0,5,main]=[Ljava.lang.StackTraceElement;@64f4215, Thread[http-nio-8084-exec-4,5,main]=[Ljava.lang.StackTraceElement;@5e92478b, Thread[RMI TCP Connection(idle),5,RMI Runtime]=[Ljava.lang.StackTraceElement;@7850dcb4, Thread[DestroyJavaVM,5,main]=[Ljava.lang.StackTraceElement;@12ae4d33, Thread[Finalizer,8,system]=[Ljava.lang.StackTraceElement;@6e8dea99, Thread[Catalina-utility-1,1,main]=[Ljava.lang.StackTraceElement;@226f46dc, Thread[Reference Handler,10,system]=[Ljava.lang.StackTraceElement;@5ca49b59, Thread[http-nio-8084-exec-2,5,main]=[Ljava.lang.StackTraceElement;@3c83922b, Thread[http-nio-8084-Acceptor,5,main]=[Ljava.lang.StackTraceElement;@3ddb6e00, Thread[Monitor Ctrl-Break,5,main]=[Ljava.lang.StackTraceElement;@655a86c1, Thread[RMI TCP Connection(4)-192.168.43.104,5,RMI Runtime]=[Ljava.lang.StackTraceElement;@1ddca760, Thread[http-nio-8084-exec-9,5,main]=[Ljava.lang.StackTraceElement;@3dee6c3a, Thread[http-nio-8084-exec-8,5,main]=[Ljava.lang.StackTraceElement;@5b23bee9, Thread[Attach Listener,9,system]=[Ljava.lang.StackTraceElement;@6afe47c2, Thread[RMI TCP Accept-0,5,system]=[Ljava.lang.StackTraceElement;@12610a5a, Thread[RMI TCP Connection(8)-192.168.43.104,5,RMI Runtime]=[Ljava.lang.StackTraceElement;@5c203b90, Thread[Common-Cleaner,8,InnocuousThreadGroup]=[Ljava.lang.StackTraceElement;@1a32020b, Thread[http-nio-8084-exec-6,5,main]=[Ljava.lang.StackTraceElement;@26a96d8, Thread[HikariPool-1 housekeeper,5,main]=[Ljava.lang.StackTraceElement;@18436f15, Thread[Signal Dispatcher,9,system]=[Ljava.lang.StackTraceElement;@45623b36, Thread[Catalina-utility-2,1,main]=[Ljava.lang.StackTraceElement;@4fca4bcb, Thread[http-nio-8084-exec-3,5,main]=[Ljava.lang.StackTraceElement;@19c0d8bc, Thread[http-nio-8084-ClientPoller,5,main]=[Ljava.lang.StackTraceElement;@1a782756, Thread[RMI TCP Connection(idle),5,RMI Runtime]=[Ljava.lang.StackTraceElement;@4e9704a4, Thread[RMI Scheduler(0),5,system]=[Ljava.lang.StackTraceElement;@539e9aae}
+2019-09-15 01:19:39,536 INFO com.atm.controllers.HttpController [main] Sending Http Post to http://localhost:8084/check
+2019-09-15 01:19:39,551 INFO com.atm.Client [main] Sisa Saldo 3400 dengan Nomor Rekening 123456
+2019-09-15 01:21:35,548 INFO com.atm.AtmApplication [main] Starting AtmApplication on Ariansyah with PID 1627 (/Users/ariansyah.nugroho/Downloads/G2Academy/Code/Project/atm/target/classes started by ariansyah.nugroho in /Users/ariansyah.nugroho/Downloads/G2Academy/Code/Project/atm)
+2019-09-15 01:21:35,549 DEBUG com.atm.AtmApplication [main] Running with Spring Boot v2.1.8.RELEASE, Spring v5.1.9.RELEASE
+2019-09-15 01:21:35,549 INFO com.atm.AtmApplication [main] The following profiles are active: @spring.profiles.active@
+2019-09-15 01:21:38,331 INFO com.atm.AtmApplication [main] Started AtmApplication in 3.271 seconds (JVM running for 4.226)
+2019-09-15 01:21:42,466 INFO com.atm.services.BalanceService [http-nio-8084-exec-1] checkSaldoQuery
+2019-09-15 01:21:42,494 INFO com.atm.controllers.HttpController [main] Sending Http Post to http://localhost:8084/check
+2019-09-15 01:21:42,507 INFO com.atm.Client [main] Sisa Saldo 3400 dengan Nomor Rekening 123456
+2019-09-15 01:47:10,869 INFO com.atm.AtmApplication [main] Starting AtmApplication on Ariansyah with PID 1667 (/Users/ariansyah.nugroho/Downloads/G2Academy/Code/Project/atm/target/classes started by ariansyah.nugroho in /Users/ariansyah.nugroho/Downloads/G2Academy/Code/Project/atm)
+2019-09-15 01:47:10,872 DEBUG com.atm.AtmApplication [main] Running with Spring Boot v2.1.8.RELEASE, Spring v5.1.9.RELEASE
+2019-09-15 01:47:10,872 INFO com.atm.AtmApplication [main] The following profiles are active: @spring.profiles.active@
+2019-09-15 01:47:13,607 INFO com.atm.AtmApplication [main] Started AtmApplication in 3.166 seconds (JVM running for 3.957)
+2019-09-15 01:47:18,485 INFO com.atm.services.BalanceService [http-nio-8084-exec-1] Success checking balance of 123456 with amount 3400
+2019-09-15 01:47:18,515 INFO com.atm.controllers.HttpController [main] Sending Http Request to http://localhost:8084/check
+2019-09-15 01:47:34,779 INFO com.atm.controllers.HttpController [main] Sending Http Request to http://localhost:8084/withdraw
+2019-09-15 01:47:43,816 INFO com.atm.services.BalanceService [http-nio-8084-exec-5] Success checking balance of 123456 with amount 3400
+2019-09-15 01:47:43,816 INFO com.atm.services.WithdrawService [http-nio-8084-exec-5] Fail withdrawing 50000 from 123456, balance not enough
+2019-09-15 01:47:43,823 INFO com.atm.controllers.HttpController [main] Sending Http Request to http://localhost:8084/withdraw
+2019-09-15 01:57:25,808 INFO com.atm.AtmApplication [main] Starting AtmApplication on Ariansyah with PID 1688 (/Users/ariansyah.nugroho/Downloads/G2Academy/Code/Project/atm/target/classes started by ariansyah.nugroho in /Users/ariansyah.nugroho/Downloads/G2Academy/Code/Project/atm)
+2019-09-15 01:57:25,810 DEBUG com.atm.AtmApplication [main] Running with Spring Boot v2.1.8.RELEASE, Spring v5.1.9.RELEASE
+2019-09-15 01:57:25,811 INFO com.atm.AtmApplication [main] The following profiles are active: @spring.profiles.active@
+2019-09-15 01:57:27,624 INFO com.atm.AtmApplication [main] Started AtmApplication in 2.219 seconds (JVM running for 3.052)
+2019-09-15 01:57:55,283 INFO com.atm.dao.Dao [http-nio-8084-exec-1] Authentication succeed
+2019-09-15 01:57:55,285 INFO com.atm.services.BalanceService [http-nio-8084-exec-1] Success checking balance of 123456 with amount 3400
+2019-09-15 01:57:55,320 INFO com.atm.controllers.HttpController [main] Sending Http Request to http://localhost:8084/check
+2019-09-15 01:58:29,471 INFO com.atm.dao.Dao [http-nio-8084-exec-3] Authentication succeed
+2019-09-15 01:58:29,472 INFO com.atm.services.BalanceService [http-nio-8084-exec-3] Success checking balance of 999999 with amount 1000000
+2019-09-15 01:58:29,476 INFO com.atm.services.PaymentInquiryService [http-nio-8084-exec-3] Success payment inquiry with amount 100000 to 888888 
+2019-09-15 01:58:29,482 INFO com.atm.controllers.HttpController [main] Sending Http Request to http://localhost:8084/paymentinquiry
+2019-09-15 01:58:43,116 INFO com.atm.services.BalanceService [http-nio-8084-exec-5] Success checking balance of 999999 with amount 900000
+2019-09-15 01:58:43,116 INFO com.atm.services.PaymentService [http-nio-8084-exec-5] Success payment with amount 100000 to 888888 
+2019-09-15 01:58:43,122 INFO com.atm.controllers.HttpController [main] Sending Http Request to http://localhost:8084/payment
+2019-09-15 14:38:30,470 INFO com.atm.AtmApplication [main] Starting AtmApplication on Ariansyah with PID 30188 (/Users/ariansyah.nugroho/Downloads/G2Academy/Code/Project/atm/target/classes started by ariansyah.nugroho in /Users/ariansyah.nugroho/Downloads/G2Academy/Code/Project/atm)
+2019-09-15 14:38:30,471 DEBUG com.atm.AtmApplication [main] Running with Spring Boot v2.1.8.RELEASE, Spring v5.1.9.RELEASE
+2019-09-15 14:38:30,471 INFO com.atm.AtmApplication [main] The following profiles are active: @spring.profiles.active@
+2019-09-15 14:38:32,383 INFO com.atm.AtmApplication [main] Started AtmApplication in 2.172 seconds (JVM running for 32.862)
+2019-09-15 14:38:40,911 INFO com.atm.controllers.iso.ISOBalanceController [main] Built ISO Message to Check Balance
+2019-09-15 14:38:41,624 INFO com.atm.dao.Dao [http-nio-8084-exec-1] Authentication succeed
+2019-09-15 14:38:41,625 INFO com.atm.services.BalanceService [http-nio-8084-exec-1] Success checking balance of 123456 with amount 3400
+2019-09-15 14:38:41,657 INFO com.atm.controllers.HttpController [main] Sending Http Request to http://localhost:8084/check
+2019-09-15 14:39:13,200 INFO com.atm.controllers.iso.ISOTransInquiryController [main] Built ISO Message for Transfer Inquiry
+2019-09-15 14:39:13,218 INFO com.atm.dao.Dao [http-nio-8084-exec-3] Authentication succeed
+2019-09-15 14:39:13,219 INFO com.atm.services.BalanceService [http-nio-8084-exec-3] Success checking balance of 999999 with amount 900000
+2019-09-15 14:39:13,224 INFO com.atm.services.TransInquiryService [http-nio-8084-exec-3] Success transfer inquiry from 999999 to 123456
+2019-09-15 14:39:13,232 INFO com.atm.controllers.HttpController [main] Sending Http Request to http://localhost:8084/transinquiry
+2019-09-15 14:39:18,434 INFO com.atm.controllers.iso.ISOTransferController [main] Built ISO Message for Transfer
+2019-09-15 14:39:18,459 INFO com.atm.services.BalanceService [http-nio-8084-exec-5] Success checking balance of 999999 with amount 700000
+2019-09-15 14:39:18,459 INFO com.atm.services.TransferService [http-nio-8084-exec-5] Success transfer from 999999 to 123456
+2019-09-15 14:39:18,464 INFO com.atm.controllers.HttpController [main] Sending Http Request to http://localhost:8084/transfer
+2019-09-15 16:54:47,143 INFO com.atm.AtmApplication [main] Starting AtmApplication on Ariansyah with PID 31617 (/Users/ariansyah.nugroho/Downloads/G2Academy/Code/Project/atm/target/classes started by ariansyah.nugroho in /Users/ariansyah.nugroho/Downloads/G2Academy/Code/Project/atm)
+2019-09-15 16:54:47,147 DEBUG com.atm.AtmApplication [main] Running with Spring Boot v2.1.8.RELEASE, Spring v5.1.9.RELEASE
+2019-09-15 16:54:47,147 INFO com.atm.AtmApplication [main] The following profiles are active: @spring.profiles.active@
+2019-09-15 16:54:50,053 INFO com.atm.AtmApplication [main] Started AtmApplication in 3.355 seconds (JVM running for 4.461)
+2019-09-15 18:02:32,463 INFO com.atm.AtmApplication [main] Starting AtmApplication on Ariansyah with PID 31724 (/Users/ariansyah.nugroho/Downloads/G2Academy/Code/Project/atm/target/classes started by ariansyah.nugroho in /Users/ariansyah.nugroho/Downloads/G2Academy/Code/Project/atm)
+2019-09-15 18:02:32,465 DEBUG com.atm.AtmApplication [main] Running with Spring Boot v2.1.8.RELEASE, Spring v5.1.9.RELEASE
+2019-09-15 18:02:32,465 INFO com.atm.AtmApplication [main] The following profiles are active: @spring.profiles.active@
+2019-09-15 18:02:35,536 INFO com.atm.AtmApplication [main] Started AtmApplication in 3.575 seconds (JVM running for 4.342)
+2019-09-15 18:02:38,710 INFO com.atm.controllers.iso.ISOBalanceController [main] Built ISO Message to Check Balance
+2019-09-15 18:02:39,462 INFO com.atm.dao.Dao [http-nio-8084-exec-1] Authentication succeed
+2019-09-15 18:02:39,466 INFO com.atm.services.BalanceService [http-nio-8084-exec-1] Success checking balance of 123456 with amount 203400
+2019-09-15 18:02:39,504 INFO com.atm.controllers.HttpController [main] Sending Http Request to http://localhost:8084/check
+2019-09-15 19:55:08,574 INFO com.atm.AtmApplication [main] Starting AtmApplication on Ariansyah with PID 31938 (/Users/ariansyah.nugroho/Downloads/G2Academy/Code/Project/atm/target/classes started by ariansyah.nugroho in /Users/ariansyah.nugroho/Downloads/G2Academy/Code/Project/atm)
+2019-09-15 19:55:08,576 DEBUG com.atm.AtmApplication [main] Running with Spring Boot v2.1.8.RELEASE, Spring v5.1.9.RELEASE
+2019-09-15 19:55:08,577 INFO com.atm.AtmApplication [main] The following profiles are active: @spring.profiles.active@
+2019-09-15 19:55:11,529 INFO com.atm.AtmApplication [main] Started AtmApplication in 3.456 seconds (JVM running for 4.2)
+2019-09-15 19:55:31,574 INFO com.atm.controllers.iso.ISOSwitchTransInquiryController [main] Built ISO Message for Transfer Inquiry
+2019-09-15 19:55:32,246 INFO com.atm.dao.Dao [http-nio-8084-exec-1] Authentication succeed
+2019-09-15 19:55:32,999 INFO com.atm.controllers.HttpController [http-nio-8084-exec-1] Sending Http Request to http://localhost:8083/switchingtransinquiry
+2019-09-15 19:55:33,012 ERROR com.atm.controllers.iso.ISOController [http-nio-8084-exec-1] Error : org.jpos.iso.IFA_NUMERIC: Problem unpacking field 0 in parseISOMessage method
+2019-09-15 19:55:33,045 INFO com.atm.controllers.HttpController [main] Sending Http Request to http://localhost:8084/switchingtransinquiry
+2019-09-15 19:55:33,065 ERROR com.atm.controllers.iso.ISOController [main] Error : org.jpos.iso.IFA_NUMERIC: Problem unpacking field 0 in parseISOMessage method
+2019-09-15 20:05:01,148 INFO com.atm.AtmApplication [main] Starting AtmApplication on Ariansyah with PID 31952 (/Users/ariansyah.nugroho/Downloads/G2Academy/Code/Project/atm/target/classes started by ariansyah.nugroho in /Users/ariansyah.nugroho/Downloads/G2Academy/Code/Project/atm)
+2019-09-15 20:05:01,150 DEBUG com.atm.AtmApplication [main] Running with Spring Boot v2.1.8.RELEASE, Spring v5.1.9.RELEASE
+2019-09-15 20:05:01,150 INFO com.atm.AtmApplication [main] The following profiles are active: @spring.profiles.active@
+2019-09-15 20:05:03,271 INFO com.atm.AtmApplication [main] Started AtmApplication in 2.485 seconds (JVM running for 3.289)
+2019-09-15 20:05:28,753 INFO com.atm.controllers.iso.ISOBalanceController [main] Built ISO Message to Check Balance
+2019-09-15 20:05:29,364 INFO com.atm.dao.Dao [http-nio-8084-exec-1] Authentication succeed
+2019-09-15 20:05:29,366 INFO com.atm.services.BalanceService [http-nio-8084-exec-1] Success checking balance of 123456 with amount 203400
+2019-09-15 20:05:29,394 INFO com.atm.controllers.HttpController [main] Sending Http Request to http://localhost:8084/check
+2019-09-15 20:22:08,267 INFO com.atm.AtmApplication [main] Starting AtmApplication on Ariansyah with PID 31978 (/Users/ariansyah.nugroho/Downloads/G2Academy/Code/Project/atm/target/classes started by ariansyah.nugroho in /Users/ariansyah.nugroho/Downloads/G2Academy/Code/Project/atm)
+2019-09-15 20:22:08,272 DEBUG com.atm.AtmApplication [main] Running with Spring Boot v2.1.8.RELEASE, Spring v5.1.9.RELEASE
+2019-09-15 20:22:08,273 INFO com.atm.AtmApplication [main] The following profiles are active: @spring.profiles.active@
+2019-09-15 20:22:11,147 INFO com.atm.AtmApplication [main] Started AtmApplication in 3.312 seconds (JVM running for 4.217)
+2019-09-15 20:22:25,283 INFO com.atm.controllers.iso.ISOSwitchTransInquiryController [main] Built ISO Message for Transfer Inquiry
+2019-09-15 20:22:25,888 INFO com.atm.dao.Dao [http-nio-8084-exec-1] Authentication succeed
+2019-09-15 20:22:26,439 INFO com.atm.controllers.HttpController [http-nio-8084-exec-1] Sending Http Request to http://localhost:8083/switchingtransinquiry
+2019-09-15 20:22:26,463 INFO com.atm.controllers.HttpController [main] Sending Http Request to http://localhost:8084/switchingtransinquiry
+2019-09-15 20:22:26,479 ERROR com.atm.controllers.iso.ISOController [main] Error : org.jpos.iso.IFA_NUMERIC: Problem unpacking field 0 in parseISOMessage method
+2019-09-15 20:48:13,369 INFO com.atm.AtmApplication [main] Starting AtmApplication on Ariansyah with PID 32026 (/Users/ariansyah.nugroho/Downloads/G2Academy/Code/Project/atm/target/classes started by ariansyah.nugroho in /Users/ariansyah.nugroho/Downloads/G2Academy/Code/Project/atm)
+2019-09-15 20:48:13,372 DEBUG com.atm.AtmApplication [main] Running with Spring Boot v2.1.8.RELEASE, Spring v5.1.9.RELEASE
+2019-09-15 20:48:13,372 INFO com.atm.AtmApplication [main] The following profiles are active: @spring.profiles.active@
+2019-09-15 20:48:16,562 INFO com.atm.AtmApplication [main] Started AtmApplication in 3.471 seconds (JVM running for 4.225)
+2019-09-15 20:50:03,945 INFO com.atm.controllers.iso.ISOSwitchTransInquiryController [main] Built ISO Message for Transfer Inquiry
+2019-09-15 20:50:04,623 INFO com.atm.dao.Dao [http-nio-8084-exec-1] Authentication succeed
+2019-09-15 20:50:05,607 INFO com.atm.controllers.HttpController [http-nio-8084-exec-1] Sending Http Request to http://localhost:8083/switchingtransinquiry
+2019-09-15 20:50:05,640 INFO com.atm.controllers.HttpController [main] Sending Http Request to http://localhost:8084/switchingtransinquiry
+2019-09-15 20:50:05,657 ERROR com.atm.controllers.iso.ISOController [main] Error : org.jpos.iso.IFA_NUMERIC: Problem unpacking field 0 in parseISOMessage method
+2019-09-15 20:55:41,205 INFO com.atm.AtmApplication [main] Starting AtmApplication on Ariansyah with PID 32041 (/Users/ariansyah.nugroho/Downloads/G2Academy/Code/Project/atm/target/classes started by ariansyah.nugroho in /Users/ariansyah.nugroho/Downloads/G2Academy/Code/Project/atm)
+2019-09-15 20:55:41,209 DEBUG com.atm.AtmApplication [main] Running with Spring Boot v2.1.8.RELEASE, Spring v5.1.9.RELEASE
+2019-09-15 20:55:41,210 INFO com.atm.AtmApplication [main] The following profiles are active: @spring.profiles.active@
+2019-09-15 20:55:43,231 INFO com.atm.AtmApplication [main] Started AtmApplication in 2.596 seconds (JVM running for 3.615)
+2019-09-15 20:56:29,095 INFO com.atm.controllers.iso.ISOSwitchTransInquiryController [main] Built ISO Message for Transfer Inquiry
+2019-09-15 20:56:29,721 INFO com.atm.dao.Dao [http-nio-8084-exec-1] Authentication succeed
+2019-09-15 20:56:30,620 INFO com.atm.controllers.HttpController [http-nio-8084-exec-1] Sending Http Request to http://localhost:8083/switchingtransinquiry
+2019-09-15 20:56:30,641 INFO com.atm.controllers.HttpController [main] Sending Http Request to http://localhost:8084/switchingtransinquiry
+2019-09-15 20:56:30,652 ERROR com.atm.controllers.iso.ISOController [main] Error : org.jpos.iso.IFA_NUMERIC: Problem unpacking field 0 in parseISOMessage method
+2019-09-15 20:58:43,439 INFO com.atm.AtmApplication [main] Starting AtmApplication on Ariansyah with PID 32062 (/Users/ariansyah.nugroho/Downloads/G2Academy/Code/Project/atm/target/classes started by ariansyah.nugroho in /Users/ariansyah.nugroho/Downloads/G2Academy/Code/Project/atm)
+2019-09-15 20:58:43,440 DEBUG com.atm.AtmApplication [main] Running with Spring Boot v2.1.8.RELEASE, Spring v5.1.9.RELEASE
+2019-09-15 20:58:43,441 INFO com.atm.AtmApplication [main] The following profiles are active: @spring.profiles.active@
+2019-09-15 20:58:45,281 INFO com.atm.AtmApplication [main] Started AtmApplication in 2.197 seconds (JVM running for 3.089)
+2019-09-15 20:59:12,850 INFO com.atm.controllers.iso.ISOSwitchTransInquiryController [main] Built ISO Message for Transfer Inquiry
+2019-09-15 20:59:13,585 INFO com.atm.dao.Dao [http-nio-8084-exec-1] Authentication succeed
+2019-09-15 20:59:14,649 INFO com.atm.controllers.HttpController [http-nio-8084-exec-1] Sending Http Request to http://localhost:8083/switchingtransinquiry
+2019-09-15 20:59:14,678 INFO com.atm.controllers.HttpController [main] Sending Http Request to http://localhost:8084/switchingtransinquiry
+2019-09-15 21:16:44,758 INFO com.atm.AtmApplication [main] Starting AtmApplication on Ariansyah with PID 32092 (/Users/ariansyah.nugroho/Downloads/G2Academy/Code/Project/atm/target/classes started by ariansyah.nugroho in /Users/ariansyah.nugroho/Downloads/G2Academy/Code/Project/atm)
+2019-09-15 21:16:44,760 DEBUG com.atm.AtmApplication [main] Running with Spring Boot v2.1.8.RELEASE, Spring v5.1.9.RELEASE
+2019-09-15 21:16:44,760 INFO com.atm.AtmApplication [main] The following profiles are active: @spring.profiles.active@
+2019-09-15 21:16:47,475 INFO com.atm.AtmApplication [main] Started AtmApplication in 3.131 seconds (JVM running for 3.963)
+2019-09-15 21:17:05,452 INFO com.atm.controllers.iso.ISOSwitchTransInquiryController [main] Built ISO Message for Transfer Inquiry
+2019-09-15 21:17:06,060 INFO com.atm.dao.Dao [http-nio-8084-exec-1] Authentication succeed
+2019-09-15 21:17:06,800 INFO com.atm.controllers.HttpController [http-nio-8084-exec-1] Sending Http Request to http://localhost:8083/switchingtransinquiry
+2019-09-15 21:17:06,816 INFO com.atm.controllers.HttpController [main] Sending Http Request to http://localhost:8084/switchingtransinquiry
+2019-09-15 21:18:31,298 INFO com.atm.AtmApplication [main] Starting AtmApplication on Ariansyah with PID 32104 (/Users/ariansyah.nugroho/Downloads/G2Academy/Code/Project/atm/target/classes started by ariansyah.nugroho in /Users/ariansyah.nugroho/Downloads/G2Academy/Code/Project/atm)
+2019-09-15 21:18:31,300 DEBUG com.atm.AtmApplication [main] Running with Spring Boot v2.1.8.RELEASE, Spring v5.1.9.RELEASE
+2019-09-15 21:18:31,300 INFO com.atm.AtmApplication [main] The following profiles are active: @spring.profiles.active@
+2019-09-15 21:18:32,998 INFO com.atm.AtmApplication [main] Started AtmApplication in 1.989 seconds (JVM running for 2.7)
+2019-09-15 21:18:55,829 INFO com.atm.controllers.iso.ISOSwitchTransInquiryController [main] Built ISO Message for Transfer Inquiry
+2019-09-15 21:18:56,417 INFO com.atm.dao.Dao [http-nio-8084-exec-1] Authentication succeed
+2019-09-15 21:18:57,105 INFO com.atm.controllers.HttpController [http-nio-8084-exec-1] Sending Http Request to http://localhost:8083/switchingtransinquiry
+2019-09-15 21:18:57,123 INFO com.atm.controllers.HttpController [main] Sending Http Request to http://localhost:8084/switchingtransinquiry
+2019-09-15 21:20:31,945 INFO com.atm.controllers.iso.ISOSwitchTransInquiryController [main] Built ISO Message for Transfer Inquiry
+2019-09-15 21:20:31,989 INFO com.atm.dao.Dao [http-nio-8084-exec-3] Authentication succeed
+2019-09-15 21:20:32,465 INFO com.atm.controllers.HttpController [http-nio-8084-exec-3] Sending Http Request to http://localhost:8083/switchingtransinquiry
+2019-09-15 21:20:32,472 INFO com.atm.controllers.HttpController [main] Sending Http Request to http://localhost:8084/switchingtransinquiry
+2019-09-15 21:22:50,392 INFO com.atm.controllers.iso.ISOSwitchTransInquiryController [main] Built ISO Message for Transfer Inquiry
+2019-09-15 21:22:50,408 INFO com.atm.dao.Dao [http-nio-8084-exec-4] Authentication succeed
+2019-09-15 21:22:50,832 INFO com.atm.controllers.HttpController [http-nio-8084-exec-4] Sending Http Request to http://localhost:8083/switchingtransinquiry
+2019-09-15 21:22:50,834 INFO com.atm.controllers.HttpController [main] Sending Http Request to http://localhost:8084/switchingtransinquiry
+2019-09-15 21:36:41,460 INFO com.atm.AtmApplication [main] Starting AtmApplication on Ariansyah with PID 32145 (/Users/ariansyah.nugroho/Downloads/G2Academy/Code/Project/atm/target/classes started by ariansyah.nugroho in /Users/ariansyah.nugroho/Downloads/G2Academy/Code/Project/atm)
+2019-09-15 21:36:41,461 DEBUG com.atm.AtmApplication [main] Running with Spring Boot v2.1.8.RELEASE, Spring v5.1.9.RELEASE
+2019-09-15 21:36:41,461 INFO com.atm.AtmApplication [main] The following profiles are active: @spring.profiles.active@
+2019-09-15 21:36:44,944 INFO com.atm.AtmApplication [main] Started AtmApplication in 3.897 seconds (JVM running for 5.477)
+2019-09-15 21:37:02,206 INFO com.atm.controllers.iso.ISOSwitchTransInquiryController [main] Built ISO Message for Transfer Inquiry
+2019-09-15 21:37:02,845 INFO com.atm.dao.Dao [http-nio-8084-exec-1] Authentication succeed
+2019-09-15 21:37:03,555 INFO com.atm.controllers.HttpController [http-nio-8084-exec-1] Sending Http Request to http://localhost:8083/switchingtransinquiry
+2019-09-15 21:37:03,571 INFO com.atm.controllers.HttpController [main] Sending Http Request to http://localhost:8084/switchingtransinquiry
+2019-09-15 21:38:01,557 INFO com.atm.controllers.iso.ISOSwitchTransferController [main] Built ISO Message for Transfer Inquiry
+2019-09-15 21:38:01,598 INFO com.atm.controllers.HttpController [main] Sending Http Request to http://localhost:8084/switchingtransfer
+2019-09-15 21:38:01,608 ERROR com.atm.controllers.iso.ISOController [main] Error : org.jpos.iso.IFA_NUMERIC: Problem unpacking field 0 in parseISOMessage method
+2019-09-15 21:38:17,916 INFO com.atm.controllers.iso.ISOSwitchTransInquiryController [main] Built ISO Message for Transfer Inquiry
+2019-09-15 21:38:17,939 INFO com.atm.dao.Dao [http-nio-8084-exec-5] Authentication succeed
+2019-09-15 21:38:17,980 INFO com.atm.controllers.HttpController [http-nio-8084-exec-5] Sending Http Request to http://localhost:8083/switchingtransinquiry
+2019-09-15 21:38:17,982 INFO com.atm.controllers.HttpController [main] Sending Http Request to http://localhost:8084/switchingtransinquiry
+2019-09-15 21:38:36,612 INFO com.atm.controllers.iso.ISOSwitchTransInquiryController [main] Built ISO Message for Transfer Inquiry
+2019-09-15 21:38:36,871 INFO com.atm.dao.Dao [http-nio-8084-exec-7] Authentication succeed
+2019-09-15 21:38:36,906 INFO com.atm.controllers.HttpController [http-nio-8084-exec-7] Sending Http Request to http://localhost:8083/switchingtransinquiry
+2019-09-15 21:38:36,914 INFO com.atm.controllers.HttpController [main] Sending Http Request to http://localhost:8084/switchingtransinquiry
+2019-09-15 21:40:47,434 INFO com.atm.controllers.iso.ISOSwitchTransInquiryController [main] Built ISO Message for Transfer Inquiry
+2019-09-15 21:40:47,700 INFO com.atm.dao.Dao [http-nio-8084-exec-9] Authentication succeed
+2019-09-15 21:40:47,735 INFO com.atm.controllers.HttpController [http-nio-8084-exec-9] Sending Http Request to http://localhost:8083/switchingtransinquiry
+2019-09-15 21:40:47,745 INFO com.atm.controllers.HttpController [main] Sending Http Request to http://localhost:8084/switchingtransinquiry
+2019-09-15 22:27:23,926 INFO com.atm.AtmApplication [main] Starting AtmApplication on Ariansyah with PID 32224 (/Users/ariansyah.nugroho/Downloads/G2Academy/Code/Project/atm/target/classes started by ariansyah.nugroho in /Users/ariansyah.nugroho/Downloads/G2Academy/Code/Project/atm)
+2019-09-15 22:27:23,927 DEBUG com.atm.AtmApplication [main] Running with Spring Boot v2.1.8.RELEASE, Spring v5.1.9.RELEASE
+2019-09-15 22:27:23,928 INFO com.atm.AtmApplication [main] The following profiles are active: @spring.profiles.active@
+2019-09-15 22:27:25,846 INFO com.atm.AtmApplication [main] Started AtmApplication in 2.203 seconds (JVM running for 2.941)
+2019-09-15 22:27:48,163 INFO com.atm.controllers.iso.ISOSwitchTransInquiryController [main] Built ISO Message for Transfer Inquiry
+2019-09-15 22:27:48,821 INFO com.atm.dao.Dao [http-nio-8084-exec-1] Authentication succeed
+2019-09-15 22:27:49,695 INFO com.atm.controllers.HttpController [http-nio-8084-exec-1] Sending Http Request to http://localhost:8083/switchingtransinquiry
+2019-09-15 22:27:49,715 INFO com.atm.controllers.HttpController [main] Sending Http Request to http://localhost:8084/switchingtransinquiry
+2019-09-15 22:27:54,563 INFO com.atm.controllers.iso.ISOSwitchTransferController [main] Built ISO Message for Transfer Inquiry
+2019-09-15 22:27:54,640 INFO com.atm.controllers.HttpController [http-nio-8084-exec-3] Sending Http Request to http://localhost:8083/switchingtransfer
+2019-09-15 22:27:54,647 INFO com.atm.controllers.HttpController [main] Sending Http Request to http://localhost:8084/switchingtransfer
+2019-09-15 22:30:12,993 INFO com.atm.controllers.iso.ISOSwitchTransInquiryController [main] Built ISO Message for Transfer Inquiry
+2019-09-15 22:30:13,268 INFO com.atm.dao.Dao [http-nio-8084-exec-5] Authentication succeed
+2019-09-15 22:30:13,342 INFO com.atm.controllers.HttpController [http-nio-8084-exec-5] Sending Http Request to http://localhost:8083/switchingtransinquiry
+2019-09-15 22:30:13,353 INFO com.atm.controllers.HttpController [main] Sending Http Request to http://localhost:8084/switchingtransinquiry
+2019-09-15 22:30:15,208 INFO com.atm.controllers.iso.ISOSwitchTransferController [main] Built ISO Message for Transfer Inquiry
+2019-09-15 22:30:15,241 INFO com.atm.controllers.HttpController [http-nio-8084-exec-7] Sending Http Request to http://localhost:8083/switchingtransfer
+2019-09-15 22:30:15,246 INFO com.atm.controllers.HttpController [main] Sending Http Request to http://localhost:8084/switchingtransfer
+2019-09-15 22:39:48,276 INFO com.atm.AtmApplication [main] Starting AtmApplication on Ariansyah with PID 32255 (/Users/ariansyah.nugroho/Downloads/G2Academy/Code/Project/atm/target/classes started by ariansyah.nugroho in /Users/ariansyah.nugroho/Downloads/G2Academy/Code/Project/atm)
+2019-09-15 22:39:48,278 DEBUG com.atm.AtmApplication [main] Running with Spring Boot v2.1.8.RELEASE, Spring v5.1.9.RELEASE
+2019-09-15 22:39:48,278 INFO com.atm.AtmApplication [main] The following profiles are active: @spring.profiles.active@
+2019-09-15 22:39:50,332 INFO com.atm.AtmApplication [main] Started AtmApplication in 2.533 seconds (JVM running for 3.344)
+2019-09-15 22:40:04,786 INFO com.atm.controllers.iso.ISOSwitchTransInquiryController [main] Built ISO Message for Transfer Inquiry
+2019-09-15 22:40:05,371 INFO com.atm.dao.Dao [http-nio-8084-exec-1] Authentication succeed
+2019-09-15 22:40:06,179 INFO com.atm.controllers.HttpController [http-nio-8084-exec-1] Sending Http Request to http://localhost:8083/switchingtransinquiry
+2019-09-15 22:40:06,195 INFO com.atm.controllers.HttpController [main] Sending Http Request to http://localhost:8084/switchingtransinquiry
+2019-09-15 22:40:10,060 INFO com.atm.controllers.iso.ISOSwitchTransferController [main] Built ISO Message for Transfer Inquiry
+2019-09-15 22:40:10,111 INFO com.atm.controllers.HttpController [http-nio-8084-exec-3] Sending Http Request to http://localhost:8083/switchingtransfer
+2019-09-15 22:40:10,118 INFO com.atm.controllers.HttpController [main] Sending Http Request to http://localhost:8084/switchingtransfer
+2019-09-15 22:42:04,084 INFO com.atm.controllers.iso.ISOSwitchTransInquiryController [main] Built ISO Message for Transfer Inquiry
+2019-09-15 22:42:04,099 INFO com.atm.dao.Dao [http-nio-8084-exec-5] Authentication succeed
+2019-09-15 22:42:04,517 INFO com.atm.controllers.HttpController [http-nio-8084-exec-5] Sending Http Request to http://localhost:8083/switchingtransinquiry
+2019-09-15 22:42:04,518 INFO com.atm.controllers.HttpController [main] Sending Http Request to http://localhost:8084/switchingtransinquiry
+2019-09-15 22:42:06,878 INFO com.atm.controllers.iso.ISOSwitchTransferController [main] Built ISO Message for Transfer Inquiry
+2019-09-15 22:42:06,934 INFO com.atm.controllers.HttpController [http-nio-8084-exec-7] Sending Http Request to http://localhost:8083/switchingtransfer
+2019-09-15 22:42:06,939 INFO com.atm.controllers.HttpController [main] Sending Http Request to http://localhost:8084/switchingtransfer
+2019-09-15 22:45:12,818 INFO com.atm.controllers.iso.ISOSwitchTransInquiryController [main] Built ISO Message for Transfer Inquiry
+2019-09-15 22:45:12,856 INFO com.atm.dao.Dao [http-nio-8084-exec-9] Authentication succeed
+2019-09-15 22:45:13,287 INFO com.atm.controllers.HttpController [http-nio-8084-exec-9] Sending Http Request to http://localhost:8083/switchingtransinquiry
+2019-09-15 22:45:13,292 INFO com.atm.controllers.HttpController [main] Sending Http Request to http://localhost:8084/switchingtransinquiry
+2019-09-15 22:45:14,743 INFO com.atm.controllers.iso.ISOSwitchTransferController [main] Built ISO Message for Transfer Inquiry
+2019-09-15 22:45:14,801 INFO com.atm.controllers.HttpController [http-nio-8084-exec-10] Sending Http Request to http://localhost:8083/switchingtransfer
+2019-09-15 22:45:14,806 INFO com.atm.controllers.HttpController [main] Sending Http Request to http://localhost:8084/switchingtransfer
+2019-09-15 22:46:17,121 INFO com.atm.controllers.iso.ISOBalanceController [main] Built ISO Message to Check Balance
+2019-09-15 22:46:17,141 INFO com.atm.dao.Dao [http-nio-8084-exec-2] Authentication succeed
+2019-09-15 22:46:17,145 INFO com.atm.services.BalanceService [http-nio-8084-exec-2] Success checking balance of 123456 with amount 203400
+2019-09-15 22:46:17,156 INFO com.atm.controllers.HttpController [main] Sending Http Request to http://localhost:8084/check
+2019-09-15 22:47:05,514 INFO com.atm.controllers.iso.ISOSwitchTransInquiryController [main] Built ISO Message for Transfer Inquiry
+2019-09-15 22:47:05,534 INFO com.atm.dao.Dao [http-nio-8084-exec-4] Authentication succeed
+2019-09-15 22:47:05,595 INFO com.atm.controllers.HttpController [http-nio-8084-exec-4] Sending Http Request to http://localhost:8083/switchingtransinquiry
+2019-09-15 22:47:05,596 INFO com.atm.controllers.HttpController [main] Sending Http Request to http://localhost:8084/switchingtransinquiry
+2019-09-15 22:47:20,225 INFO com.atm.controllers.iso.ISOBalanceController [main] Built ISO Message to Check Balance
+2019-09-15 22:47:20,496 INFO com.atm.dao.Dao [http-nio-8084-exec-6] Authentication succeed
+2019-09-15 22:47:20,497 INFO com.atm.services.BalanceService [http-nio-8084-exec-6] Success checking balance of 123456 with amount 203400
+2019-09-15 22:47:20,507 INFO com.atm.controllers.HttpController [main] Sending Http Request to http://localhost:8084/check
+2019-09-15 22:47:34,453 INFO com.atm.controllers.iso.ISOSwitchTransInquiryController [main] Built ISO Message for Transfer Inquiry
+2019-09-15 22:47:34,463 INFO com.atm.dao.Dao [http-nio-8084-exec-8] Authentication succeed
+2019-09-15 22:47:34,495 INFO com.atm.controllers.HttpController [http-nio-8084-exec-8] Sending Http Request to http://localhost:8083/switchingtransinquiry
+2019-09-15 22:47:34,497 INFO com.atm.controllers.HttpController [main] Sending Http Request to http://localhost:8084/switchingtransinquiry
+2019-09-15 22:47:36,728 INFO com.atm.controllers.iso.ISOSwitchTransferController [main] Built ISO Message for Transfer Inquiry
+2019-09-15 22:47:36,772 INFO com.atm.controllers.HttpController [http-nio-8084-exec-10] Sending Http Request to http://localhost:8083/switchingtransfer
+2019-09-15 22:47:36,776 INFO com.atm.controllers.HttpController [main] Sending Http Request to http://localhost:8084/switchingtransfer
+2019-09-15 22:55:11,345 INFO com.atm.AtmApplication [main] Starting AtmApplication on Ariansyah with PID 32288 (/Users/ariansyah.nugroho/Downloads/G2Academy/Code/Project/atm/target/classes started by ariansyah.nugroho in /Users/ariansyah.nugroho/Downloads/G2Academy/Code/Project/atm)
+2019-09-15 22:55:11,349 DEBUG com.atm.AtmApplication [main] Running with Spring Boot v2.1.8.RELEASE, Spring v5.1.9.RELEASE
+2019-09-15 22:55:11,349 INFO com.atm.AtmApplication [main] The following profiles are active: @spring.profiles.active@
+2019-09-15 22:55:13,306 INFO com.atm.AtmApplication [main] Started AtmApplication in 2.422 seconds (JVM running for 3.305)
+2019-09-15 22:55:48,078 INFO com.atm.controllers.iso.ISOSwitchTransInquiryController [main] Built ISO Message for Transfer Inquiry
+2019-09-15 22:55:48,754 INFO com.atm.dao.Dao [http-nio-8084-exec-1] Authentication succeed
+2019-09-15 22:55:49,456 INFO com.atm.controllers.HttpController [http-nio-8084-exec-1] Sending Http Request to http://localhost:8083/switchingtransinquiry
+2019-09-15 22:55:49,474 INFO com.atm.controllers.HttpController [main] Sending Http Request to http://localhost:8084/switchingtransinquiry
+2019-09-15 22:56:03,993 INFO com.atm.controllers.iso.ISOSwitchTransferController [main] Built ISO Message for Transfer Inquiry
+2019-09-15 22:56:04,058 INFO com.atm.controllers.HttpController [http-nio-8084-exec-3] Sending Http Request to http://localhost:8083/switchingtransfer
+2019-09-15 22:56:04,072 INFO com.atm.services.BalanceService [http-nio-8084-exec-3] Success checking balance of 123456 with amount 146900
+2019-09-15 22:56:04,073 INFO com.atm.services.TransferService [http-nio-8084-exec-3] Success transfer from 123456 to 222111
+2019-09-15 22:56:04,079 INFO com.atm.controllers.HttpController [main] Sending Http Request to http://localhost:8084/switchingtransfer

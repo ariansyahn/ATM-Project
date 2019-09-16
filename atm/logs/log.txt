@@ -1,0 +1,31 @@
+2019-09-17 00:03:20,751 INFO com.atm.AtmApplication [main] Starting AtmApplication on Ariansyah with PID 36259 (/Users/ariansyah.nugroho/Downloads/G2Academy/Code/Project/atm/target/classes started by ariansyah.nugroho in /Users/ariansyah.nugroho/Downloads/G2Academy/Code/Project/atm)
+2019-09-17 00:03:20,757 DEBUG com.atm.AtmApplication [main] Running with Spring Boot v2.1.8.RELEASE, Spring v5.1.9.RELEASE
+2019-09-17 00:03:20,757 INFO com.atm.AtmApplication [main] The following profiles are active: @spring.profiles.active@
+2019-09-17 00:03:23,328 INFO com.atm.AtmApplication [main] Started AtmApplication in 3.022 seconds (JVM running for 33.935)
+2019-09-17 00:04:28,870 INFO com.atm.controllers.iso.ISOTransInquiryController [main] Built ISO Message for Transfer Inquiry
+2019-09-17 00:05:00,044 INFO com.atm.dao.Dao [http-nio-8084-exec-1] Authentication succeed
+2019-09-17 00:05:00,049 INFO com.atm.services.BalanceService [http-nio-8084-exec-1] Success checking balance of 999999 with amount 395500
+2019-09-17 00:05:00,054 INFO com.atm.services.TransInquiryService [http-nio-8084-exec-1] Success transfer inquiry from 999999 to 123456
+2019-09-17 00:05:00,091 INFO com.atm.controllers.HttpController [DefaultMessageListenerContainer-1] Sending Http Request to http://localhost:8084/transinquiry
+2019-09-17 00:05:06,348 INFO com.atm.controllers.iso.ISOTransferController [main] Built ISO Message for Transfer
+2019-09-17 00:05:06,389 INFO com.atm.services.BalanceService [http-nio-8084-exec-2] Success checking balance of 999999 with amount 345500
+2019-09-17 00:05:06,389 INFO com.atm.services.TransferService [http-nio-8084-exec-2] Success transfer from 999999 to 123456
+2019-09-17 00:05:06,402 INFO com.atm.controllers.HttpController [DefaultMessageListenerContainer-1] Sending Http Request to http://localhost:8084/transfer
+2019-09-17 00:05:54,303 INFO com.atm.controllers.iso.ISOSwitchTransInquiryController [main] Built ISO Message for Transfer Inquiry
+2019-09-17 00:05:54,332 INFO com.atm.dao.Dao [http-nio-8084-exec-4] Authentication succeed
+2019-09-17 00:05:55,225 INFO com.atm.controllers.HttpController [http-nio-8084-exec-4] Sending Http Request to http://localhost:8083/switchingtransinquiry
+2019-09-17 00:05:55,227 INFO com.atm.controllers.HttpController [DefaultMessageListenerContainer-1] Sending Http Request to http://localhost:8084/switchingtransinquiry
+2019-09-17 00:06:05,627 INFO com.atm.controllers.iso.ISOSwitchTransferController [main] Built ISO Message for Transfer Inquiry
+2019-09-17 00:06:05,703 INFO com.atm.controllers.HttpController [http-nio-8084-exec-6] Sending Http Request to http://localhost:8083/switchingtransfer
+2019-09-17 00:06:05,716 INFO com.atm.services.BalanceService [http-nio-8084-exec-6] Success checking balance of 999999 with amount 289000
+2019-09-17 00:06:05,716 INFO com.atm.services.TransferService [http-nio-8084-exec-6] Success transfer from 999999 to 222111
+2019-09-17 00:06:05,721 INFO com.atm.controllers.HttpController [DefaultMessageListenerContainer-1] Sending Http Request to http://localhost:8084/switchingtransfer
+2019-09-17 00:06:57,041 INFO com.atm.controllers.iso.ISOSwitchTransInquiryController [main] Built ISO Message for Transfer Inquiry
+2019-09-17 00:06:57,070 INFO com.atm.dao.Dao [http-nio-8084-exec-8] Authentication succeed
+2019-09-17 00:06:57,100 INFO com.atm.controllers.HttpController [http-nio-8084-exec-8] Sending Http Request to http://localhost:8083/switchingtransinquiry
+2019-09-17 00:06:57,102 INFO com.atm.controllers.HttpController [DefaultMessageListenerContainer-1] Sending Http Request to http://localhost:8084/switchingtransinquiry
+2019-09-17 00:06:59,937 INFO com.atm.controllers.iso.ISOSwitchTransferController [main] Built ISO Message for Transfer Inquiry
+2019-09-17 00:06:59,991 INFO com.atm.controllers.HttpController [http-nio-8084-exec-10] Sending Http Request to http://localhost:8083/switchingtransfer
+2019-09-17 00:06:59,999 INFO com.atm.services.BalanceService [http-nio-8084-exec-10] Success checking balance of 999999 with amount 222500
+2019-09-17 00:06:59,999 INFO com.atm.services.TransferService [http-nio-8084-exec-10] Success transfer from 999999 to 222111
+2019-09-17 00:07:00,004 INFO com.atm.controllers.HttpController [DefaultMessageListenerContainer-1] Sending Http Request to http://localhost:8084/switchingtransfer

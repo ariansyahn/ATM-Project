@@ -1,0 +1,319 @@
+2019-09-16 15:13:15,939 INFO com.atm.AtmApplication [main] Starting AtmApplication on Ariansyah with PID 33973 (/Users/ariansyah.nugroho/Downloads/G2Academy/Code/Project/atm/target/classes started by ariansyah.nugroho in /Users/ariansyah.nugroho/Downloads/G2Academy/Code/Project/atm)
+2019-09-16 15:13:15,970 DEBUG com.atm.AtmApplication [main] Running with Spring Boot v2.1.8.RELEASE, Spring v5.1.9.RELEASE
+2019-09-16 15:13:15,970 INFO com.atm.AtmApplication [main] The following profiles are active: @spring.profiles.active@
+2019-09-16 15:13:18,354 INFO com.atm.AtmApplication [main] Started AtmApplication in 3.128 seconds (JVM running for 4.013)
+2019-09-16 15:13:29,300 INFO com.atm.controllers.iso.ISOBalanceController [main] Built ISO Message to Check Balance
+2019-09-16 15:13:30,521 INFO com.atm.dao.Dao [http-nio-8084-exec-1] Authentication succeed
+2019-09-16 15:13:30,523 INFO com.atm.services.BalanceService [http-nio-8084-exec-1] Success checking balance of 123456 with amount 146900
+2019-09-16 15:13:30,560 INFO com.atm.controllers.HttpController [main] Sending Http Request to http://localhost:8084/check
+2019-09-16 15:16:08,109 INFO com.atm.controllers.iso.ISOBalanceController [main] Built ISO Message to Check Balance
+2019-09-16 15:16:08,151 INFO com.atm.dao.Dao [http-nio-8084-exec-3] Authentication succeed
+2019-09-16 15:16:08,153 INFO com.atm.services.BalanceService [http-nio-8084-exec-3] Success checking balance of 123456 with amount 146900
+2019-09-16 15:16:08,160 INFO com.atm.controllers.HttpController [main] Sending Http Request to http://localhost:8084/check
+2019-09-16 15:36:05,138 INFO com.atm.AtmApplication [main] Starting AtmApplication on Ariansyah with PID 34027 (/Users/ariansyah.nugroho/Downloads/G2Academy/Code/Project/atm/target/classes started by ariansyah.nugroho in /Users/ariansyah.nugroho/Downloads/G2Academy/Code/Project/atm)
+2019-09-16 15:36:05,142 DEBUG com.atm.AtmApplication [main] Running with Spring Boot v2.1.8.RELEASE, Spring v5.1.9.RELEASE
+2019-09-16 15:36:05,142 INFO com.atm.AtmApplication [main] The following profiles are active: @spring.profiles.active@
+2019-09-16 15:36:10,015 INFO com.atm.AtmApplication [main] Started AtmApplication in 5.398 seconds (JVM running for 6.186)
+2019-09-16 15:36:23,821 INFO com.atm.controllers.iso.ISOBalanceController [main] Built ISO Message to Check Balance
+2019-09-16 15:36:24,730 INFO com.atm.dao.Dao [http-nio-8084-exec-1] Authentication succeed
+2019-09-16 15:36:24,733 INFO com.atm.services.BalanceService [http-nio-8084-exec-1] Success checking balance of 123456 with amount 146900
+2019-09-16 15:36:24,769 INFO com.atm.controllers.HttpController [main] Sending Http Request to http://localhost:8084/check
+2019-09-16 17:37:37,711 INFO com.atm.controllers.iso.ISOBalanceController [main] Built ISO Message to Check Balance
+2019-09-16 17:37:38,075 INFO com.atm.dao.Dao [http-nio-8084-exec-3] Authentication succeed
+2019-09-16 17:37:38,081 INFO com.atm.services.BalanceService [http-nio-8084-exec-3] Success checking balance of 123456 with amount 146900
+2019-09-16 17:37:38,101 INFO com.atm.controllers.HttpController [main] Sending Http Request to http://localhost:8084/check
+2019-09-16 17:41:18,561 INFO com.atm.controllers.iso.ISOBalanceController [main] Built ISO Message to Check Balance
+2019-09-16 17:41:18,664 INFO com.atm.dao.Dao [http-nio-8084-exec-4] Authentication succeed
+2019-09-16 17:41:18,666 INFO com.atm.services.BalanceService [http-nio-8084-exec-4] Success checking balance of 123456 with amount 146900
+2019-09-16 17:41:18,682 INFO com.atm.controllers.HttpController [main] Sending Http Request to http://localhost:8084/check
+2019-09-16 17:42:04,834 INFO com.atm.controllers.iso.ISOBalanceController [main] Built ISO Message to Check Balance
+2019-09-16 17:42:04,852 INFO com.atm.dao.Dao [http-nio-8084-exec-6] Authentication succeed
+2019-09-16 17:42:04,853 INFO com.atm.services.BalanceService [http-nio-8084-exec-6] Success checking balance of 123456 with amount 146900
+2019-09-16 17:42:04,860 INFO com.atm.controllers.HttpController [main] Sending Http Request to http://localhost:8084/check
+2019-09-16 17:42:51,581 INFO com.atm.controllers.iso.ISOBalanceController [main] Built ISO Message to Check Balance
+2019-09-16 17:42:51,601 INFO com.atm.dao.Dao [http-nio-8084-exec-8] Authentication succeed
+2019-09-16 17:42:51,603 INFO com.atm.services.BalanceService [http-nio-8084-exec-8] Success checking balance of 123456 with amount 146900
+2019-09-16 17:42:51,608 INFO com.atm.controllers.HttpController [main] Sending Http Request to http://localhost:8084/check
+2019-09-16 18:05:01,102 INFO com.atm.AtmApplication [main] Starting AtmApplication on Ariansyah with PID 34902 (/Users/ariansyah.nugroho/Downloads/G2Academy/Code/Project/atm/target/classes started by ariansyah.nugroho in /Users/ariansyah.nugroho/Downloads/G2Academy/Code/Project/atm)
+2019-09-16 18:05:01,104 DEBUG com.atm.AtmApplication [main] Running with Spring Boot v2.1.8.RELEASE, Spring v5.1.9.RELEASE
+2019-09-16 18:05:01,104 INFO com.atm.AtmApplication [main] The following profiles are active: @spring.profiles.active@
+2019-09-16 18:05:04,866 INFO com.atm.AtmApplication [main] Started AtmApplication in 4.209 seconds (JVM running for 5.321)
+2019-09-16 18:05:16,312 INFO com.atm.controllers.iso.ISOBalanceController [main] Built ISO Message to Check Balance
+2019-09-16 18:05:16,318 ERROR com.atm.Client [main] null
+2019-09-16 18:05:53,005 INFO com.atm.controllers.iso.ISOBalanceController [main] Built ISO Message to Check Balance
+2019-09-16 18:05:53,006 ERROR com.atm.Client [main] null
+2019-09-16 18:06:37,965 INFO com.atm.AtmApplication [main] Starting AtmApplication on Ariansyah with PID 34918 (/Users/ariansyah.nugroho/Downloads/G2Academy/Code/Project/atm/target/classes started by ariansyah.nugroho in /Users/ariansyah.nugroho/Downloads/G2Academy/Code/Project/atm)
+2019-09-16 18:06:37,969 DEBUG com.atm.AtmApplication [main] Running with Spring Boot v2.1.8.RELEASE, Spring v5.1.9.RELEASE
+2019-09-16 18:06:37,969 INFO com.atm.AtmApplication [main] The following profiles are active: @spring.profiles.active@
+2019-09-16 18:06:42,871 INFO com.atm.AtmApplication [main] Started AtmApplication in 5.539 seconds (JVM running for 6.406)
+2019-09-16 18:06:45,104 INFO com.atm.controllers.iso.ISOBalanceController [main] Built ISO Message to Check Balance
+2019-09-16 18:06:45,111 ERROR com.atm.Client [main] null
+2019-09-16 18:08:07,229 INFO com.atm.AtmApplication [main] Starting AtmApplication on Ariansyah with PID 34934 (/Users/ariansyah.nugroho/Downloads/G2Academy/Code/Project/atm/target/classes started by ariansyah.nugroho in /Users/ariansyah.nugroho/Downloads/G2Academy/Code/Project/atm)
+2019-09-16 18:08:07,231 DEBUG com.atm.AtmApplication [main] Running with Spring Boot v2.1.8.RELEASE, Spring v5.1.9.RELEASE
+2019-09-16 18:08:07,231 INFO com.atm.AtmApplication [main] The following profiles are active: @spring.profiles.active@
+2019-09-16 18:08:10,091 INFO com.atm.AtmApplication [main] Started AtmApplication in 3.376 seconds (JVM running for 4.593)
+2019-09-16 18:08:14,737 INFO com.atm.controllers.iso.ISOBalanceController [main] Built ISO Message to Check Balance
+2019-09-16 18:08:14,742 ERROR com.atm.Client [main] null
+2019-09-16 18:08:59,948 INFO com.atm.AtmApplication [main] Starting AtmApplication on Ariansyah with PID 34949 (/Users/ariansyah.nugroho/Downloads/G2Academy/Code/Project/atm/target/classes started by ariansyah.nugroho in /Users/ariansyah.nugroho/Downloads/G2Academy/Code/Project/atm)
+2019-09-16 18:08:59,953 DEBUG com.atm.AtmApplication [main] Running with Spring Boot v2.1.8.RELEASE, Spring v5.1.9.RELEASE
+2019-09-16 18:08:59,953 INFO com.atm.AtmApplication [main] The following profiles are active: @spring.profiles.active@
+2019-09-16 18:09:03,425 INFO com.atm.AtmApplication [main] Started AtmApplication in 4.025 seconds (JVM running for 4.769)
+2019-09-16 18:09:06,694 INFO com.atm.controllers.iso.ISOBalanceController [main] Built ISO Message to Check Balance
+2019-09-16 18:09:06,698 ERROR com.atm.Client [main] null
+2019-09-16 18:11:57,093 INFO com.atm.AtmApplication [main] Starting AtmApplication on Ariansyah with PID 34975 (/Users/ariansyah.nugroho/Downloads/G2Academy/Code/Project/atm/target/classes started by ariansyah.nugroho in /Users/ariansyah.nugroho/Downloads/G2Academy/Code/Project/atm)
+2019-09-16 18:11:57,096 DEBUG com.atm.AtmApplication [main] Running with Spring Boot v2.1.8.RELEASE, Spring v5.1.9.RELEASE
+2019-09-16 18:11:57,096 INFO com.atm.AtmApplication [main] The following profiles are active: @spring.profiles.active@
+2019-09-16 18:12:01,061 INFO com.atm.AtmApplication [main] Started AtmApplication in 4.418 seconds (JVM running for 5.198)
+2019-09-16 18:12:06,207 INFO com.atm.controllers.iso.ISOBalanceController [main] Built ISO Message to Check Balance
+2019-09-16 18:12:06,212 ERROR com.atm.Client [main] null
+2019-09-16 18:12:37,089 INFO com.atm.controllers.iso.ISOBalanceController [main] Built ISO Message to Check Balance
+2019-09-16 18:12:37,093 ERROR com.atm.Client [main] null
+2019-09-16 18:15:02,788 INFO com.atm.controllers.iso.ISOBalanceController [main] Built ISO Message to Check Balance
+2019-09-16 18:15:02,789 ERROR com.atm.Client [main] null
+2019-09-16 18:15:20,756 INFO com.atm.AtmApplication [main] Starting AtmApplication on Ariansyah with PID 35010 (/Users/ariansyah.nugroho/Downloads/G2Academy/Code/Project/atm/target/classes started by ariansyah.nugroho in /Users/ariansyah.nugroho/Downloads/G2Academy/Code/Project/atm)
+2019-09-16 18:15:20,757 DEBUG com.atm.AtmApplication [main] Running with Spring Boot v2.1.8.RELEASE, Spring v5.1.9.RELEASE
+2019-09-16 18:15:20,757 INFO com.atm.AtmApplication [main] The following profiles are active: @spring.profiles.active@
+2019-09-16 18:15:23,644 INFO com.atm.AtmApplication [main] Started AtmApplication in 3.316 seconds (JVM running for 4.249)
+2019-09-16 18:15:42,083 INFO com.atm.controllers.iso.ISOBalanceController [main] Built ISO Message to Check Balance
+2019-09-16 18:15:42,088 ERROR com.atm.Client [main] null
+2019-09-16 18:18:16,813 INFO com.atm.AtmApplication [main] Starting AtmApplication on Ariansyah with PID 35036 (/Users/ariansyah.nugroho/Downloads/G2Academy/Code/Project/atm/target/classes started by ariansyah.nugroho in /Users/ariansyah.nugroho/Downloads/G2Academy/Code/Project/atm)
+2019-09-16 18:18:16,895 DEBUG com.atm.AtmApplication [main] Running with Spring Boot v2.1.8.RELEASE, Spring v5.1.9.RELEASE
+2019-09-16 18:18:16,897 INFO com.atm.AtmApplication [main] The following profiles are active: @spring.profiles.active@
+2019-09-16 18:18:20,987 INFO com.atm.AtmApplication [main] Started AtmApplication in 4.502 seconds (JVM running for 5.306)
+2019-09-16 18:18:26,156 INFO com.atm.controllers.iso.ISOBalanceController [main] Built ISO Message to Check Balance
+2019-09-16 18:18:26,162 ERROR com.atm.Client [main] null
+2019-09-16 18:20:02,353 INFO com.atm.AtmApplication [main] Starting AtmApplication on Ariansyah with PID 35056 (/Users/ariansyah.nugroho/Downloads/G2Academy/Code/Project/atm/target/classes started by ariansyah.nugroho in /Users/ariansyah.nugroho/Downloads/G2Academy/Code/Project/atm)
+2019-09-16 18:20:02,354 DEBUG com.atm.AtmApplication [main] Running with Spring Boot v2.1.8.RELEASE, Spring v5.1.9.RELEASE
+2019-09-16 18:20:02,355 INFO com.atm.AtmApplication [main] The following profiles are active: @spring.profiles.active@
+2019-09-16 18:20:04,504 INFO com.atm.AtmApplication [main] Started AtmApplication in 2.732 seconds (JVM running for 3.437)
+2019-09-16 18:20:11,255 INFO com.atm.controllers.iso.ISOBalanceController [main] Built ISO Message to Check Balance
+2019-09-16 18:20:11,261 ERROR com.atm.Client [main] null
+2019-09-16 18:23:40,458 INFO com.atm.AtmApplication [main] Starting AtmApplication on Ariansyah with PID 35084 (/Users/ariansyah.nugroho/Downloads/G2Academy/Code/Project/atm/target/classes started by ariansyah.nugroho in /Users/ariansyah.nugroho/Downloads/G2Academy/Code/Project/atm)
+2019-09-16 18:23:40,463 DEBUG com.atm.AtmApplication [main] Running with Spring Boot v2.1.8.RELEASE, Spring v5.1.9.RELEASE
+2019-09-16 18:23:40,464 INFO com.atm.AtmApplication [main] The following profiles are active: @spring.profiles.active@
+2019-09-16 18:23:43,870 INFO com.atm.AtmApplication [main] Started AtmApplication in 3.979 seconds (JVM running for 4.823)
+2019-09-16 18:23:46,809 INFO com.atm.controllers.iso.ISOBalanceController [main] Built ISO Message to Check Balance
+2019-09-16 18:23:46,814 ERROR com.atm.Client [main] null
+2019-09-16 18:25:57,795 INFO com.atm.controllers.iso.ISOBalanceController [main] Built ISO Message to Check Balance
+2019-09-16 18:25:58,629 INFO com.atm.dao.Dao [http-nio-8084-exec-1] Authentication succeed
+2019-09-16 18:25:58,633 INFO com.atm.services.BalanceService [http-nio-8084-exec-1] Success checking balance of 123456 with amount 146900
+2019-09-16 18:25:58,670 INFO com.atm.controllers.HttpController [main] Sending Http Request to http://localhost:8084/check
+2019-09-16 18:28:27,051 INFO com.atm.AtmApplication [main] Starting AtmApplication on Ariansyah with PID 35130 (/Users/ariansyah.nugroho/Downloads/G2Academy/Code/Project/atm/target/classes started by ariansyah.nugroho in /Users/ariansyah.nugroho/Downloads/G2Academy/Code/Project/atm)
+2019-09-16 18:28:27,056 DEBUG com.atm.AtmApplication [main] Running with Spring Boot v2.1.8.RELEASE, Spring v5.1.9.RELEASE
+2019-09-16 18:28:27,057 INFO com.atm.AtmApplication [main] The following profiles are active: @spring.profiles.active@
+2019-09-16 18:28:30,151 INFO com.atm.AtmApplication [main] Started AtmApplication in 3.704 seconds (JVM running for 4.556)
+2019-09-16 18:28:40,866 INFO com.atm.controllers.iso.ISOBalanceController [main] Built ISO Message to Check Balance
+2019-09-16 18:28:40,871 ERROR com.atm.Client [main] null
+2019-09-16 18:32:25,702 INFO com.atm.AtmApplication [main] Starting AtmApplication on Ariansyah with PID 35179 (/Users/ariansyah.nugroho/Downloads/G2Academy/Code/Project/atm/target/classes started by ariansyah.nugroho in /Users/ariansyah.nugroho/Downloads/G2Academy/Code/Project/atm)
+2019-09-16 18:32:25,703 DEBUG com.atm.AtmApplication [main] Running with Spring Boot v2.1.8.RELEASE, Spring v5.1.9.RELEASE
+2019-09-16 18:32:25,703 INFO com.atm.AtmApplication [main] The following profiles are active: @spring.profiles.active@
+2019-09-16 18:32:29,158 INFO com.atm.AtmApplication [main] Started AtmApplication in 3.878 seconds (JVM running for 4.964)
+2019-09-16 18:32:33,965 INFO com.atm.controllers.iso.ISOBalanceController [main] Built ISO Message to Check Balance
+2019-09-16 18:32:33,971 ERROR com.atm.Client [main] null
+2019-09-16 18:35:10,108 INFO com.atm.AtmApplication [main] Starting AtmApplication on Ariansyah with PID 35202 (/Users/ariansyah.nugroho/Downloads/G2Academy/Code/Project/atm/target/classes started by ariansyah.nugroho in /Users/ariansyah.nugroho/Downloads/G2Academy/Code/Project/atm)
+2019-09-16 18:35:10,111 DEBUG com.atm.AtmApplication [main] Running with Spring Boot v2.1.8.RELEASE, Spring v5.1.9.RELEASE
+2019-09-16 18:35:10,111 INFO com.atm.AtmApplication [main] The following profiles are active: @spring.profiles.active@
+2019-09-16 18:35:13,304 INFO com.atm.AtmApplication [main] Started AtmApplication in 3.692 seconds (JVM running for 4.602)
+2019-09-16 18:35:16,287 INFO com.atm.controllers.iso.ISOBalanceController [main] Built ISO Message to Check Balance
+2019-09-16 18:35:16,292 ERROR com.atm.Client [main] null
+2019-09-16 18:36:06,391 INFO com.atm.AtmApplication [main] Starting AtmApplication on Ariansyah with PID 35214 (/Users/ariansyah.nugroho/Downloads/G2Academy/Code/Project/atm/target/classes started by ariansyah.nugroho in /Users/ariansyah.nugroho/Downloads/G2Academy/Code/Project/atm)
+2019-09-16 18:36:06,394 DEBUG com.atm.AtmApplication [main] Running with Spring Boot v2.1.8.RELEASE, Spring v5.1.9.RELEASE
+2019-09-16 18:36:06,394 INFO com.atm.AtmApplication [main] The following profiles are active: @spring.profiles.active@
+2019-09-16 18:36:09,716 INFO com.atm.AtmApplication [main] Started AtmApplication in 3.809 seconds (JVM running for 4.712)
+2019-09-16 18:36:12,541 INFO com.atm.controllers.iso.ISOBalanceController [main] Built ISO Message to Check Balance
+2019-09-16 18:36:12,545 ERROR com.atm.Client [main] null
+2019-09-16 18:37:07,733 INFO com.atm.AtmApplication [main] Starting AtmApplication on Ariansyah with PID 35227 (/Users/ariansyah.nugroho/Downloads/G2Academy/Code/Project/atm/target/classes started by ariansyah.nugroho in /Users/ariansyah.nugroho/Downloads/G2Academy/Code/Project/atm)
+2019-09-16 18:37:07,735 DEBUG com.atm.AtmApplication [main] Running with Spring Boot v2.1.8.RELEASE, Spring v5.1.9.RELEASE
+2019-09-16 18:37:07,735 INFO com.atm.AtmApplication [main] The following profiles are active: @spring.profiles.active@
+2019-09-16 18:37:10,962 INFO com.atm.AtmApplication [main] Started AtmApplication in 3.594 seconds (JVM running for 4.483)
+2019-09-16 18:37:27,195 INFO com.atm.controllers.iso.ISOBalanceController [main] Built ISO Message to Check Balance
+2019-09-16 18:37:27,200 ERROR com.atm.Client [main] null
+2019-09-16 18:39:09,978 DEBUG org.hibernate.validator.messageinterpolation.ResourceBundleMessageInterpolator [background-preinit] Loaded expression factory via original TCCL
+2019-09-16 18:39:10,097 INFO com.atm.AtmApplication [main] Starting AtmApplication on Ariansyah with PID 35247 (/Users/ariansyah.nugroho/Downloads/G2Academy/Code/Project/atm/target/classes started by ariansyah.nugroho in /Users/ariansyah.nugroho/Downloads/G2Academy/Code/Project/atm)
+2019-09-16 18:39:10,099 DEBUG com.atm.AtmApplication [main] Running with Spring Boot v2.1.8.RELEASE, Spring v5.1.9.RELEASE
+2019-09-16 18:39:10,099 INFO com.atm.AtmApplication [main] The following profiles are active: @spring.profiles.active@
+2019-09-16 18:39:12,383 INFO com.atm.AtmApplication [main] Started AtmApplication in 2.826 seconds (JVM running for 3.753)
+2019-09-16 18:39:22,307 INFO com.atm.controllers.iso.ISOBalanceController [main] Built ISO Message to Check Balance
+2019-09-16 18:39:22,312 ERROR com.atm.Client [main] null
+2019-09-16 18:42:34,993 INFO com.atm.AtmApplication [main] Starting AtmApplication on Ariansyah with PID 35286 (/Users/ariansyah.nugroho/Downloads/G2Academy/Code/Project/atm/target/classes started by ariansyah.nugroho in /Users/ariansyah.nugroho/Downloads/G2Academy/Code/Project/atm)
+2019-09-16 18:42:34,995 DEBUG com.atm.AtmApplication [main] Running with Spring Boot v2.1.8.RELEASE, Spring v5.1.9.RELEASE
+2019-09-16 18:42:34,995 INFO com.atm.AtmApplication [main] The following profiles are active: @spring.profiles.active@
+2019-09-16 18:42:38,296 INFO com.atm.AtmApplication [main] Started AtmApplication in 3.792 seconds (JVM running for 4.603)
+2019-09-16 18:42:49,835 INFO com.atm.controllers.iso.ISOBalanceController [main] Built ISO Message to Check Balance
+2019-09-16 18:42:49,843 ERROR com.atm.Client [main] null
+2019-09-16 18:53:16,452 INFO com.atm.AtmApplication [main] Starting AtmApplication on Ariansyah with PID 35401 (/Users/ariansyah.nugroho/Downloads/G2Academy/Code/Project/atm/target/classes started by ariansyah.nugroho in /Users/ariansyah.nugroho/Downloads/G2Academy/Code/Project/atm)
+2019-09-16 18:53:16,454 DEBUG com.atm.AtmApplication [main] Running with Spring Boot v2.1.8.RELEASE, Spring v5.1.9.RELEASE
+2019-09-16 18:53:16,454 INFO com.atm.AtmApplication [main] The following profiles are active: @spring.profiles.active@
+2019-09-16 18:53:19,672 INFO com.atm.AtmApplication [main] Started AtmApplication in 3.719 seconds (JVM running for 4.551)
+2019-09-16 18:53:22,710 INFO com.atm.controllers.iso.ISOBalanceController [main] Built ISO Message to Check Balance
+2019-09-16 18:53:22,716 ERROR com.atm.Client [main] null
+2019-09-16 19:04:02,891 INFO com.atm.AtmApplication [main] Starting AtmApplication on Ariansyah with PID 35499 (/Users/ariansyah.nugroho/Downloads/G2Academy/Code/Project/atm/target/classes started by ariansyah.nugroho in /Users/ariansyah.nugroho/Downloads/G2Academy/Code/Project/atm)
+2019-09-16 19:04:02,893 DEBUG com.atm.AtmApplication [main] Running with Spring Boot v2.1.8.RELEASE, Spring v5.1.9.RELEASE
+2019-09-16 19:04:02,893 INFO com.atm.AtmApplication [main] The following profiles are active: @spring.profiles.active@
+2019-09-16 19:04:05,170 INFO com.atm.AtmApplication [main] Started AtmApplication in 2.802 seconds (JVM running for 3.673)
+2019-09-16 19:05:00,103 INFO com.atm.AtmApplication [main] Starting AtmApplication on Ariansyah with PID 35508 (/Users/ariansyah.nugroho/Downloads/G2Academy/Code/Project/atm/target/classes started by ariansyah.nugroho in /Users/ariansyah.nugroho/Downloads/G2Academy/Code/Project/atm)
+2019-09-16 19:05:00,107 DEBUG com.atm.AtmApplication [main] Running with Spring Boot v2.1.8.RELEASE, Spring v5.1.9.RELEASE
+2019-09-16 19:05:00,107 INFO com.atm.AtmApplication [main] The following profiles are active: @spring.profiles.active@
+2019-09-16 19:05:03,102 INFO com.atm.AtmApplication [main] Started AtmApplication in 3.456 seconds (JVM running for 4.319)
+2019-09-16 19:05:23,565 INFO com.atm.controllers.iso.ISOBalanceController [main] Built ISO Message to Check Balance
+2019-09-16 19:05:24,553 INFO com.atm.dao.Dao [http-nio-8084-exec-1] Authentication succeed
+2019-09-16 19:05:24,557 INFO com.atm.services.BalanceService [http-nio-8084-exec-1] Success checking balance of 123456 with amount 146900
+2019-09-16 19:05:24,592 INFO com.atm.controllers.HttpController [main] Sending Http Request to http://localhost:8084/check
+2019-09-16 19:12:01,802 INFO com.atm.AtmApplication [main] Starting AtmApplication on Ariansyah with PID 35589 (/Users/ariansyah.nugroho/Downloads/G2Academy/Code/Project/atm/target/classes started by ariansyah.nugroho in /Users/ariansyah.nugroho/Downloads/G2Academy/Code/Project/atm)
+2019-09-16 19:12:01,804 DEBUG com.atm.AtmApplication [main] Running with Spring Boot v2.1.8.RELEASE, Spring v5.1.9.RELEASE
+2019-09-16 19:12:01,804 INFO com.atm.AtmApplication [main] The following profiles are active: @spring.profiles.active@
+2019-09-16 19:12:04,169 INFO com.atm.AtmApplication [main] Started AtmApplication in 2.791 seconds (JVM running for 3.785)
+2019-09-16 19:12:18,162 INFO com.atm.controllers.iso.ISOBalanceController [main] Built ISO Message to Check Balance
+2019-09-16 19:12:18,876 INFO com.atm.dao.Dao [http-nio-8084-exec-1] Authentication succeed
+2019-09-16 19:12:18,878 INFO com.atm.services.BalanceService [http-nio-8084-exec-1] Success checking balance of 123456 with amount 146900
+2019-09-16 19:12:18,904 INFO com.atm.controllers.HttpController [DefaultMessageListenerContainer-1] Sending Http Request to http://localhost:8084/check
+2019-09-16 19:34:12,933 INFO com.atm.AtmApplication [main] Starting AtmApplication on Ariansyah with PID 35824 (/Users/ariansyah.nugroho/Downloads/G2Academy/Code/Project/atm/target/classes started by ariansyah.nugroho in /Users/ariansyah.nugroho/Downloads/G2Academy/Code/Project/atm)
+2019-09-16 19:34:12,935 DEBUG com.atm.AtmApplication [main] Running with Spring Boot v2.1.8.RELEASE, Spring v5.1.9.RELEASE
+2019-09-16 19:34:12,935 INFO com.atm.AtmApplication [main] The following profiles are active: @spring.profiles.active@
+2019-09-16 19:34:15,785 INFO com.atm.AtmApplication [main] Started AtmApplication in 3.285 seconds (JVM running for 4.104)
+2019-09-16 19:34:26,460 INFO com.atm.controllers.iso.ISOBalanceController [main] Built ISO Message to Check Balance
+2019-09-16 19:34:27,321 INFO com.atm.dao.Dao [http-nio-8084-exec-1] Authentication succeed
+2019-09-16 19:34:27,323 INFO com.atm.services.BalanceService [http-nio-8084-exec-1] Success checking balance of 123456 with amount 146900
+2019-09-16 19:34:27,352 INFO com.atm.controllers.HttpController [DefaultMessageListenerContainer-1] Sending Http Request to http://localhost:8084/check
+2019-09-16 19:35:28,650 INFO com.atm.controllers.iso.ISOBalanceController [main] Built ISO Message to Check Balance
+2019-09-16 19:35:37,375 INFO com.atm.AtmApplication [main] Starting AtmApplication on Ariansyah with PID 35837 (/Users/ariansyah.nugroho/Downloads/G2Academy/Code/Project/atm/target/classes started by ariansyah.nugroho in /Users/ariansyah.nugroho/Downloads/G2Academy/Code/Project/atm)
+2019-09-16 19:35:37,378 DEBUG com.atm.AtmApplication [main] Running with Spring Boot v2.1.8.RELEASE, Spring v5.1.9.RELEASE
+2019-09-16 19:35:37,378 INFO com.atm.AtmApplication [main] The following profiles are active: @spring.profiles.active@
+2019-09-16 19:35:39,863 INFO com.atm.AtmApplication [main] Started AtmApplication in 2.881 seconds (JVM running for 3.881)
+2019-09-16 19:35:40,332 INFO com.atm.dao.Dao [http-nio-8084-exec-1] Authentication succeed
+2019-09-16 19:35:40,334 INFO com.atm.services.BalanceService [http-nio-8084-exec-1] Success checking balance of 123456 with amount 146900
+2019-09-16 19:35:40,612 INFO com.atm.controllers.HttpController [DefaultMessageListenerContainer-1] Sending Http Request to http://localhost:8084/check
+2019-09-16 19:39:15,666 INFO com.atm.controllers.iso.ISOBalanceController [main] Built ISO Message to Check Balance
+2019-09-16 19:39:20,997 INFO com.atm.controllers.iso.ISOBalanceController [main] Built ISO Message to Check Balance
+2019-09-16 19:39:35,084 INFO com.atm.AtmApplication [main] Starting AtmApplication on Ariansyah with PID 35856 (/Users/ariansyah.nugroho/Downloads/G2Academy/Code/Project/atm/target/classes started by ariansyah.nugroho in /Users/ariansyah.nugroho/Downloads/G2Academy/Code/Project/atm)
+2019-09-16 19:39:35,087 DEBUG com.atm.AtmApplication [main] Running with Spring Boot v2.1.8.RELEASE, Spring v5.1.9.RELEASE
+2019-09-16 19:39:35,087 INFO com.atm.AtmApplication [main] The following profiles are active: @spring.profiles.active@
+2019-09-16 19:39:37,168 INFO com.atm.AtmApplication [main] Started AtmApplication in 2.502 seconds (JVM running for 3.599)
+2019-09-16 19:39:37,691 INFO com.atm.dao.Dao [http-nio-8084-exec-1] Authentication succeed
+2019-09-16 19:39:37,694 INFO com.atm.services.BalanceService [http-nio-8084-exec-1] Success checking balance of 999999 with amount 700000
+2019-09-16 19:39:37,724 INFO com.atm.controllers.HttpController [DefaultMessageListenerContainer-1] Sending Http Request to http://localhost:8084/check
+2019-09-16 19:39:37,748 INFO com.atm.dao.Dao [http-nio-8084-exec-3] Authentication succeed
+2019-09-16 19:39:37,749 INFO com.atm.services.BalanceService [http-nio-8084-exec-3] Success checking balance of 123456 with amount 146900
+2019-09-16 19:39:37,754 INFO com.atm.controllers.HttpController [DefaultMessageListenerContainer-1] Sending Http Request to http://localhost:8084/check
+2019-09-16 20:01:24,253 INFO com.atm.controllers.iso.ISOWithdrawController [main] Built ISO Message for Cash Withdrawal
+2019-09-16 20:01:38,464 INFO com.atm.AtmApplication [main] Starting AtmApplication on Ariansyah with PID 35994 (/Users/ariansyah.nugroho/Downloads/G2Academy/Code/Project/atm/target/classes started by ariansyah.nugroho in /Users/ariansyah.nugroho/Downloads/G2Academy/Code/Project/atm)
+2019-09-16 20:01:38,469 DEBUG com.atm.AtmApplication [main] Running with Spring Boot v2.1.8.RELEASE, Spring v5.1.9.RELEASE
+2019-09-16 20:01:38,469 INFO com.atm.AtmApplication [main] The following profiles are active: @spring.profiles.active@
+2019-09-16 20:01:40,837 INFO com.atm.AtmApplication [main] Started AtmApplication in 2.752 seconds (JVM running for 3.546)
+2019-09-16 20:01:41,388 INFO com.atm.dao.Dao [http-nio-8084-exec-1] Authentication succeed
+2019-09-16 20:01:41,390 INFO com.atm.services.BalanceService [http-nio-8084-exec-1] Success checking balance of 999999 with amount 700000
+2019-09-16 20:01:41,415 INFO com.atm.services.BalanceService [http-nio-8084-exec-1] Success checking balance of 999999 with amount 600000
+2019-09-16 20:01:41,416 INFO com.atm.services.WithdrawService [http-nio-8084-exec-1] Success withdrawing 100000 from 999999
+2019-09-16 20:01:41,459 INFO com.atm.controllers.HttpController [DefaultMessageListenerContainer-1] Sending Http Request to http://localhost:8084/withdraw
+2019-09-16 23:22:43,682 INFO com.atm.controllers.iso.ISOPurchaseInquiryController [main] Built ISO Message for Purchase Inquiry
+2019-09-16 23:24:30,120 INFO com.atm.AtmApplication [main] Starting AtmApplication on Ariansyah with PID 36187 (/Users/ariansyah.nugroho/Downloads/G2Academy/Code/Project/atm/target/classes started by ariansyah.nugroho in /Users/ariansyah.nugroho/Downloads/G2Academy/Code/Project/atm)
+2019-09-16 23:24:30,122 DEBUG com.atm.AtmApplication [main] Running with Spring Boot v2.1.8.RELEASE, Spring v5.1.9.RELEASE
+2019-09-16 23:24:30,122 INFO com.atm.AtmApplication [main] The following profiles are active: @spring.profiles.active@
+2019-09-16 23:24:32,254 INFO com.atm.AtmApplication [main] Started AtmApplication in 2.442 seconds (JVM running for 33.207)
+2019-09-16 23:24:33,048 INFO com.atm.dao.Dao [http-nio-8084-exec-1] Authentication succeed
+2019-09-16 23:24:33,051 INFO com.atm.services.BalanceService [http-nio-8084-exec-1] Success checking balance of 999999 with amount 600000
+2019-09-16 23:24:33,055 INFO com.atm.services.PurchaseInquiryService [http-nio-8084-exec-1] Success purchase inquiry from 999999
+2019-09-16 23:24:33,090 INFO com.atm.controllers.HttpController [DefaultMessageListenerContainer-1] Sending Http Request to http://localhost:8084/purchaseinquiry
+2019-09-16 23:24:44,477 INFO com.atm.controllers.iso.ISOPurchaseController [main] Built ISO Message for Purchase
+2019-09-16 23:24:44,521 INFO com.atm.controllers.iso.ISOBalanceController [main] Built ISO Message to Check Balance
+2019-09-16 23:24:44,551 ERROR com.atm.Client [main] Address already in use (Bind failed)
+2019-09-16 23:24:44,611 INFO com.atm.services.BalanceService [http-nio-8084-exec-3] Success checking balance of 999999 with amount 548500
+2019-09-16 23:24:44,611 INFO com.atm.services.PurchaseService [http-nio-8084-exec-3] Success purchase to 082165803007
+2019-09-16 23:24:44,617 INFO com.atm.controllers.HttpController [DefaultMessageListenerContainer-1] Sending Http Request to http://localhost:8084/purchase
+2019-09-16 23:24:44,639 INFO com.atm.dao.Dao [http-nio-8084-exec-5] Authentication succeed
+2019-09-16 23:24:44,640 INFO com.atm.services.BalanceService [http-nio-8084-exec-5] Success checking balance of 999999 with amount 548500
+2019-09-16 23:24:44,645 INFO com.atm.controllers.HttpController [DefaultMessageListenerContainer-1] Sending Http Request to http://localhost:8084/check
+2019-09-16 23:25:50,768 INFO com.atm.controllers.iso.ISOBalanceController [main] Built ISO Message to Check Balance
+2019-09-16 23:25:50,804 ERROR com.atm.Client [main] Address already in use (Bind failed)
+2019-09-16 23:25:50,814 INFO com.atm.dao.Dao [http-nio-8084-exec-7] Authentication succeed
+2019-09-16 23:25:50,815 INFO com.atm.services.BalanceService [http-nio-8084-exec-7] Success checking balance of 123456 with amount 146900
+2019-09-16 23:25:50,820 INFO com.atm.controllers.HttpController [DefaultMessageListenerContainer-1] Sending Http Request to http://localhost:8084/check
+2019-09-16 23:27:52,308 INFO com.atm.controllers.iso.ISOBalanceController [main] Built ISO Message to Check Balance
+2019-09-16 23:29:02,251 INFO com.atm.AtmApplication [main] Starting AtmApplication on Ariansyah with PID 36196 (/Users/ariansyah.nugroho/Downloads/G2Academy/Code/Project/atm/target/classes started by ariansyah.nugroho in /Users/ariansyah.nugroho/Downloads/G2Academy/Code/Project/atm)
+2019-09-16 23:29:02,253 DEBUG com.atm.AtmApplication [main] Running with Spring Boot v2.1.8.RELEASE, Spring v5.1.9.RELEASE
+2019-09-16 23:29:02,253 INFO com.atm.AtmApplication [main] The following profiles are active: @spring.profiles.active@
+2019-09-16 23:29:04,260 INFO com.atm.AtmApplication [main] Started AtmApplication in 2.26 seconds (JVM running for 33.073)
+2019-09-16 23:29:04,806 INFO com.atm.dao.Dao [http-nio-8084-exec-1] Authentication succeed
+2019-09-16 23:29:04,808 INFO com.atm.services.BalanceService [http-nio-8084-exec-1] Success checking balance of 123456 with amount 146900
+2019-09-16 23:29:04,842 INFO com.atm.controllers.HttpController [DefaultMessageListenerContainer-1] Sending Http Request to http://localhost:8084/check
+2019-09-16 23:29:30,609 INFO com.atm.controllers.iso.ISOPurchaseInquiryController [main] Built ISO Message for Purchase Inquiry
+2019-09-16 23:29:30,655 INFO com.atm.dao.Dao [http-nio-8084-exec-3] Authentication succeed
+2019-09-16 23:29:30,656 INFO com.atm.services.BalanceService [http-nio-8084-exec-3] Success checking balance of 999999 with amount 548500
+2019-09-16 23:29:30,657 INFO com.atm.services.PurchaseInquiryService [http-nio-8084-exec-3] Success purchase inquiry from 999999
+2019-09-16 23:29:30,667 INFO com.atm.controllers.HttpController [DefaultMessageListenerContainer-1] Sending Http Request to http://localhost:8084/purchaseinquiry
+2019-09-16 23:29:33,411 INFO com.atm.controllers.iso.ISOPurchaseController [main] Built ISO Message for Purchase
+2019-09-16 23:29:33,445 INFO com.atm.controllers.iso.ISOBalanceController [main] Built ISO Message to Check Balance
+2019-09-16 23:29:33,485 INFO com.atm.services.BalanceService [http-nio-8084-exec-5] Success checking balance of 999999 with amount 522000
+2019-09-16 23:29:33,485 INFO com.atm.services.PurchaseService [http-nio-8084-exec-5] Success purchase to 08126089946
+2019-09-16 23:29:33,503 ERROR com.atm.dao.PurchaseDao [http-nio-8084-exec-5] Error : Connection refused (Connection refused) in purchase method
+2019-09-16 23:29:33,510 INFO com.atm.controllers.HttpController [DefaultMessageListenerContainer-1] Sending Http Request to http://localhost:8084/purchase
+2019-09-16 23:29:33,541 INFO com.atm.dao.Dao [http-nio-8084-exec-7] Authentication succeed
+2019-09-16 23:29:33,542 INFO com.atm.services.BalanceService [http-nio-8084-exec-7] Success checking balance of 999999 with amount 522000
+2019-09-16 23:29:33,546 INFO com.atm.controllers.HttpController [DefaultMessageListenerContainer-1] Sending Http Request to http://localhost:8084/check
+2019-09-16 23:30:09,759 INFO com.atm.controllers.iso.ISOWithdrawController [main] Built ISO Message for Cash Withdrawal
+2019-09-16 23:30:09,794 INFO com.atm.dao.Dao [http-nio-8084-exec-9] Authentication succeed
+2019-09-16 23:30:09,796 INFO com.atm.services.BalanceService [http-nio-8084-exec-9] Success checking balance of 999999 with amount 522000
+2019-09-16 23:30:09,799 INFO com.atm.services.BalanceService [http-nio-8084-exec-9] Success checking balance of 999999 with amount 472000
+2019-09-16 23:30:09,799 INFO com.atm.services.WithdrawService [http-nio-8084-exec-9] Success withdrawing 50000 from 999999
+2019-09-16 23:30:09,805 INFO com.atm.controllers.HttpController [DefaultMessageListenerContainer-1] Sending Http Request to http://localhost:8084/withdraw
+2019-09-16 23:31:19,425 INFO com.atm.controllers.iso.ISOPurchaseInquiryController [main] Built ISO Message for Purchase Inquiry
+2019-09-16 23:31:49,725 INFO com.atm.dao.Dao [http-nio-8084-exec-1] Authentication succeed
+2019-09-16 23:31:49,731 INFO com.atm.services.BalanceService [http-nio-8084-exec-1] Success checking balance of 999999 with amount 472000
+2019-09-16 23:31:49,731 INFO com.atm.services.PurchaseInquiryService [http-nio-8084-exec-1] Success purchase inquiry from 999999
+2019-09-16 23:31:49,753 INFO com.atm.controllers.HttpController [DefaultMessageListenerContainer-1] Sending Http Request to http://localhost:8084/purchaseinquiry
+2019-09-16 23:31:56,875 INFO com.atm.controllers.iso.ISOPurchaseController [main] Built ISO Message for Purchase
+2019-09-16 23:31:56,906 INFO com.atm.services.BalanceService [http-nio-8084-exec-3] Success checking balance of 999999 with amount 445500
+2019-09-16 23:31:56,906 INFO com.atm.services.PurchaseService [http-nio-8084-exec-3] Success purchase to 08126089946
+2019-09-16 23:31:56,911 INFO com.atm.controllers.HttpController [DefaultMessageListenerContainer-1] Sending Http Request to http://localhost:8084/purchase
+2019-09-16 23:32:06,939 INFO com.atm.controllers.iso.ISOBalanceController [main] Built ISO Message to Check Balance
+2019-09-16 23:32:06,953 ERROR com.atm.Client [main] Address already in use (Bind failed)
+2019-09-16 23:32:06,961 INFO com.atm.dao.Dao [http-nio-8084-exec-5] Authentication succeed
+2019-09-16 23:32:06,963 INFO com.atm.services.BalanceService [http-nio-8084-exec-5] Success checking balance of 123456 with amount 146900
+2019-09-16 23:32:06,970 INFO com.atm.controllers.HttpController [DefaultMessageListenerContainer-1] Sending Http Request to http://localhost:8084/check
+2019-09-16 23:34:23,627 INFO com.atm.controllers.iso.ISOPurchaseInquiryController [main] Built ISO Message for Purchase Inquiry
+2019-09-16 23:34:54,007 INFO com.atm.dao.Dao [http-nio-8084-exec-7] Authentication succeed
+2019-09-16 23:34:54,010 INFO com.atm.services.BalanceService [http-nio-8084-exec-7] Success checking balance of 123456 with amount 146900
+2019-09-16 23:34:54,011 INFO com.atm.services.PurchaseInquiryService [http-nio-8084-exec-7] Success purchase inquiry from 123456
+2019-09-16 23:34:54,022 INFO com.atm.controllers.HttpController [DefaultMessageListenerContainer-1] Sending Http Request to http://localhost:8084/purchaseinquiry
+2019-09-16 23:35:00,807 INFO com.atm.controllers.iso.ISOPurchaseController [main] Built ISO Message for Purchase
+2019-09-16 23:35:00,835 INFO com.atm.services.BalanceService [http-nio-8084-exec-9] Success checking balance of 123456 with amount 120400
+2019-09-16 23:35:00,835 INFO com.atm.services.PurchaseService [http-nio-8084-exec-9] Success purchase to 082165803007
+2019-09-16 23:35:00,840 INFO com.atm.controllers.HttpController [DefaultMessageListenerContainer-1] Sending Http Request to http://localhost:8084/purchase
+2019-09-16 23:35:00,866 INFO com.atm.controllers.iso.ISOBalanceController [main] Built ISO Message to Check Balance
+2019-09-16 23:35:00,887 INFO com.atm.dao.Dao [http-nio-8084-exec-1] Authentication succeed
+2019-09-16 23:35:00,889 INFO com.atm.services.BalanceService [http-nio-8084-exec-1] Success checking balance of 123456 with amount 120400
+2019-09-16 23:35:00,893 INFO com.atm.controllers.HttpController [DefaultMessageListenerContainer-1] Sending Http Request to http://localhost:8084/check
+2019-09-16 23:35:20,819 INFO com.atm.controllers.iso.ISOBalanceController [main] Built ISO Message to Check Balance
+2019-09-16 23:35:20,843 INFO com.atm.dao.Dao [http-nio-8084-exec-3] Authentication succeed
+2019-09-16 23:35:20,844 INFO com.atm.services.BalanceService [http-nio-8084-exec-3] Success checking balance of 123456 with amount 120400
+2019-09-16 23:35:20,849 INFO com.atm.controllers.HttpController [DefaultMessageListenerContainer-1] Sending Http Request to http://localhost:8084/check
+2019-09-16 23:36:41,135 INFO com.atm.controllers.iso.ISOPurchaseInquiryController [main] Built ISO Message for Purchase Inquiry
+2019-09-16 23:37:11,423 INFO com.atm.dao.Dao [http-nio-8084-exec-5] Authentication succeed
+2019-09-16 23:37:11,424 INFO com.atm.services.BalanceService [http-nio-8084-exec-5] Success checking balance of 123456 with amount 120400
+2019-09-16 23:37:11,424 INFO com.atm.services.PurchaseInquiryService [http-nio-8084-exec-5] Success purchase inquiry from 123456
+2019-09-16 23:37:11,430 INFO com.atm.controllers.HttpController [DefaultMessageListenerContainer-1] Sending Http Request to http://localhost:8084/purchaseinquiry
+2019-09-16 23:37:18,780 INFO com.atm.controllers.iso.ISOPurchaseController [main] Built ISO Message for Purchase
+2019-09-16 23:37:18,806 INFO com.atm.services.BalanceService [http-nio-8084-exec-6] Success checking balance of 123456 with amount 93900
+2019-09-16 23:37:18,807 INFO com.atm.services.PurchaseService [http-nio-8084-exec-6] Success purchase to 082165803007
+2019-09-16 23:37:18,832 INFO com.atm.controllers.HttpController [DefaultMessageListenerContainer-1] Sending Http Request to http://localhost:8084/purchase
+2019-09-16 23:37:35,852 INFO com.atm.controllers.iso.ISOBalanceController [main] Built ISO Message to Check Balance
+2019-09-16 23:37:35,880 INFO com.atm.dao.Dao [http-nio-8084-exec-8] Authentication succeed
+2019-09-16 23:37:35,881 INFO com.atm.services.BalanceService [http-nio-8084-exec-8] Success checking balance of 123456 with amount 93900
+2019-09-16 23:37:35,891 INFO com.atm.controllers.HttpController [DefaultMessageListenerContainer-1] Sending Http Request to http://localhost:8084/check
+2019-09-16 23:46:38,383 INFO com.atm.AtmApplication [main] Starting AtmApplication on Ariansyah with PID 36231 (/Users/ariansyah.nugroho/Downloads/G2Academy/Code/Project/atm/target/classes started by ariansyah.nugroho in /Users/ariansyah.nugroho/Downloads/G2Academy/Code/Project/atm)
+2019-09-16 23:46:38,385 DEBUG com.atm.AtmApplication [main] Running with Spring Boot v2.1.8.RELEASE, Spring v5.1.9.RELEASE
+2019-09-16 23:46:38,385 INFO com.atm.AtmApplication [main] The following profiles are active: @spring.profiles.active@
+2019-09-16 23:46:40,467 INFO com.atm.AtmApplication [main] Started AtmApplication in 2.37 seconds (JVM running for 33.216)
+2019-09-16 23:47:41,637 INFO com.atm.controllers.iso.ISOPaymentInquiryController [main] Built ISO Message for Payment Inquiry
+2019-09-16 23:48:12,563 INFO com.atm.dao.Dao [http-nio-8084-exec-1] Authentication succeed
+2019-09-16 23:48:12,567 INFO com.atm.services.BalanceService [http-nio-8084-exec-1] Success checking balance of 999999 with amount 445500
+2019-09-16 23:48:12,573 INFO com.atm.services.PaymentInquiryService [http-nio-8084-exec-1] Success payment inquiry with amount 50000 to 888888 
+2019-09-16 23:48:12,616 INFO com.atm.controllers.HttpController [DefaultMessageListenerContainer-1] Sending Http Request to http://localhost:8084/paymentinquiry
+2019-09-16 23:48:19,613 INFO com.atm.controllers.iso.ISOPaymentController [main] Built ISO Message for Payment
+2019-09-16 23:48:19,654 INFO com.atm.services.BalanceService [http-nio-8084-exec-3] Success checking balance of 999999 with amount 395500
+2019-09-16 23:48:19,654 INFO com.atm.services.PaymentService [http-nio-8084-exec-3] Success payment with amount 50000 to 888888 
+2019-09-16 23:48:19,660 INFO com.atm.controllers.HttpController [DefaultMessageListenerContainer-1] Sending Http Request to http://localhost:8084/payment
+2019-09-16 23:48:34,181 INFO com.atm.controllers.iso.ISOBalanceController [main] Built ISO Message to Check Balance
+2019-09-16 23:48:34,212 INFO com.atm.dao.Dao [http-nio-8084-exec-5] Authentication succeed
+2019-09-16 23:48:34,213 INFO com.atm.services.BalanceService [http-nio-8084-exec-5] Success checking balance of 999999 with amount 395500
+2019-09-16 23:48:34,221 INFO com.atm.controllers.HttpController [DefaultMessageListenerContainer-1] Sending Http Request to http://localhost:8084/check
