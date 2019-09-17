@@ -264,3 +264,175 @@ The last packet sent successfully to the server was 0 milliseconds ago. The driv
 2019-09-17 16:47:54,518 INFO com.atm.dao.PaymentDao [http-nio-8084-exec-9] Virtual Account does not exist
 2019-09-17 16:47:54,527 INFO com.atm.controllers.HttpController [DefaultMessageListenerContainer-1] Sending Http Request to http://localhost:8084/paymentinquiry
 2019-09-17 16:47:54,529 INFO com.atm.controllers.iso.ISOController [main] Parsing ISO Message
+2019-09-17 17:23:54,650 INFO com.atm.controllers.iso.ISOPurchaseInquiryController [main] Built ISO Message for Purchase Inquiry
+2019-09-17 17:23:54,713 INFO com.atm.controllers.iso.ISOController [DefaultMessageListenerContainer-1] Parsing ISO Message
+2019-09-17 17:23:54,747 INFO com.atm.controllers.iso.ISOController [http-nio-8084-exec-10] Parsing ISO Message
+2019-09-17 17:23:54,761 INFO com.atm.dao.Dao [http-nio-8084-exec-10] Authentication succeed
+2019-09-17 17:23:54,762 INFO com.atm.services.BalanceService [http-nio-8084-exec-10] Success checking balance of 123456 with amount 67400
+2019-09-17 17:23:54,765 INFO com.atm.services.PurchaseInquiryService [http-nio-8084-exec-10] Success purchase inquiry from 123456
+2019-09-17 17:23:54,778 INFO com.atm.controllers.iso.ISOController [main] Parsing ISO Message
+2019-09-17 17:23:54,779 INFO com.atm.controllers.HttpController [DefaultMessageListenerContainer-1] Sending Http Request to http://localhost:8084/purchaseinquiry
+2019-09-17 17:23:57,607 INFO com.atm.controllers.iso.ISOPurchaseController [main] Built ISO Message for Purchase
+2019-09-17 17:23:57,631 INFO com.atm.controllers.iso.ISOController [DefaultMessageListenerContainer-1] Parsing ISO Message
+2019-09-17 17:23:57,639 INFO com.atm.controllers.iso.ISOController [http-nio-8084-exec-2] Parsing ISO Message
+2019-09-17 17:23:57,691 INFO com.atm.services.BalanceService [http-nio-8084-exec-2] Success checking balance of 123456 with amount 40900
+2019-09-17 17:23:57,692 INFO com.atm.services.PurchaseService [http-nio-8084-exec-2] Success purchase to 082165803007
+2019-09-17 17:23:57,696 INFO com.atm.controllers.HttpController [DefaultMessageListenerContainer-1] Sending Http Request to http://localhost:8084/purchase
+2019-09-17 17:23:57,703 INFO com.atm.controllers.iso.ISOController [main] Parsing ISO Message
+2019-09-17 17:31:58,457 INFO com.atm.controllers.iso.ISOBalanceController [main] Built ISO Message to Check Balance
+2019-09-17 17:32:05,395 INFO com.atm.controllers.iso.ISOBalanceController [main] Built ISO Message to Check Balance
+2019-09-17 17:32:18,059 INFO com.atm.AtmApplication [main] Starting AtmApplication on Ariansyah with PID 2610 (/Users/ariansyah.nugroho/Downloads/G2Academy/Code/Project/ATM_Project/atm/target/classes started by ariansyah.nugroho in /Users/ariansyah.nugroho/Downloads/G2Academy/Code/Project/ATM_Project/atm)
+2019-09-17 17:32:18,066 DEBUG com.atm.AtmApplication [main] Running with Spring Boot v2.1.8.RELEASE, Spring v5.1.9.RELEASE
+2019-09-17 17:32:18,066 INFO com.atm.AtmApplication [main] The following profiles are active: @spring.profiles.active@
+2019-09-17 17:32:20,059 INFO com.atm.AtmApplication [main] Started AtmApplication in 2.351 seconds (JVM running for 3.184)
+2019-09-17 17:32:20,077 INFO com.atm.controllers.iso.ISOController [DefaultMessageListenerContainer-1] Parsing ISO Message
+2019-09-17 17:32:20,383 INFO com.atm.controllers.iso.ISOController [http-nio-8084-exec-1] Parsing ISO Message
+2019-09-17 17:32:20,945 INFO com.atm.dao.Dao [http-nio-8084-exec-1] Authentication succeed
+2019-09-17 17:32:20,951 INFO com.atm.services.BalanceService [http-nio-8084-exec-1] Success checking balance of 123456 with amount 40900
+2019-09-17 17:32:20,980 INFO com.atm.controllers.iso.ISOController [main] Parsing ISO Message
+2019-09-17 17:32:21,009 INFO com.atm.controllers.HttpController [DefaultMessageListenerContainer-1] Sending Http Request to http://localhost:8084/check
+2019-09-17 17:32:21,027 INFO com.atm.controllers.iso.ISOController [DefaultMessageListenerContainer-1] Parsing ISO Message
+2019-09-17 17:32:21,037 INFO com.atm.controllers.iso.ISOController [http-nio-8084-exec-3] Parsing ISO Message
+2019-09-17 17:32:21,040 INFO com.atm.dao.Dao [http-nio-8084-exec-3] Authentication succeed
+2019-09-17 17:32:21,041 INFO com.atm.services.BalanceService [http-nio-8084-exec-3] Success checking balance of 999999 with amount 172500
+2019-09-17 17:32:21,053 INFO com.atm.controllers.HttpController [DefaultMessageListenerContainer-1] Sending Http Request to http://localhost:8084/check
+2019-09-17 17:32:21,069 INFO com.atm.controllers.iso.ISOController [main] Parsing ISO Message
+2019-09-17 19:07:32,301 INFO com.atm.controllers.iso.ISOTransInquiryController [main] Built ISO Message for Transfer Inquiry
+2019-09-17 19:07:32,348 INFO com.atm.controllers.iso.ISOController [DefaultMessageListenerContainer-1] Parsing ISO Message
+2019-09-17 19:07:32,383 INFO com.atm.controllers.iso.ISOController [http-nio-8084-exec-4] Parsing ISO Message
+2019-09-17 19:07:32,399 INFO com.atm.dao.Dao [http-nio-8084-exec-4] Authentication succeed
+2019-09-17 19:07:32,400 INFO com.atm.services.BalanceService [http-nio-8084-exec-4] Success checking balance of 123456 with amount 40900
+2019-09-17 19:07:32,401 INFO com.atm.services.TransInquiryService [http-nio-8084-exec-4] Fail transfer inquiry from 123456 to 999999, balance not enough
+2019-09-17 19:07:32,412 INFO com.atm.controllers.HttpController [DefaultMessageListenerContainer-1] Sending Http Request to http://localhost:8084/transinquiry
+2019-09-17 19:07:32,417 INFO com.atm.controllers.iso.ISOController [main] Parsing ISO Message
+2019-09-17 19:08:13,809 INFO com.atm.controllers.iso.ISOWithdrawController [main] Built ISO Message for Cash Withdrawal
+2019-09-17 19:08:13,828 INFO com.atm.controllers.iso.ISOController [DefaultMessageListenerContainer-1] Parsing ISO Message
+2019-09-17 19:08:13,836 INFO com.atm.controllers.iso.ISOController [http-nio-8084-exec-6] Parsing ISO Message
+2019-09-17 19:08:13,839 INFO com.atm.dao.Dao [http-nio-8084-exec-6] Authentication succeed
+2019-09-17 19:08:13,840 INFO com.atm.services.BalanceService [http-nio-8084-exec-6] Success checking balance of 123456 with amount 40900
+2019-09-17 19:08:13,840 INFO com.atm.services.WithdrawService [http-nio-8084-exec-6] Fail withdrawing 100000 from 123456, balance not enough
+2019-09-17 19:08:13,845 INFO com.atm.controllers.HttpController [DefaultMessageListenerContainer-1] Sending Http Request to http://localhost:8084/withdraw
+2019-09-17 19:08:13,854 INFO com.atm.controllers.iso.ISOController [main] Parsing ISO Message
+2019-09-17 19:13:04,140 INFO com.atm.controllers.iso.ISOSwitchTransInquiryController [main] Built ISO Message for Transfer Inquiry
+2019-09-17 19:13:04,618 INFO com.atm.controllers.iso.ISOController [DefaultMessageListenerContainer-1] Parsing ISO Message
+2019-09-17 19:13:04,626 INFO com.atm.controllers.iso.ISOController [http-nio-8084-exec-7] Parsing ISO Message
+2019-09-17 19:13:04,628 INFO com.atm.dao.Dao [http-nio-8084-exec-7] Authentication succeed
+2019-09-17 19:13:05,054 INFO com.atm.controllers.HttpController [http-nio-8084-exec-7] Sending Http Request to http://localhost:8083/switchingtransinquiry
+2019-09-17 19:13:05,075 INFO com.atm.controllers.iso.ISOController [main] Parsing ISO Message
+2019-09-17 19:13:05,095 INFO com.atm.controllers.HttpController [DefaultMessageListenerContainer-1] Sending Http Request to http://localhost:8084/switchingtransinquiry
+2019-09-17 19:21:02,777 INFO com.atm.controllers.iso.ISOBalanceController [main] Built ISO Message to Check Balance
+2019-09-17 19:21:22,932 INFO com.atm.AtmApplication [main] Starting AtmApplication on Ariansyah with PID 2884 (/Users/ariansyah.nugroho/Downloads/G2Academy/Code/Project/ATM_Project/atm/target/classes started by ariansyah.nugroho in /Users/ariansyah.nugroho/Downloads/G2Academy/Code/Project/ATM_Project/atm)
+2019-09-17 19:21:22,934 DEBUG com.atm.AtmApplication [main] Running with Spring Boot v2.1.8.RELEASE, Spring v5.1.9.RELEASE
+2019-09-17 19:21:22,934 INFO com.atm.AtmApplication [main] The following profiles are active: @spring.profiles.active@
+2019-09-17 19:21:24,993 INFO com.atm.AtmApplication [main] Started AtmApplication in 2.606 seconds (JVM running for 3.492)
+2019-09-17 19:21:25,007 INFO com.atm.controllers.iso.ISOController [DefaultMessageListenerContainer-1] Parsing ISO Message
+2019-09-17 19:21:25,401 INFO com.atm.controllers.iso.ISOController [http-nio-8084-exec-1] Parsing ISO Message
+2019-09-17 19:21:25,914 INFO com.atm.dao.Dao [http-nio-8084-exec-1] Authentication succeed
+2019-09-17 19:21:25,916 INFO com.atm.services.BalanceService [http-nio-8084-exec-1] Success checking balance of 123456 with amount 40900
+2019-09-17 19:21:26,023 INFO com.atm.controllers.iso.ISOController [main] Parsing ISO Message
+2019-09-17 19:21:26,071 INFO com.atm.controllers.HttpController [DefaultMessageListenerContainer-1] Sending Http Request to http://localhost:8084/check
+2019-09-17 19:22:22,627 INFO com.atm.controllers.iso.ISOWithdrawController [main] Built ISO Message for Cash Withdrawal
+2019-09-17 19:22:22,645 INFO com.atm.controllers.iso.ISOController [DefaultMessageListenerContainer-1] Parsing ISO Message
+2019-09-17 19:22:22,654 INFO com.atm.controllers.iso.ISOController [http-nio-8084-exec-3] Parsing ISO Message
+2019-09-17 19:22:22,656 INFO com.atm.dao.Dao [http-nio-8084-exec-3] Authentication succeed
+2019-09-17 19:22:22,657 INFO com.atm.services.BalanceService [http-nio-8084-exec-3] Success checking balance of 123456 with amount 40900
+2019-09-17 19:22:22,657 INFO com.atm.services.WithdrawService [http-nio-8084-exec-3] Fail withdrawing 2000000 from 123456, balance not enough
+2019-09-17 19:22:22,663 INFO com.atm.controllers.HttpController [DefaultMessageListenerContainer-1] Sending Http Request to http://localhost:8084/withdraw
+2019-09-17 19:22:22,670 INFO com.atm.controllers.iso.ISOController [main] Parsing ISO Message
+2019-09-17 19:24:32,002 INFO com.atm.controllers.iso.ISOPurchaseInquiryController [main] Built ISO Message for Purchase Inquiry
+2019-09-17 19:24:32,019 INFO com.atm.controllers.iso.ISOController [DefaultMessageListenerContainer-1] Parsing ISO Message
+2019-09-17 19:24:32,026 INFO com.atm.controllers.iso.ISOController [http-nio-8084-exec-5] Parsing ISO Message
+2019-09-17 19:24:32,028 INFO com.atm.dao.Dao [http-nio-8084-exec-5] Authentication succeed
+2019-09-17 19:24:32,029 INFO com.atm.services.BalanceService [http-nio-8084-exec-5] Success checking balance of 123456 with amount 40900
+2019-09-17 19:24:32,030 INFO com.atm.services.PurchaseInquiryService [http-nio-8084-exec-5] Fail purchase inquiry from 123456, balance not enough
+2019-09-17 19:24:32,035 INFO com.atm.controllers.HttpController [DefaultMessageListenerContainer-1] Sending Http Request to http://localhost:8084/purchaseinquiry
+2019-09-17 19:24:32,041 INFO com.atm.controllers.iso.ISOController [main] Parsing ISO Message
+2019-09-17 19:24:32,050 INFO com.atm.controllers.iso.ISOBalanceController [main] Built ISO Message to Check Balance
+2019-09-17 19:24:32,066 INFO com.atm.controllers.iso.ISOController [DefaultMessageListenerContainer-1] Parsing ISO Message
+2019-09-17 19:24:32,072 INFO com.atm.controllers.iso.ISOController [http-nio-8084-exec-7] Parsing ISO Message
+2019-09-17 19:24:32,074 INFO com.atm.dao.Dao [http-nio-8084-exec-7] Authentication succeed
+2019-09-17 19:24:32,075 INFO com.atm.services.BalanceService [http-nio-8084-exec-7] Success checking balance of 123456 with amount 40900
+2019-09-17 19:24:32,080 INFO com.atm.controllers.HttpController [DefaultMessageListenerContainer-1] Sending Http Request to http://localhost:8084/check
+2019-09-17 19:24:32,084 INFO com.atm.controllers.iso.ISOController [main] Parsing ISO Message
+2019-09-17 19:24:57,283 INFO com.atm.controllers.iso.ISOPaymentInquiryController [main] Built ISO Message for Payment Inquiry
+2019-09-17 19:24:57,302 INFO com.atm.controllers.iso.ISOController [DefaultMessageListenerContainer-1] Parsing ISO Message
+2019-09-17 19:24:57,309 INFO com.atm.controllers.iso.ISOController [http-nio-8084-exec-9] Parsing ISO Message
+2019-09-17 19:24:57,315 INFO com.atm.dao.Dao [http-nio-8084-exec-9] Authentication succeed
+2019-09-17 19:24:57,320 INFO com.atm.services.BalanceService [http-nio-8084-exec-9] Success checking balance of 123456 with amount 40900
+2019-09-17 19:24:57,323 INFO com.atm.services.PaymentInquiryService [http-nio-8084-exec-9] Success payment inquiry with amount 1 to 888888 
+2019-09-17 19:24:57,329 INFO com.atm.controllers.HttpController [DefaultMessageListenerContainer-1] Sending Http Request to http://localhost:8084/paymentinquiry
+2019-09-17 19:24:57,334 INFO com.atm.controllers.iso.ISOController [main] Parsing ISO Message
+2019-09-17 19:25:25,022 INFO com.atm.controllers.iso.ISOPaymentController [main] Built ISO Message for Payment
+2019-09-17 19:25:25,041 INFO com.atm.controllers.iso.ISOController [DefaultMessageListenerContainer-1] Parsing ISO Message
+2019-09-17 19:25:25,049 INFO com.atm.controllers.iso.ISOController [http-nio-8084-exec-1] Parsing ISO Message
+2019-09-17 19:25:25,075 INFO com.atm.services.BalanceService [http-nio-8084-exec-1] Success checking balance of 123456 with amount 40899
+2019-09-17 19:25:25,075 INFO com.atm.services.PaymentService [http-nio-8084-exec-1] Success payment with amount 1 to 888888 
+2019-09-17 19:25:25,080 INFO com.atm.controllers.HttpController [DefaultMessageListenerContainer-1] Sending Http Request to http://localhost:8084/payment
+2019-09-17 19:25:25,084 INFO com.atm.controllers.iso.ISOController [main] Parsing ISO Message
+2019-09-17 19:26:52,131 INFO com.atm.controllers.iso.ISOTransInquiryController [main] Built ISO Message for Transfer Inquiry
+2019-09-17 19:26:52,148 INFO com.atm.controllers.iso.ISOController [DefaultMessageListenerContainer-1] Parsing ISO Message
+2019-09-17 19:26:52,155 INFO com.atm.controllers.iso.ISOController [http-nio-8084-exec-3] Parsing ISO Message
+2019-09-17 19:26:52,158 INFO com.atm.dao.Dao [http-nio-8084-exec-3] Authentication succeed
+2019-09-17 19:26:52,158 INFO com.atm.services.BalanceService [http-nio-8084-exec-3] Success checking balance of 123456 with amount 40899
+2019-09-17 19:26:52,159 INFO com.atm.services.TransInquiryService [http-nio-8084-exec-3] Fail transfer inquiry from 123456 to 999999, balance not enough
+2019-09-17 19:26:52,166 INFO com.atm.controllers.HttpController [DefaultMessageListenerContainer-1] Sending Http Request to http://localhost:8084/transinquiry
+2019-09-17 19:26:52,169 INFO com.atm.controllers.iso.ISOController [main] Parsing ISO Message
+2019-09-17 19:28:20,623 INFO com.atm.controllers.iso.ISOSwitchTransInquiryController [main] Built ISO Message for Transfer Inquiry
+2019-09-17 19:28:20,641 INFO com.atm.controllers.iso.ISOController [DefaultMessageListenerContainer-1] Parsing ISO Message
+2019-09-17 19:28:20,648 INFO com.atm.controllers.iso.ISOController [http-nio-8084-exec-5] Parsing ISO Message
+2019-09-17 19:28:20,650 INFO com.atm.dao.Dao [http-nio-8084-exec-5] Authentication succeed
+2019-09-17 19:28:21,235 INFO com.atm.controllers.HttpController [http-nio-8084-exec-5] Sending Http Request to http://localhost:8083/switchingtransinquiry
+2019-09-17 19:28:21,236 INFO com.atm.controllers.HttpController [DefaultMessageListenerContainer-1] Sending Http Request to http://localhost:8084/switchingtransinquiry
+2019-09-17 19:28:21,240 INFO com.atm.controllers.iso.ISOController [main] Parsing ISO Message
+2019-09-17 19:28:28,668 INFO com.atm.controllers.iso.ISOSwitchTransferController [main] Built ISO Message for Transfer Inquiry
+2019-09-17 19:28:28,682 INFO com.atm.controllers.iso.ISOController [DefaultMessageListenerContainer-1] Parsing ISO Message
+2019-09-17 19:28:28,687 INFO com.atm.controllers.iso.ISOController [http-nio-8084-exec-7] Parsing ISO Message
+2019-09-17 19:28:28,728 INFO com.atm.controllers.HttpController [http-nio-8084-exec-7] Sending Http Request to http://localhost:8083/switchingtransfer
+2019-09-17 19:28:28,731 INFO com.atm.controllers.iso.ISOController [http-nio-8084-exec-7] Parsing ISO Message
+2019-09-17 19:28:28,734 INFO com.atm.services.BalanceService [http-nio-8084-exec-7] Success checking balance of 123456 with amount 24399
+2019-09-17 19:28:28,734 INFO com.atm.services.TransferService [http-nio-8084-exec-7] Success transfer from 123456 to 222111
+2019-09-17 19:28:28,739 INFO com.atm.controllers.HttpController [DefaultMessageListenerContainer-1] Sending Http Request to http://localhost:8084/switchingtransfer
+2019-09-17 19:28:28,741 INFO com.atm.controllers.iso.ISOController [main] Parsing ISO Message
+2019-09-17 19:55:07,772 INFO com.atm.controllers.iso.ISOTransInquiryController [main] Built ISO Message for Transfer Inquiry
+2019-09-17 19:55:08,856 INFO com.atm.controllers.iso.ISOController [DefaultMessageListenerContainer-1] Parsing ISO Message
+2019-09-17 19:55:08,874 INFO com.atm.controllers.iso.ISOController [http-nio-8084-exec-8] Parsing ISO Message
+2019-09-17 19:55:08,879 INFO com.atm.dao.Dao [http-nio-8084-exec-8] Authentication succeed
+2019-09-17 19:55:08,880 INFO com.atm.services.BalanceService [http-nio-8084-exec-8] Success checking balance of 123456 with amount 24399
+2019-09-17 19:55:08,881 INFO com.atm.services.TransInquiryService [http-nio-8084-exec-8] Success transfer inquiry from 123456 to 999999
+2019-09-17 19:55:08,890 INFO com.atm.controllers.HttpController [DefaultMessageListenerContainer-1] Sending Http Request to http://localhost:8084/transinquiry
+2019-09-17 19:55:08,900 INFO com.atm.controllers.iso.ISOController [main] Parsing ISO Message
+2019-09-17 19:56:04,410 INFO com.atm.controllers.iso.ISOTransInquiryController [main] Built ISO Message for Transfer Inquiry
+2019-09-17 19:56:04,645 INFO com.atm.controllers.iso.ISOController [DefaultMessageListenerContainer-1] Parsing ISO Message
+2019-09-17 19:56:04,653 INFO com.atm.controllers.iso.ISOController [http-nio-8084-exec-10] Parsing ISO Message
+2019-09-17 19:56:04,654 INFO com.atm.dao.Dao [http-nio-8084-exec-10] Authentication succeed
+2019-09-17 19:56:04,655 INFO com.atm.services.BalanceService [http-nio-8084-exec-10] Success checking balance of 123456 with amount 24399
+2019-09-17 19:56:04,655 INFO com.atm.services.TransInquiryService [http-nio-8084-exec-10] Fail transfer inquiry from 123456 to 999999, balance not enough
+2019-09-17 19:56:04,659 INFO com.atm.controllers.HttpController [DefaultMessageListenerContainer-1] Sending Http Request to http://localhost:8084/transinquiry
+2019-09-17 19:56:04,670 INFO com.atm.controllers.iso.ISOController [main] Parsing ISO Message
+2019-09-17 19:56:36,125 INFO com.atm.controllers.iso.ISOTransInquiryController [main] Built ISO Message for Transfer Inquiry
+2019-09-17 19:56:36,372 INFO com.atm.controllers.iso.ISOController [DefaultMessageListenerContainer-1] Parsing ISO Message
+2019-09-17 19:56:36,380 INFO com.atm.controllers.iso.ISOController [http-nio-8084-exec-1] Parsing ISO Message
+2019-09-17 19:56:36,382 INFO com.atm.dao.Dao [http-nio-8084-exec-1] Authentication succeed
+2019-09-17 19:56:36,383 INFO com.atm.services.BalanceService [http-nio-8084-exec-1] Success checking balance of 123456 with amount 24399
+2019-09-17 19:56:36,384 INFO com.atm.services.TransInquiryService [http-nio-8084-exec-1] Success transfer inquiry from 123456 to 999999
+2019-09-17 19:56:36,388 INFO com.atm.controllers.HttpController [DefaultMessageListenerContainer-1] Sending Http Request to http://localhost:8084/transinquiry
+2019-09-17 19:56:36,402 INFO com.atm.controllers.iso.ISOController [main] Parsing ISO Message
+2019-09-17 19:56:38,476 INFO com.atm.controllers.iso.ISOTransferController [main] Built ISO Message for Transfer
+2019-09-17 19:56:38,492 INFO com.atm.controllers.iso.ISOController [DefaultMessageListenerContainer-1] Parsing ISO Message
+2019-09-17 19:56:38,500 INFO com.atm.controllers.iso.ISOController [http-nio-8084-exec-3] Parsing ISO Message
+2019-09-17 19:56:38,506 INFO com.atm.services.BalanceService [http-nio-8084-exec-3] Success checking balance of 123456 with amount 14399
+2019-09-17 19:56:38,506 INFO com.atm.services.TransferService [http-nio-8084-exec-3] Success transfer from 123456 to 999999
+2019-09-17 19:56:38,510 INFO com.atm.controllers.HttpController [DefaultMessageListenerContainer-1] Sending Http Request to http://localhost:8084/transfer
+2019-09-17 19:56:38,519 INFO com.atm.controllers.iso.ISOController [main] Parsing ISO Message
+2019-09-17 23:50:36,893 INFO com.atm.AtmApplication [main] Starting AtmApplication on Ariansyah with PID 4213 (/Users/ariansyah.nugroho/Downloads/G2Academy/Code/Project/ATM_Project/atm/target/classes started by ariansyah.nugroho in /Users/ariansyah.nugroho/Downloads/G2Academy/Code/Project/ATM_Project/atm)
+2019-09-17 23:50:36,895 DEBUG com.atm.AtmApplication [main] Running with Spring Boot v2.1.8.RELEASE, Spring v5.1.9.RELEASE
+2019-09-17 23:50:36,895 INFO com.atm.AtmApplication [main] The following profiles are active: @spring.profiles.active@
+2019-09-17 23:50:38,984 INFO com.atm.AtmApplication [main] Started AtmApplication in 2.406 seconds (JVM running for 33.311)
+2019-09-17 23:50:49,966 INFO com.atm.controllers.iso.ISOBalanceController [main] Built ISO Message to Check Balance
+2019-09-17 23:51:20,207 INFO com.atm.controllers.messaging.MessageSender [main] Sending ActiveMQTextMessage {commandId = 0, responseRequired = false, messageId = null, originalDestination = null, originalTransactionId = null, producerId = null, destination = null, transactionId = null, expiration = 0, timestamp = 0, arrival = 0, brokerInTime = 0, brokerOutTime = 0, correlationId = null, replyTo = null, persistent = false, type = null, priority = 0, groupID = null, groupSequence = 0, targetConsumerId = null, compressed = false, userID = null, content = null, marshalledProperties = null, dataStructure = null, redeliveryCounter = 0, size = 0, properties = null, readOnlyProperties = false, readOnlyBody = false, droppable = false, jmsXGroupFirstForConsumer = false, text = 0200F23A400188A094040000000004000000061234563...049999049999} to queue
+2019-09-17 23:51:20,281 INFO com.atm.controllers.iso.ISOController [DefaultMessageListenerContainer-1] Parsing ISO Message
+2019-09-17 23:51:20,741 INFO com.atm.controllers.iso.ISOController [http-nio-8084-exec-1] Parsing ISO Message
+2019-09-17 23:51:21,152 INFO com.atm.dao.Dao [http-nio-8084-exec-1] Authentication succeed
+2019-09-17 23:51:21,154 INFO com.atm.services.BalanceService [http-nio-8084-exec-1] Success checking balance of 123456 with amount 14399
+2019-09-17 23:51:21,176 INFO com.atm.controllers.iso.ISOController [main] Parsing ISO Message
+2019-09-17 23:51:21,190 INFO com.atm.controllers.HttpController [DefaultMessageListenerContainer-1] Sending Http Request to http://localhost:8084/check

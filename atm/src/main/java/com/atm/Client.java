@@ -76,8 +76,9 @@ public class Client {
                                     ISOTransferController isoTransferController = new ISOTransferController();
                                     System.out.print("Masukkan No Rekening Tujuan : ");
                                     norekTujuan = sc.nextLine();
-                                    System.out.print("Masukkan Nominal : Rp.");
-                                    jumlah = Integer.parseInt(sc.nextLine());
+//                                    System.out.print("Masukkan Nominal : Rp.");
+//                                    jumlah = Integer.parseInt(sc.nextLine());
+                                    jumlah = validasiJumlah();
                                     message = isoTransInquiryController.buildISO(acc_number,pin,jumlah,"sama",norekTujuan,server);
 //                                url="transinquiry";
 //                                result = httpController.sendHttpRequest(message,url);
@@ -144,8 +145,9 @@ public class Client {
                                     norekTujuan = sc.nextLine();
                                     String kodeBank = norekTujuan.substring(0,4);
                                     String norekTujuanSub = norekTujuan.substring(4);
-                                    System.out.print("Masukkan Nominal : Rp.");
-                                    jumlah = Integer.parseInt(sc.nextLine());
+//                                    System.out.print("Masukkan Nominal : Rp.");
+//                                    jumlah = Integer.parseInt(sc.nextLine());
+                                    jumlah = validasiJumlah();
                                     message = isoSwitchTransInquiryController.buildISO(acc_number,pin,jumlah,kodeBank,norekTujuanSub,server);
 //                                url="switchingtransinquiry";
 //                                result = httpController.sendHttpRequest(message,url);
@@ -273,6 +275,7 @@ public class Client {
                         }catch (Exception e){
                             System.out.println("Error : "+e.getMessage());
                         }
+                        break;
                     case 4:
                         try {
                             ISOBalanceController isoBalanceController = new ISOBalanceController();
@@ -309,8 +312,9 @@ public class Client {
                             String virtualAccount;
                             System.out.print("Masukkan Nomor Virtual Account : ");
                             virtualAccount = sc.nextLine();
-                            System.out.print("Masukkan Nominal : Rp.");
-                            jumlah = Integer.parseInt(sc.nextLine());
+//                            System.out.print("Masukkan Nominal : Rp.");
+//                            jumlah = Integer.parseInt(sc.nextLine());
+                            jumlah = validasiJumlah();
                             message = isoPaymentInquiryController.buildISO(acc_number,pin,jumlah,
                                     "89508",virtualAccount,server);
 //                        url="paymentinquiry";
@@ -443,6 +447,15 @@ public class Client {
             logger.error(e.getMessage());
             System.out.println(e.getMessage());
         }
+        return jumlah;
+    }
+
+    private static Integer validasiJumlah(){
+        int jumlah=0;
+        do{
+            System.out.print("Masukkan Nominal (Minimal 10000) : Rp.");
+            jumlah = Integer.parseInt(sc.nextLine());
+        }while (jumlah<10000);
         return jumlah;
     }
 
