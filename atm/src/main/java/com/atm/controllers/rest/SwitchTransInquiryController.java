@@ -20,7 +20,8 @@ public class SwitchTransInquiryController {
     public String switchTransInquiry(@RequestBody String message){
         String response="";
         try{
-            System.out.println(message);
+//            System.out.println(message);
+            System.out.println("Receive Switch Trans Inquiry from Client : ");
             isoMsg = isoController.parseISOMessage(message);
             String accNumber = isoMsg.getString(2);
             String pinNumber = isoMsg.getString(52);
@@ -35,7 +36,7 @@ public class SwitchTransInquiryController {
                     Thread.currentThread().getStackTrace()[1].getMethodName());
             System.out.println(e.getMessage());
         }
-        System.out.println(response);
+//        System.out.println(response);
         return response;
     }
 

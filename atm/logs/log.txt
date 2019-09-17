@@ -29,3 +29,238 @@
 2019-09-17 00:06:59,999 INFO com.atm.services.BalanceService [http-nio-8084-exec-10] Success checking balance of 999999 with amount 222500
 2019-09-17 00:06:59,999 INFO com.atm.services.TransferService [http-nio-8084-exec-10] Success transfer from 999999 to 222111
 2019-09-17 00:07:00,004 INFO com.atm.controllers.HttpController [DefaultMessageListenerContainer-1] Sending Http Request to http://localhost:8084/switchingtransfer
+2019-09-17 00:47:10,925 INFO com.atm.AtmApplication [main] Starting AtmApplication on Ariansyah with PID 36535 (/Users/ariansyah.nugroho/Downloads/G2Academy/Code/Project/ATM_Project/atm/target/classes started by ariansyah.nugroho in /Users/ariansyah.nugroho/Downloads/G2Academy/Code/Project/ATM_Project/atm)
+2019-09-17 00:47:10,929 DEBUG com.atm.AtmApplication [main] Running with Spring Boot v2.1.8.RELEASE, Spring v5.1.9.RELEASE
+2019-09-17 00:47:10,929 INFO com.atm.AtmApplication [main] The following profiles are active: @spring.profiles.active@
+2019-09-17 00:47:13,391 INFO com.atm.AtmApplication [main] Started AtmApplication in 3.126 seconds (JVM running for 34.229)
+2019-09-17 09:06:21,925 INFO com.atm.AtmApplication [main] Starting AtmApplication on Ariansyah with PID 699 (/Users/ariansyah.nugroho/Downloads/G2Academy/Code/Project/ATM_Project/atm/target/classes started by ariansyah.nugroho in /Users/ariansyah.nugroho/Downloads/G2Academy/Code/Project/ATM_Project/atm)
+2019-09-17 09:06:21,928 DEBUG com.atm.AtmApplication [main] Running with Spring Boot v2.1.8.RELEASE, Spring v5.1.9.RELEASE
+2019-09-17 09:06:21,928 INFO com.atm.AtmApplication [main] The following profiles are active: @spring.profiles.active@
+2019-09-17 09:06:24,926 INFO com.atm.AtmApplication [main] Started AtmApplication in 3.56 seconds (JVM running for 4.562)
+2019-09-17 09:06:38,393 INFO com.atm.controllers.iso.ISOBalanceController [main] Built ISO Message to Check Balance
+2019-09-17 09:06:40,095 ERROR com.zaxxer.hikari.pool.HikariPool [http-nio-8084-exec-1] HikariPool-1 - Exception during pool initialization.
+com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at com.mysql.cj.jdbc.exceptions.SQLError.createCommunicationsException(SQLError.java:174)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:64)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:827)
+	at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:447)
+	at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:237)
+	at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:199)
+	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:136)
+	at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:369)
+	at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:198)
+	at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:467)
+	at com.zaxxer.hikari.pool.HikariPool.checkFailFast(HikariPool.java:541)
+	at com.zaxxer.hikari.pool.HikariPool.<init>(HikariPool.java:115)
+	at com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:112)
+	at org.springframework.jdbc.datasource.DataSourceUtils.fetchConnection(DataSourceUtils.java:157)
+	at org.springframework.jdbc.datasource.DataSourceUtils.doGetConnection(DataSourceUtils.java:115)
+	at org.springframework.jdbc.datasource.DataSourceUtils.getConnection(DataSourceUtils.java:78)
+	at org.springframework.jdbc.core.JdbcTemplate.execute(JdbcTemplate.java:370)
+	at org.springframework.jdbc.core.JdbcTemplate.query(JdbcTemplate.java:451)
+	at org.springframework.jdbc.core.JdbcTemplate.query(JdbcTemplate.java:461)
+	at org.springframework.jdbc.core.JdbcTemplate.queryForList(JdbcTemplate.java:489)
+	at com.atm.dao.Dao.checkAuthentication(Dao.java:26)
+	at com.atm.dao.BalanceDao.balanceCheck(BalanceDao.java:28)
+	at com.atm.controllers.rest.BalanceController.checkBalance(BalanceController.java:33)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:104)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:892)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:797)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1039)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1005)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:908)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:660)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:882)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:118)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:92)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:118)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:118)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:118)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:526)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:860)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1587)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:835)
+Caused by: com.mysql.cj.exceptions.CJCommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:61)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:105)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:151)
+	at com.mysql.cj.exceptions.ExceptionFactory.createCommunicationsException(ExceptionFactory.java:167)
+	at com.mysql.cj.protocol.a.NativeSocketConnection.connect(NativeSocketConnection.java:91)
+	at com.mysql.cj.NativeSession.connect(NativeSession.java:150)
+	at com.mysql.cj.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:947)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:817)
+	... 74 common frames omitted
+Caused by: java.net.ConnectException: Connection refused (Connection refused)
+	at java.base/java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.base/java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:399)
+	at java.base/java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:242)
+	at java.base/java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:224)
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:403)
+	at java.base/java.net.Socket.connect(Socket.java:591)
+	at com.mysql.cj.protocol.StandardSocketFactory.connect(StandardSocketFactory.java:155)
+	at com.mysql.cj.protocol.a.NativeSocketConnection.connect(NativeSocketConnection.java:65)
+	... 77 common frames omitted
+2019-09-17 09:06:40,100 ERROR com.atm.dao.Dao [http-nio-8084-exec-1] Error : Failed to obtain JDBC Connection; nested exception is com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server. in checkAuthentication method
+2019-09-17 09:06:40,135 INFO com.atm.controllers.HttpController [DefaultMessageListenerContainer-1] Sending Http Request to http://localhost:8084/check
+2019-09-17 09:07:09,928 INFO com.atm.controllers.iso.ISOBalanceController [main] Built ISO Message to Check Balance
+2019-09-17 09:07:10,247 INFO com.atm.dao.Dao [http-nio-8084-exec-3] Authentication succeed
+2019-09-17 09:07:10,249 INFO com.atm.services.BalanceService [http-nio-8084-exec-3] Success checking balance of 123456 with amount 143900
+2019-09-17 09:07:10,254 INFO com.atm.controllers.HttpController [DefaultMessageListenerContainer-1] Sending Http Request to http://localhost:8084/check
+2019-09-17 10:14:04,534 INFO com.atm.controllers.iso.ISOBalanceController [main] Built ISO Message to Check Balance
+2019-09-17 10:14:04,564 INFO com.atm.dao.Dao [http-nio-8084-exec-5] Authentication failed
+2019-09-17 10:14:04,571 INFO com.atm.controllers.HttpController [DefaultMessageListenerContainer-1] Sending Http Request to http://localhost:8084/check
+2019-09-17 10:14:22,765 INFO com.atm.controllers.iso.ISOTransInquiryController [main] Built ISO Message for Transfer Inquiry
+2019-09-17 10:14:22,799 INFO com.atm.dao.TransferDao [http-nio-8084-exec-7] Beneficiary bank number does not exist
+2019-09-17 10:14:22,801 INFO com.atm.controllers.HttpController [DefaultMessageListenerContainer-1] Sending Http Request to http://localhost:8084/transinquiry
+2019-09-17 13:02:29,973 INFO com.atm.AtmApplication [main] Starting AtmApplication on Ariansyah with PID 1073 (/Users/ariansyah.nugroho/Downloads/G2Academy/Code/Project/ATM_Project/atm/target/classes started by ariansyah.nugroho in /Users/ariansyah.nugroho/Downloads/G2Academy/Code/Project/ATM_Project/atm)
+2019-09-17 13:02:29,975 DEBUG com.atm.AtmApplication [main] Running with Spring Boot v2.1.8.RELEASE, Spring v5.1.9.RELEASE
+2019-09-17 13:02:29,976 INFO com.atm.AtmApplication [main] The following profiles are active: @spring.profiles.active@
+2019-09-17 13:02:32,234 INFO com.atm.AtmApplication [main] Started AtmApplication in 2.786 seconds (JVM running for 3.643)
+2019-09-17 13:03:13,880 INFO com.atm.controllers.iso.ISOPaymentInquiryController [main] Built ISO Message for Payment Inquiry
+2019-09-17 13:03:14,617 INFO com.atm.dao.PaymentDao [http-nio-8084-exec-1] Virtual Account does not exist
+2019-09-17 13:03:14,641 INFO com.atm.controllers.HttpController [DefaultMessageListenerContainer-1] Sending Http Request to http://localhost:8084/paymentinquiry
+2019-09-17 13:03:25,431 INFO com.atm.controllers.iso.ISOBalanceController [main] Built ISO Message to Check Balance
+2019-09-17 13:03:25,461 INFO com.atm.dao.Dao [http-nio-8084-exec-3] Authentication failed
+2019-09-17 13:03:25,466 INFO com.atm.controllers.HttpController [DefaultMessageListenerContainer-1] Sending Http Request to http://localhost:8084/check
+2019-09-17 13:03:36,254 INFO com.atm.controllers.iso.ISOBalanceController [main] Built ISO Message to Check Balance
+2019-09-17 13:03:36,289 INFO com.atm.controllers.HttpController [DefaultMessageListenerContainer-1] Sending Http Request to http://localhost:8084/check
+2019-09-17 13:07:02,628 INFO com.atm.AtmApplication [main] Starting AtmApplication on Ariansyah with PID 1107 (/Users/ariansyah.nugroho/Downloads/G2Academy/Code/Project/ATM_Project/atm/target/classes started by ariansyah.nugroho in /Users/ariansyah.nugroho/Downloads/G2Academy/Code/Project/ATM_Project/atm)
+2019-09-17 13:07:02,630 DEBUG com.atm.AtmApplication [main] Running with Spring Boot v2.1.8.RELEASE, Spring v5.1.9.RELEASE
+2019-09-17 13:07:02,631 INFO com.atm.AtmApplication [main] The following profiles are active: @spring.profiles.active@
+2019-09-17 13:07:05,911 INFO com.atm.AtmApplication [main] Started AtmApplication in 3.765 seconds (JVM running for 4.577)
+2019-09-17 13:07:18,091 INFO com.atm.controllers.iso.ISOPaymentInquiryController [main] Built ISO Message for Payment Inquiry
+2019-09-17 13:07:18,821 INFO com.atm.dao.PaymentDao [http-nio-8084-exec-1] Authentication Failed
+2019-09-17 13:07:18,855 INFO com.atm.controllers.HttpController [DefaultMessageListenerContainer-1] Sending Http Request to http://localhost:8084/paymentinquiry
+2019-09-17 13:07:33,387 INFO com.atm.controllers.iso.ISOPaymentInquiryController [main] Built ISO Message for Payment Inquiry
+2019-09-17 13:07:33,414 INFO com.atm.dao.Dao [http-nio-8084-exec-3] Authentication succeed
+2019-09-17 13:07:33,418 INFO com.atm.dao.PaymentDao [http-nio-8084-exec-3] Virtual Account does not exist
+2019-09-17 13:07:33,420 INFO com.atm.controllers.HttpController [DefaultMessageListenerContainer-1] Sending Http Request to http://localhost:8084/paymentinquiry
+2019-09-17 13:07:46,082 INFO com.atm.controllers.iso.ISOPaymentInquiryController [main] Built ISO Message for Payment Inquiry
+2019-09-17 13:07:46,116 INFO com.atm.dao.Dao [http-nio-8084-exec-4] Authentication succeed
+2019-09-17 13:07:46,119 INFO com.atm.services.BalanceService [http-nio-8084-exec-4] Success checking balance of 123456 with amount 143900
+2019-09-17 13:07:46,122 INFO com.atm.services.PaymentInquiryService [http-nio-8084-exec-4] Success payment inquiry with amount 50000 to 888888 
+2019-09-17 13:07:46,131 INFO com.atm.controllers.HttpController [DefaultMessageListenerContainer-1] Sending Http Request to http://localhost:8084/paymentinquiry
+2019-09-17 13:07:49,166 INFO com.atm.controllers.iso.ISOPaymentController [main] Built ISO Message for Payment
+2019-09-17 13:07:49,212 INFO com.atm.services.BalanceService [http-nio-8084-exec-6] Success checking balance of 123456 with amount 93900
+2019-09-17 13:07:49,212 INFO com.atm.services.PaymentService [http-nio-8084-exec-6] Success payment with amount 50000 to 888888 
+2019-09-17 13:07:49,217 INFO com.atm.controllers.HttpController [DefaultMessageListenerContainer-1] Sending Http Request to http://localhost:8084/payment
+2019-09-17 13:14:04,175 INFO com.atm.AtmApplication [main] Starting AtmApplication on Ariansyah with PID 1217 (/Users/ariansyah.nugroho/Downloads/G2Academy/Code/Project/ATM_Project/atm/target/classes started by ariansyah.nugroho in /Users/ariansyah.nugroho/Downloads/G2Academy/Code/Project/ATM_Project/atm)
+2019-09-17 13:14:04,177 DEBUG com.atm.AtmApplication [main] Running with Spring Boot v2.1.8.RELEASE, Spring v5.1.9.RELEASE
+2019-09-17 13:14:04,177 INFO com.atm.AtmApplication [main] The following profiles are active: @spring.profiles.active@
+2019-09-17 13:14:07,094 INFO com.atm.AtmApplication [main] Started AtmApplication in 3.259 seconds (JVM running for 4.034)
+2019-09-17 13:14:11,922 INFO com.atm.controllers.iso.ISOBalanceController [main] Built ISO Message to Check Balance
+2019-09-17 13:14:12,661 INFO com.atm.dao.Dao [http-nio-8084-exec-1] Authentication succeed
+2019-09-17 13:14:12,663 INFO com.atm.services.BalanceService [http-nio-8084-exec-1] Success checking balance of 123456 with amount 93900
+2019-09-17 13:14:12,697 INFO com.atm.controllers.HttpController [DefaultMessageListenerContainer-1] Sending Http Request to http://localhost:8084/check
+2019-09-17 13:18:44,612 INFO com.atm.AtmApplication [main] Starting AtmApplication on Ariansyah with PID 1243 (/Users/ariansyah.nugroho/Downloads/G2Academy/Code/Project/ATM_Project/atm/target/classes started by ariansyah.nugroho in /Users/ariansyah.nugroho/Downloads/G2Academy/Code/Project/ATM_Project/atm)
+2019-09-17 13:18:44,615 DEBUG com.atm.AtmApplication [main] Running with Spring Boot v2.1.8.RELEASE, Spring v5.1.9.RELEASE
+2019-09-17 13:18:44,615 INFO com.atm.AtmApplication [main] The following profiles are active: @spring.profiles.active@
+2019-09-17 13:18:46,940 INFO com.atm.AtmApplication [main] Started AtmApplication in 2.645 seconds (JVM running for 3.412)
+2019-09-17 13:19:03,043 INFO com.atm.controllers.iso.ISOBalanceController [main] Built ISO Message to Check Balance
+2019-09-17 13:19:03,292 INFO com.atm.controllers.iso.ISOController [DefaultMessageListenerContainer-1] Parsing ISO Message
+2019-09-17 13:19:03,571 INFO com.atm.controllers.iso.ISOController [http-nio-8084-exec-1] Parsing ISO Message
+2019-09-17 13:19:03,774 INFO com.atm.dao.Dao [http-nio-8084-exec-1] Authentication succeed
+2019-09-17 13:19:03,776 INFO com.atm.services.BalanceService [http-nio-8084-exec-1] Success checking balance of 123456 with amount 93900
+2019-09-17 13:19:03,799 INFO com.atm.controllers.iso.ISOController [main] Parsing ISO Message
+2019-09-17 13:19:03,808 INFO com.atm.controllers.HttpController [DefaultMessageListenerContainer-1] Sending Http Request to http://localhost:8084/check
+2019-09-17 13:21:42,093 INFO com.atm.AtmApplication [main] Starting AtmApplication on Ariansyah with PID 1276 (/Users/ariansyah.nugroho/Downloads/G2Academy/Code/Project/ATM_Project/atm/target/classes started by ariansyah.nugroho in /Users/ariansyah.nugroho/Downloads/G2Academy/Code/Project/ATM_Project/atm)
+2019-09-17 13:21:42,095 DEBUG com.atm.AtmApplication [main] Running with Spring Boot v2.1.8.RELEASE, Spring v5.1.9.RELEASE
+2019-09-17 13:21:42,095 INFO com.atm.AtmApplication [main] The following profiles are active: @spring.profiles.active@
+2019-09-17 13:21:45,806 INFO com.atm.AtmApplication [main] Started AtmApplication in 4.06 seconds (JVM running for 4.774)
+2019-09-17 13:21:50,986 INFO com.atm.controllers.iso.ISOBalanceController [main] Built ISO Message to Check Balance
+2019-09-17 13:21:51,236 INFO com.atm.controllers.iso.ISOController [DefaultMessageListenerContainer-1] Parsing ISO Message
+2019-09-17 13:21:51,444 INFO com.atm.controllers.iso.ISOController [http-nio-8084-exec-1] Parsing ISO Message
+2019-09-17 13:21:51,600 INFO com.atm.dao.Dao [http-nio-8084-exec-1] Authentication succeed
+2019-09-17 13:21:51,601 INFO com.atm.services.BalanceService [http-nio-8084-exec-1] Success checking balance of 123456 with amount 93900
+2019-09-17 13:21:51,635 INFO com.atm.controllers.iso.ISOController [main] Parsing ISO Message
+2019-09-17 13:21:51,634 INFO com.atm.controllers.HttpController [DefaultMessageListenerContainer-1] Sending Http Request to http://localhost:8084/check
+2019-09-17 13:30:14,711 ERROR com.atm.Client [main] For input string: "f"
+2019-09-17 13:32:17,756 ERROR com.atm.Client [main] For input string: "f"
+2019-09-17 13:33:13,418 ERROR com.atm.Client [main] For input string: "f"
+2019-09-17 13:33:17,378 INFO com.atm.controllers.iso.ISOBalanceController [main] Built ISO Message to Check Balance
+2019-09-17 13:33:17,634 INFO com.atm.controllers.iso.ISOController [DefaultMessageListenerContainer-1] Parsing ISO Message
+2019-09-17 13:33:17,653 INFO com.atm.controllers.iso.ISOController [http-nio-8084-exec-3] Parsing ISO Message
+2019-09-17 13:33:17,659 INFO com.atm.dao.Dao [http-nio-8084-exec-3] Authentication succeed
+2019-09-17 13:33:17,660 INFO com.atm.services.BalanceService [http-nio-8084-exec-3] Success checking balance of 123456 with amount 93900
+2019-09-17 13:33:17,670 INFO com.atm.controllers.HttpController [DefaultMessageListenerContainer-1] Sending Http Request to http://localhost:8084/check
+2019-09-17 13:33:17,681 INFO com.atm.controllers.iso.ISOController [main] Parsing ISO Message
+2019-09-17 13:55:11,036 INFO com.atm.controllers.iso.ISOSwitchTransInquiryController [main] Built ISO Message for Transfer Inquiry
+2019-09-17 13:55:11,323 INFO com.atm.controllers.iso.ISOController [DefaultMessageListenerContainer-1] Parsing ISO Message
+2019-09-17 13:55:11,358 INFO com.atm.controllers.iso.ISOController [http-nio-8084-exec-4] Parsing ISO Message
+2019-09-17 13:55:11,374 INFO com.atm.dao.Dao [http-nio-8084-exec-4] Authentication succeed
+2019-09-17 13:55:12,188 INFO com.atm.controllers.HttpController [http-nio-8084-exec-4] Sending Http Request to http://localhost:8083/switchingtransinquiry
+2019-09-17 13:55:12,194 INFO com.atm.controllers.HttpController [DefaultMessageListenerContainer-1] Sending Http Request to http://localhost:8084/switchingtransinquiry
+2019-09-17 13:55:12,203 INFO com.atm.controllers.iso.ISOController [main] Parsing ISO Message
+2019-09-17 13:55:18,053 INFO com.atm.controllers.iso.ISOSwitchTransferController [main] Built ISO Message for Transfer Inquiry
+2019-09-17 13:55:18,070 INFO com.atm.controllers.iso.ISOController [DefaultMessageListenerContainer-1] Parsing ISO Message
+2019-09-17 13:55:18,079 INFO com.atm.controllers.iso.ISOController [http-nio-8084-exec-6] Parsing ISO Message
+2019-09-17 13:55:18,125 INFO com.atm.controllers.HttpController [http-nio-8084-exec-6] Sending Http Request to http://localhost:8083/switchingtransfer
+2019-09-17 13:55:18,129 INFO com.atm.controllers.iso.ISOController [http-nio-8084-exec-6] Parsing ISO Message
+2019-09-17 13:55:18,142 INFO com.atm.services.BalanceService [http-nio-8084-exec-6] Success checking balance of 123456 with amount 67400
+2019-09-17 13:55:18,143 INFO com.atm.services.TransferService [http-nio-8084-exec-6] Success transfer from 123456 to 222111
+2019-09-17 13:55:18,149 INFO com.atm.controllers.HttpController [DefaultMessageListenerContainer-1] Sending Http Request to http://localhost:8084/switchingtransfer
+2019-09-17 13:55:18,159 INFO com.atm.controllers.iso.ISOController [main] Parsing ISO Message
+2019-09-17 14:58:24,120 INFO com.atm.controllers.iso.ISOWithdrawController [main] Built ISO Message for Cash Withdrawal
+2019-09-17 14:58:24,185 INFO com.atm.controllers.iso.ISOController [DefaultMessageListenerContainer-1] Parsing ISO Message
+2019-09-17 14:58:24,215 INFO com.atm.controllers.iso.ISOController [http-nio-8084-exec-8] Parsing ISO Message
+2019-09-17 14:58:24,235 INFO com.atm.dao.Dao [http-nio-8084-exec-8] Authentication succeed
+2019-09-17 14:58:24,236 INFO com.atm.services.BalanceService [http-nio-8084-exec-8] Success checking balance of 999999 with amount 222500
+2019-09-17 14:58:24,249 INFO com.atm.services.BalanceService [http-nio-8084-exec-8] Success checking balance of 999999 with amount 172500
+2019-09-17 14:58:24,250 INFO com.atm.services.WithdrawService [http-nio-8084-exec-8] Success withdrawing 50000 from 999999
+2019-09-17 14:58:24,260 INFO com.atm.controllers.HttpController [DefaultMessageListenerContainer-1] Sending Http Request to http://localhost:8084/withdraw
+2019-09-17 14:58:24,269 INFO com.atm.controllers.iso.ISOController [main] Parsing ISO Message
+2019-09-17 16:47:54,349 INFO com.atm.controllers.iso.ISOPaymentInquiryController [main] Built ISO Message for Payment Inquiry
+2019-09-17 16:47:54,437 INFO com.atm.controllers.iso.ISOController [DefaultMessageListenerContainer-1] Parsing ISO Message
+2019-09-17 16:47:54,481 INFO com.atm.controllers.iso.ISOController [http-nio-8084-exec-9] Parsing ISO Message
+2019-09-17 16:47:54,504 INFO com.atm.dao.Dao [http-nio-8084-exec-9] Authentication succeed
+2019-09-17 16:47:54,518 INFO com.atm.dao.PaymentDao [http-nio-8084-exec-9] Virtual Account does not exist
+2019-09-17 16:47:54,527 INFO com.atm.controllers.HttpController [DefaultMessageListenerContainer-1] Sending Http Request to http://localhost:8084/paymentinquiry
+2019-09-17 16:47:54,529 INFO com.atm.controllers.iso.ISOController [main] Parsing ISO Message

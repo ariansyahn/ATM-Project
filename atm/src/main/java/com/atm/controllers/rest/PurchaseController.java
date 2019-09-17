@@ -20,7 +20,8 @@ public class PurchaseController {
     public String purchaseInquiry(@RequestBody String message){
         String response="";
         try{
-            System.out.println(message);
+//            System.out.println(message);
+            System.out.println("Receive Purchase from Client : ");
             isoMsg = isoController.parseISOMessage(message);
             String accNumber = isoMsg.getString(2);
             String phoneNumber = isoMsg.getString(62);
@@ -34,7 +35,7 @@ public class PurchaseController {
                     Thread.currentThread().getStackTrace()[1].getMethodName());
             System.out.println(e.getMessage());
         }
-        System.out.println(response);
+//        System.out.println(response);
         return response;
     }
 

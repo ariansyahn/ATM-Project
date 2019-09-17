@@ -23,7 +23,8 @@ public class BalanceController {
         String response="";
         try{
 //            jmsTemplate.convertAndSend("bank",message);
-            System.out.println(message);
+//            System.out.println(message);
+            System.out.println("Receive Check Balance from Client : ");
             isoMsg = isoController.parseISOMessage(message);
             String accNumber = isoMsg.getString(2);
             String pinNumber = isoMsg.getString(52);
@@ -36,7 +37,7 @@ public class BalanceController {
                     Thread.currentThread().getStackTrace()[1].getMethodName());
             System.out.println(e.getMessage());
         }
-        System.out.println(response);
+//        System.out.println(response);
         return response;
     }
 }

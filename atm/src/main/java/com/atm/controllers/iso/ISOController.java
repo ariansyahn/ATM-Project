@@ -30,9 +30,29 @@ public class ISOController {
             isoMsg = new ISOMsg();
             isoMsg.setPackager(packager);
             isoMsg.unpack(message.getBytes());
+            printISOMessage(isoMsg);
+//            System.out.println("Hasil parse "+isoMsg.toString());
+//            return isoMsg;
+            logger.info("Parsing ISO Message");
+        }catch (Exception e){
+            logger.error("Error : {} in {} method",e.getMessage(),
+                    Thread.currentThread().getStackTrace()[1].getMethodName());
+            System.out.println(e.getMessage());
+        }
+        return isoMsg;
+    }
+    public ISOMsg parseISOMessageInClient(String message){
+        ISOMsg isoMsg=null;
+        try{
+            InputStream is = getClass().getResourceAsStream("/fields.xml");
+            GenericPackager packager = new GenericPackager(is);
+            isoMsg = new ISOMsg();
+            isoMsg.setPackager(packager);
+            isoMsg.unpack(message.getBytes());
 //            printISOMessage(isoMsg);
 //            System.out.println("Hasil parse "+isoMsg.toString());
 //            return isoMsg;
+            logger.info("Parsing ISO Message");
         }catch (Exception e){
             logger.error("Error : {} in {} method",e.getMessage(),
                     Thread.currentThread().getStackTrace()[1].getMethodName());

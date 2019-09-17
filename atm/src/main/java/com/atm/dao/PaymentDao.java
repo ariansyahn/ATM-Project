@@ -28,21 +28,22 @@ public class PaymentDao {
         Dao dao = new Dao(jdbc);
         String getResponse="";
         try{
-            if (dao.isAccountExist(virtualAccount)){
-                getResponse= paymentInquiryService.buildResponseMessage (accountNumber,"76",0,
-                        forwardingInstitutionCode,"Null",server,port);
-                logger.info("Virtual Account does not exist");
-            }else {
-                if(dao.checkAuthentication (accountNumber, pinNumber)){
+            if(dao.checkAuthentication (accountNumber, pinNumber)){
+                if (dao.isAccountExist(virtualAccount)){
+                    getResponse= paymentInquiryService.buildResponseMessage (accountNumber,"76",0,
+                            forwardingInstitutionCode,"Null",server,port);
+                    logger.info("Virtual Account does not exist");
+                }else {
                     String getResult = paymentInquiryService.paymentInquiryQuery(accountNumber,amount,virtualAccount);
                     String[] arrOfStr = getResult.split(",");
                     getResponse= paymentInquiryService.buildResponseMessage (accountNumber,arrOfStr[0],
                             Integer.parseInt(arrOfStr[1]),forwardingInstitutionCode,arrOfStr[2],
                             server,port);
-                }else{
-                    getResponse = paymentInquiryService.buildResponseMessage (accountNumber,"05",
-                            0,forwardingInstitutionCode, "Null",server,port);
                 }
+            }else{
+                getResponse = paymentInquiryService.buildResponseMessage (accountNumber,"05",
+                        0,forwardingInstitutionCode, "Null",server,port);
+                logger.info("Authentication Failed");
             }
             socket = new Socket(server, Integer.parseInt(port));
             if (socket.isConnected()){
