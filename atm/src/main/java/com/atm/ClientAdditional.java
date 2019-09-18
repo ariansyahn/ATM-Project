@@ -1,5 +1,6 @@
 package com.atm;
 import com.atm.controllers.iso.*;
+import com.atm.controllers.HttpController;
 import com.atm.controllers.messaging.MessageSender;
 import org.jpos.iso.ISOMsg;
 import org.slf4j.Logger;
@@ -15,9 +16,9 @@ public class ClientAdditional {
     private static MessageSender messageSender = new MessageSender();
     private static Scanner sc = new Scanner(System.in);
     private static ISOController isoController = new ISOController();
-//    private static HttpController httpController = new HttpController();
+    //    private static HttpController httpController = new HttpController();
     private static String acc_number,pin;
-    private static final Logger logger = LoggerFactory.getLogger(ClientAdditional.class);
+    private static final Logger logger = LoggerFactory.getLogger(Client.class);
     private static ServerSocket serverSocket;
     private static Socket socket;
     public static void main(String[] args) {
@@ -75,8 +76,9 @@ public class ClientAdditional {
                                     ISOTransferController isoTransferController = new ISOTransferController();
                                     System.out.print("Masukkan No Rekening Tujuan : ");
                                     norekTujuan = sc.nextLine();
-                                    System.out.print("Masukkan Nominal : Rp.");
-                                    jumlah = Integer.parseInt(sc.nextLine());
+//                                    System.out.print("Masukkan Nominal : Rp.");
+//                                    jumlah = Integer.parseInt(sc.nextLine());
+                                    jumlah = validasiJumlah();
                                     message = isoTransInquiryController.buildISO(acc_number,pin,jumlah,"sama",norekTujuan,server);
 //                                url="transinquiry";
 //                                result = httpController.sendHttpRequest(message,url);
@@ -143,8 +145,9 @@ public class ClientAdditional {
                                     norekTujuan = sc.nextLine();
                                     String kodeBank = norekTujuan.substring(0,4);
                                     String norekTujuanSub = norekTujuan.substring(4);
-                                    System.out.print("Masukkan Nominal : Rp.");
-                                    jumlah = Integer.parseInt(sc.nextLine());
+//                                    System.out.print("Masukkan Nominal : Rp.");
+//                                    jumlah = Integer.parseInt(sc.nextLine());
+                                    jumlah = validasiJumlah();
                                     message = isoSwitchTransInquiryController.buildISO(acc_number,pin,jumlah,kodeBank,norekTujuanSub,server);
 //                                url="switchingtransinquiry";
 //                                result = httpController.sendHttpRequest(message,url);
@@ -272,6 +275,7 @@ public class ClientAdditional {
                         }catch (Exception e){
                             System.out.println("Error : "+e.getMessage());
                         }
+                        break;
                     case 4:
                         try {
                             ISOBalanceController isoBalanceController = new ISOBalanceController();
@@ -308,8 +312,9 @@ public class ClientAdditional {
                             String virtualAccount;
                             System.out.print("Masukkan Nomor Virtual Account : ");
                             virtualAccount = sc.nextLine();
-                            System.out.print("Masukkan Nominal : Rp.");
-                            jumlah = Integer.parseInt(sc.nextLine());
+//                            System.out.print("Masukkan Nominal : Rp.");
+//                            jumlah = Integer.parseInt(sc.nextLine());
+                            jumlah = validasiJumlah();
                             message = isoPaymentInquiryController.buildISO(acc_number,pin,jumlah,
                                     "89508",virtualAccount,server);
 //                        url="paymentinquiry";
@@ -411,59 +416,92 @@ public class ClientAdditional {
 
     private static Integer pilihanTarikTunai(){
         int jumlah=0,opsi;
-        try {
-            System.out.println("1.50000");
-            System.out.println("2.100000");
-            System.out.println("3.200000");
-            System.out.println("4.Jumlah lainnya");
-            System.out.print("Masukkan Pilihan : ");
-            opsi = Integer.parseInt(sc.nextLine());
-            switch (opsi){
-                case 1:
-                    jumlah=50000;
-                    break;
-                case 2:
-                    jumlah=100000;
-                    break;
-                case 3:
-                    jumlah=200000;
-                    break;
-                case 4:
-                    do {
-                        System.out.print("Masukkan nominal (kelipatan 50000) : ");
-                        jumlah = Integer.parseInt(sc.nextLine());
-                    }while (jumlah%50000!=0);
-                    break;
-                default:
-                    System.out.println("Invalid input");
-                    break;
+        System.out.println("1.50000");
+        System.out.println("2.100000");
+        System.out.println("3.200000");
+        System.out.println("4.Jumlah lainnya");
+        label:
+        while (true){
+            try {
+                System.out.print("Masukkan Pilihan : ");
+                opsi = Integer.parseInt(sc.nextLine());
+                switch (opsi){
+                    case 1:
+                        jumlah=50000;
+                        break label;
+                    case 2:
+                        jumlah=100000;
+                        break label;
+                    case 3:
+                        jumlah=200000;
+                        break label;
+                    case 4:
+                        do {
+                            System.out.print("Masukkan nominal (kelipatan 50000) : ");
+                            jumlah = Integer.parseInt(sc.nextLine());
+                        }while (jumlah%50000!=0);
+                        break label;
+                    default:
+                        System.out.println("Invalid input");
+                        break;
+                }
+            }catch (Exception e){
+                logger.error(e.getMessage());
+                System.out.println(e.getMessage());
             }
-        }catch (Exception e){
-            logger.error(e.getMessage());
-            System.out.println(e.getMessage());
         }
+        return jumlah;
+    }
+
+    private static Integer validasiJumlah(){
+        int jumlah=0;
+        do{
+            System.out.print("Masukkan Nominal (Minimal 10000) : Rp.");
+            jumlah = Integer.parseInt(sc.nextLine());
+        }while (jumlah<10000);
         return jumlah;
     }
 
     private static Integer pilihanPurchase(){
         int jumlah=0,opsi;
-        try{
-            System.out.println("1.25000\t\t4.200000");
-            System.out.println("2.50000\t\t5.300000");
-            System.out.println("3.100000\t6.500000");
-            System.out.print("Masukkan Pilihan : ");
-            opsi = Integer.parseInt(sc.nextLine());
-            if (opsi==1) jumlah=25000;
-            else if (opsi==2) jumlah=50000;
-            else if (opsi==3) jumlah=100000;
-            else if (opsi==4) jumlah=200000;
-            else if (opsi==5) jumlah=300000;
-            else if (opsi==6) jumlah=500000;
-            else System.out.println("Invalid input");
-        }catch (Exception e){
-            logger.error(e.getMessage());
-            System.out.println(e.getMessage());
+        System.out.println("1.25000\t\t4.200000");
+        System.out.println("2.50000\t\t5.300000");
+        System.out.println("3.100000\t6.500000");
+        while (true){
+            try{
+                System.out.print("Masukkan Pilihan : ");
+                opsi = Integer.parseInt(sc.nextLine());
+                if (opsi==1) {
+                    jumlah=25000;
+                    break;
+                }
+                else if (opsi==2) {
+                    jumlah=50000;
+                    break;
+                }
+                else if (opsi==3) {
+                    jumlah=100000;
+                    break;
+                }
+                else if (opsi==4) {
+                    jumlah=200000;
+                    break;
+                }
+                else if (opsi==5) {
+                    jumlah=300000;
+                    break;
+                }
+                else if (opsi==6) {
+                    jumlah=500000;
+                    break;
+                }
+                else System.out.println("Invalid input");
+            }catch (Exception e){
+                logger.error(e.getMessage());
+                System.out.println(e.getMessage());
+            }
         }
+
         return jumlah;
     }
 }

@@ -18,36 +18,6 @@ public class Dao {
         this.jdbc = jdbc;
     }
 
-    boolean checkAuthentication(String accountNumber, String pinNumber){
-        boolean status = false;
-        try {
-            String sql = "select * from account where acc_number='" + accountNumber + "'";
-            List<Map<String, Object>> accounts = jdbc.queryForList(sql);
-            if (!accounts.isEmpty()) {
-                for (Map<String, Object> account : accounts) {
-                    for (Iterator<Map.Entry<String, Object>> itr = account.entrySet().iterator(); itr.hasNext(); ) {
-                        Map.Entry<String, Object> entry = itr.next();
-                        if (entry.getKey().equalsIgnoreCase("pin")) {
-                            String pincheck = entry.getValue().toString();
-                            if (Integer.parseInt(pinNumber) == Integer.parseInt(pincheck)) {
-                                status = true;
-                                logger.info("Authentication succeed");
-                            } else {
-                                status = false;
-                                logger.info("Authentication failed");
-                            }
-                        }
-                    }
-                }
-            }
-        }catch (Exception e){
-            logger.error("Error : {} in {} method",e.getMessage(),
-                    Thread.currentThread().getStackTrace()[1].getMethodName());
-            System.out.println ("Error: "+e.getMessage ());
-        }
-        return status;
-    }
-
     boolean isAccountExist(String accountNumber){
         boolean status = false;
         try {
@@ -61,8 +31,10 @@ public class Dao {
                             String accountCheck = entry.getValue().toString();
                             if (accountCheck.equalsIgnoreCase(accountNumber)) {
                                 status = true;
+                                logger.info("Authentication succeed");
                             } else {
                                 status = false;
+                                logger.info("Authentication failed");
                             }
                         }
                     }

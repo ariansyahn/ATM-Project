@@ -11,9 +11,6 @@ import org.springframework.jdbc.core.JdbcTemplate;
 import java.io.InputStream;
 import java.text.SimpleDateFormat;
 import java.util.Date;
-import java.util.Iterator;
-import java.util.List;
-import java.util.Map;
 
 public class SwitchTransInquiryService {
     private static final Logger logger = LoggerFactory.getLogger(SwitchTransInquiryService.class);

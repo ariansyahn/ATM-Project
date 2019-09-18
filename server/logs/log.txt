@@ -1,0 +1,20 @@
+2019-09-18 00:56:46,525 INFO com.secondatm.ServerApplication [main] Starting ServerApplication on Ariansyah with PID 1918 (/Users/ariansyah.nugroho/Downloads/G2Academy/Code/Project/ATM_Project/server/target/classes started by ariansyah.nugroho in /Users/ariansyah.nugroho/Downloads/G2Academy/Code/Project/ATM_Project/server)
+2019-09-18 00:56:46,526 DEBUG com.secondatm.ServerApplication [main] Running with Spring Boot v2.1.8.RELEASE, Spring v5.1.9.RELEASE
+2019-09-18 00:56:46,527 INFO com.secondatm.ServerApplication [main] The following profiles are active: @spring.profiles.active@
+2019-09-18 00:56:48,382 INFO com.secondatm.ServerApplication [main] Started ServerApplication in 2.392 seconds (JVM running for 3.249)
+2019-09-18 00:58:15,399 INFO com.secondatm.dao.Dao [http-nio-8082-exec-1] Authentication succeed
+2019-09-18 00:58:15,402 INFO com.secondatm.services.BalanceService [http-nio-8082-exec-1] Success checking balance of 999999 with amount 182500
+2019-09-18 00:58:15,403 INFO com.secondatm.services.TransInquiryService [http-nio-8082-exec-1] Success transfer inquiry from 999999 to 222111
+2019-09-18 00:58:19,264 INFO com.secondatm.services.TransferService [http-nio-8082-exec-3] Success transfer to 222111
+2019-09-18 10:42:01,321 INFO com.secondatm.dao.Dao [http-nio-8082-exec-5] Authentication succeed
+2019-09-18 10:42:01,326 INFO com.secondatm.services.BalanceService [http-nio-8082-exec-5] Success checking balance of 999999 with amount 700000
+2019-09-18 10:42:01,327 INFO com.secondatm.services.TransInquiryService [http-nio-8082-exec-5] Success transfer inquiry from 999999 to 222111
+2019-09-18 10:42:15,528 INFO com.secondatm.dao.Dao [http-nio-8082-exec-6] Authentication succeed
+2019-09-18 10:42:15,529 INFO com.secondatm.services.BalanceService [http-nio-8082-exec-6] Success checking balance of 123456 with amount 1950000
+2019-09-18 10:42:15,530 INFO com.secondatm.services.TransInquiryService [http-nio-8082-exec-6] Success transfer inquiry from 123456 to 222111
+2019-09-18 10:42:24,349 INFO com.secondatm.services.TransferService [http-nio-8082-exec-7] Success transfer to 222111
+2019-09-18 10:42:27,856 INFO com.secondatm.services.TransferService [http-nio-8082-exec-9] Success transfer to 222111
+2019-09-18 11:55:39,550 INFO com.secondatm.dao.Dao [http-nio-8082-exec-10] Authentication succeed
+2019-09-18 11:55:39,552 INFO com.secondatm.services.BalanceService [http-nio-8082-exec-10] Success checking balance of 123456 with amount 1777000
+2019-09-18 11:55:39,553 INFO com.secondatm.services.TransInquiryService [http-nio-8082-exec-10] Success transfer inquiry from 123456 to 222111
+2019-09-18 11:55:55,966 INFO com.secondatm.services.TransferService [http-nio-8082-exec-2] Success transfer to 222111

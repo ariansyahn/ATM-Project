@@ -66,7 +66,7 @@ public class PurchaseDao {
                     Integer.parseInt(arrayStr[1]),phoneNumber,server,port);
             socket = new Socket(server, Integer.parseInt(port));
             if (socket.isConnected()){
-                System.out.println("Connect to socket");
+                System.out.println("Connect to socket with Port : "+Integer.parseInt(port));
             }
             DataOutputStream dout = new DataOutputStream(socket.getOutputStream());
             dout.writeUTF(getResponse);

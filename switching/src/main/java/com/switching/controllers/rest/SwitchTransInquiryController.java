@@ -33,7 +33,7 @@ public class SwitchTransInquiryController {
                     Thread.currentThread().getStackTrace()[1].getMethodName());
             System.out.println(e.getMessage());
         }
-        System.out.println(response);
+//        System.out.println(response);
         return response;
     }
 

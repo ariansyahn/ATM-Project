@@ -1,6 +1,5 @@
 package com.secondatm.dao;
 
-import com.secondatm.controllers.HttpController;
 import com.secondatm.controllers.iso.ISOController;
 import com.secondatm.services.TransInquiryService;
 import com.secondatm.services.TransferService;
@@ -11,8 +10,6 @@ import org.springframework.jdbc.core.JdbcTemplate;
 
 public class TransferDao {
     private static final Logger logger = LoggerFactory.getLogger(TransferDao.class);
-    private static ISOController isoController = new ISOController();
-    private static HttpController httpController = new HttpController();
     @Autowired
     private JdbcTemplate jdbc;
 
@@ -50,7 +47,6 @@ public class TransferDao {
     public String transfer(String accNumber, String pinNumber,int amount,String beneficiaryNumber) {
         TransferService transferService = new TransferService (jdbc);
         String getResponse="";
-//        System.out.println("bujang");
         try{
             String getResult = transferService.transferQuery(amount,beneficiaryNumber);
             getResponse= transferService.buildResponseMessage (

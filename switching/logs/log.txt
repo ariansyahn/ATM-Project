@@ -1,0 +1,12 @@
+2019-09-18 00:56:31,909 INFO com.switching.SwitchingApplication [main] Starting SwitchingApplication on Ariansyah with PID 1888 (/Users/ariansyah.nugroho/Downloads/G2Academy/Code/Project/ATM_Project/switching/target/classes started by ariansyah.nugroho in /Users/ariansyah.nugroho/Downloads/G2Academy/Code/Project/ATM_Project/switching)
+2019-09-18 00:56:31,912 DEBUG com.switching.SwitchingApplication [main] Running with Spring Boot v2.1.8.RELEASE, Spring v5.1.9.RELEASE
+2019-09-18 00:56:31,913 INFO com.switching.SwitchingApplication [main] The following profiles are active: @spring.profiles.active@
+2019-09-18 00:56:33,903 INFO com.switching.SwitchingApplication [main] Started SwitchingApplication in 2.453 seconds (JVM running for 3.52)
+2019-09-18 00:58:15,434 INFO com.switching.controllers.HttpController [http-nio-8083-exec-1] Sending Http Request to http://localhost:8082/switchingtransinquiry
+2019-09-18 00:58:19,272 INFO com.switching.controllers.HttpController [http-nio-8083-exec-2] Sending Http Request to http://localhost:8082/switchingtransfer
+2019-09-18 10:42:01,341 INFO com.switching.controllers.HttpController [http-nio-8083-exec-3] Sending Http Request to http://localhost:8082/switchingtransinquiry
+2019-09-18 10:42:15,536 INFO com.switching.controllers.HttpController [http-nio-8083-exec-4] Sending Http Request to http://localhost:8082/switchingtransinquiry
+2019-09-18 10:42:24,355 INFO com.switching.controllers.HttpController [http-nio-8083-exec-6] Sending Http Request to http://localhost:8082/switchingtransfer
+2019-09-18 10:42:27,861 INFO com.switching.controllers.HttpController [http-nio-8083-exec-7] Sending Http Request to http://localhost:8082/switchingtransfer
+2019-09-18 11:55:39,563 INFO com.switching.controllers.HttpController [http-nio-8083-exec-8] Sending Http Request to http://localhost:8082/switchingtransinquiry
+2019-09-18 11:55:55,995 INFO com.switching.controllers.HttpController [http-nio-8083-exec-9] Sending Http Request to http://localhost:8082/switchingtransfer

@@ -3,7 +3,6 @@ package com.switching.dao;
 import com.switching.controllers.HttpController;
 import com.switching.controllers.iso.ISOController;
 import com.switching.services.SwitchTransInquiryService;
-import com.switching.services.TransInquiryService;
 import com.switching.services.TransferService;
 import org.jpos.iso.ISOMsg;
 import org.slf4j.Logger;
@@ -37,10 +36,10 @@ public class TransferDao {
 //                String[] arrOfStr = getResult.split(",");
                 getResponse = switchTransInquiryService.buildResponseMessage (
                         accountNumber,"00",amount,beneficiaryNumber);
-                isoController.parseISOMessage(getResponse);
+//                isoController.parseISOMessage(getResponse);
                 String url="switchingtransinquiry";
                 getResponse = httpController.sendHttpRequest(getResponse,url);
-                isoController.parseISOMessage(getResponse);
+//                isoController.parseISOMessage(getResponse);
 //            }else{
 //                getResponse = switchTransInquiryService.buildResponseMessage (
 //                        accountNumber,"05",0, "Null");
@@ -76,7 +75,7 @@ public class TransferDao {
                 amount = amount+6500;
                 getResponse = transferService.buildResponseMessage(isoMsg.getString(2),isoMsg.getString(39),
                         amount,isoMsg.getString(103));
-                System.out.println("Beneficiary : "+isoMsg.getString(103));
+//                System.out.println("Beneficiary : "+isoMsg.getString(103));
             }
 
 //            }else{

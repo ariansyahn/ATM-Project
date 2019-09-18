@@ -1,438 +1,343 @@
-2019-09-17 00:03:20,751 INFO com.atm.AtmApplication [main] Starting AtmApplication on Ariansyah with PID 36259 (/Users/ariansyah.nugroho/Downloads/G2Academy/Code/Project/atm/target/classes started by ariansyah.nugroho in /Users/ariansyah.nugroho/Downloads/G2Academy/Code/Project/atm)
-2019-09-17 00:03:20,757 DEBUG com.atm.AtmApplication [main] Running with Spring Boot v2.1.8.RELEASE, Spring v5.1.9.RELEASE
-2019-09-17 00:03:20,757 INFO com.atm.AtmApplication [main] The following profiles are active: @spring.profiles.active@
-2019-09-17 00:03:23,328 INFO com.atm.AtmApplication [main] Started AtmApplication in 3.022 seconds (JVM running for 33.935)
-2019-09-17 00:04:28,870 INFO com.atm.controllers.iso.ISOTransInquiryController [main] Built ISO Message for Transfer Inquiry
-2019-09-17 00:05:00,044 INFO com.atm.dao.Dao [http-nio-8084-exec-1] Authentication succeed
-2019-09-17 00:05:00,049 INFO com.atm.services.BalanceService [http-nio-8084-exec-1] Success checking balance of 999999 with amount 395500
-2019-09-17 00:05:00,054 INFO com.atm.services.TransInquiryService [http-nio-8084-exec-1] Success transfer inquiry from 999999 to 123456
-2019-09-17 00:05:00,091 INFO com.atm.controllers.HttpController [DefaultMessageListenerContainer-1] Sending Http Request to http://localhost:8084/transinquiry
-2019-09-17 00:05:06,348 INFO com.atm.controllers.iso.ISOTransferController [main] Built ISO Message for Transfer
-2019-09-17 00:05:06,389 INFO com.atm.services.BalanceService [http-nio-8084-exec-2] Success checking balance of 999999 with amount 345500
-2019-09-17 00:05:06,389 INFO com.atm.services.TransferService [http-nio-8084-exec-2] Success transfer from 999999 to 123456
-2019-09-17 00:05:06,402 INFO com.atm.controllers.HttpController [DefaultMessageListenerContainer-1] Sending Http Request to http://localhost:8084/transfer
-2019-09-17 00:05:54,303 INFO com.atm.controllers.iso.ISOSwitchTransInquiryController [main] Built ISO Message for Transfer Inquiry
-2019-09-17 00:05:54,332 INFO com.atm.dao.Dao [http-nio-8084-exec-4] Authentication succeed
-2019-09-17 00:05:55,225 INFO com.atm.controllers.HttpController [http-nio-8084-exec-4] Sending Http Request to http://localhost:8083/switchingtransinquiry
-2019-09-17 00:05:55,227 INFO com.atm.controllers.HttpController [DefaultMessageListenerContainer-1] Sending Http Request to http://localhost:8084/switchingtransinquiry
-2019-09-17 00:06:05,627 INFO com.atm.controllers.iso.ISOSwitchTransferController [main] Built ISO Message for Transfer Inquiry
-2019-09-17 00:06:05,703 INFO com.atm.controllers.HttpController [http-nio-8084-exec-6] Sending Http Request to http://localhost:8083/switchingtransfer
-2019-09-17 00:06:05,716 INFO com.atm.services.BalanceService [http-nio-8084-exec-6] Success checking balance of 999999 with amount 289000
-2019-09-17 00:06:05,716 INFO com.atm.services.TransferService [http-nio-8084-exec-6] Success transfer from 999999 to 222111
-2019-09-17 00:06:05,721 INFO com.atm.controllers.HttpController [DefaultMessageListenerContainer-1] Sending Http Request to http://localhost:8084/switchingtransfer
-2019-09-17 00:06:57,041 INFO com.atm.controllers.iso.ISOSwitchTransInquiryController [main] Built ISO Message for Transfer Inquiry
-2019-09-17 00:06:57,070 INFO com.atm.dao.Dao [http-nio-8084-exec-8] Authentication succeed
-2019-09-17 00:06:57,100 INFO com.atm.controllers.HttpController [http-nio-8084-exec-8] Sending Http Request to http://localhost:8083/switchingtransinquiry
-2019-09-17 00:06:57,102 INFO com.atm.controllers.HttpController [DefaultMessageListenerContainer-1] Sending Http Request to http://localhost:8084/switchingtransinquiry
-2019-09-17 00:06:59,937 INFO com.atm.controllers.iso.ISOSwitchTransferController [main] Built ISO Message for Transfer Inquiry
-2019-09-17 00:06:59,991 INFO com.atm.controllers.HttpController [http-nio-8084-exec-10] Sending Http Request to http://localhost:8083/switchingtransfer
-2019-09-17 00:06:59,999 INFO com.atm.services.BalanceService [http-nio-8084-exec-10] Success checking balance of 999999 with amount 222500
-2019-09-17 00:06:59,999 INFO com.atm.services.TransferService [http-nio-8084-exec-10] Success transfer from 999999 to 222111
-2019-09-17 00:07:00,004 INFO com.atm.controllers.HttpController [DefaultMessageListenerContainer-1] Sending Http Request to http://localhost:8084/switchingtransfer
-2019-09-17 00:47:10,925 INFO com.atm.AtmApplication [main] Starting AtmApplication on Ariansyah with PID 36535 (/Users/ariansyah.nugroho/Downloads/G2Academy/Code/Project/ATM_Project/atm/target/classes started by ariansyah.nugroho in /Users/ariansyah.nugroho/Downloads/G2Academy/Code/Project/ATM_Project/atm)
-2019-09-17 00:47:10,929 DEBUG com.atm.AtmApplication [main] Running with Spring Boot v2.1.8.RELEASE, Spring v5.1.9.RELEASE
-2019-09-17 00:47:10,929 INFO com.atm.AtmApplication [main] The following profiles are active: @spring.profiles.active@
-2019-09-17 00:47:13,391 INFO com.atm.AtmApplication [main] Started AtmApplication in 3.126 seconds (JVM running for 34.229)
-2019-09-17 09:06:21,925 INFO com.atm.AtmApplication [main] Starting AtmApplication on Ariansyah with PID 699 (/Users/ariansyah.nugroho/Downloads/G2Academy/Code/Project/ATM_Project/atm/target/classes started by ariansyah.nugroho in /Users/ariansyah.nugroho/Downloads/G2Academy/Code/Project/ATM_Project/atm)
-2019-09-17 09:06:21,928 DEBUG com.atm.AtmApplication [main] Running with Spring Boot v2.1.8.RELEASE, Spring v5.1.9.RELEASE
-2019-09-17 09:06:21,928 INFO com.atm.AtmApplication [main] The following profiles are active: @spring.profiles.active@
-2019-09-17 09:06:24,926 INFO com.atm.AtmApplication [main] Started AtmApplication in 3.56 seconds (JVM running for 4.562)
-2019-09-17 09:06:38,393 INFO com.atm.controllers.iso.ISOBalanceController [main] Built ISO Message to Check Balance
-2019-09-17 09:06:40,095 ERROR com.zaxxer.hikari.pool.HikariPool [http-nio-8084-exec-1] HikariPool-1 - Exception during pool initialization.
-com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure
-
-The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
-	at com.mysql.cj.jdbc.exceptions.SQLError.createCommunicationsException(SQLError.java:174)
-	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:64)
-	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:827)
-	at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:447)
-	at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:237)
-	at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:199)
-	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:136)
-	at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:369)
-	at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:198)
-	at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:467)
-	at com.zaxxer.hikari.pool.HikariPool.checkFailFast(HikariPool.java:541)
-	at com.zaxxer.hikari.pool.HikariPool.<init>(HikariPool.java:115)
-	at com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:112)
-	at org.springframework.jdbc.datasource.DataSourceUtils.fetchConnection(DataSourceUtils.java:157)
-	at org.springframework.jdbc.datasource.DataSourceUtils.doGetConnection(DataSourceUtils.java:115)
-	at org.springframework.jdbc.datasource.DataSourceUtils.getConnection(DataSourceUtils.java:78)
-	at org.springframework.jdbc.core.JdbcTemplate.execute(JdbcTemplate.java:370)
-	at org.springframework.jdbc.core.JdbcTemplate.query(JdbcTemplate.java:451)
-	at org.springframework.jdbc.core.JdbcTemplate.query(JdbcTemplate.java:461)
-	at org.springframework.jdbc.core.JdbcTemplate.queryForList(JdbcTemplate.java:489)
-	at com.atm.dao.Dao.checkAuthentication(Dao.java:26)
-	at com.atm.dao.BalanceDao.balanceCheck(BalanceDao.java:28)
-	at com.atm.controllers.rest.BalanceController.checkBalance(BalanceController.java:33)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
-	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190)
-	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138)
-	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:104)
-	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:892)
-	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:797)
-	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
-	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1039)
-	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942)
-	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1005)
-	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:908)
-	at javax.servlet.http.HttpServlet.service(HttpServlet.java:660)
-	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:882)
-	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
-	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
-	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:118)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
-	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:92)
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:118)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
-	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:93)
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:118)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
-	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200)
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:118)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
-	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
-	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
-	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:526)
-	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
-	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
-	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
-	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
-	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408)
-	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
-	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:860)
-	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1587)
-	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
-	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
-	at java.base/java.lang.Thread.run(Thread.java:835)
-Caused by: com.mysql.cj.exceptions.CJCommunicationsException: Communications link failure
-
-The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
-	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:61)
-	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:105)
-	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:151)
-	at com.mysql.cj.exceptions.ExceptionFactory.createCommunicationsException(ExceptionFactory.java:167)
-	at com.mysql.cj.protocol.a.NativeSocketConnection.connect(NativeSocketConnection.java:91)
-	at com.mysql.cj.NativeSession.connect(NativeSession.java:150)
-	at com.mysql.cj.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:947)
-	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:817)
-	... 74 common frames omitted
-Caused by: java.net.ConnectException: Connection refused (Connection refused)
-	at java.base/java.net.PlainSocketImpl.socketConnect(Native Method)
-	at java.base/java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:399)
-	at java.base/java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:242)
-	at java.base/java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:224)
-	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:403)
-	at java.base/java.net.Socket.connect(Socket.java:591)
-	at com.mysql.cj.protocol.StandardSocketFactory.connect(StandardSocketFactory.java:155)
-	at com.mysql.cj.protocol.a.NativeSocketConnection.connect(NativeSocketConnection.java:65)
-	... 77 common frames omitted
-2019-09-17 09:06:40,100 ERROR com.atm.dao.Dao [http-nio-8084-exec-1] Error : Failed to obtain JDBC Connection; nested exception is com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure
-
-The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server. in checkAuthentication method
-2019-09-17 09:06:40,135 INFO com.atm.controllers.HttpController [DefaultMessageListenerContainer-1] Sending Http Request to http://localhost:8084/check
-2019-09-17 09:07:09,928 INFO com.atm.controllers.iso.ISOBalanceController [main] Built ISO Message to Check Balance
-2019-09-17 09:07:10,247 INFO com.atm.dao.Dao [http-nio-8084-exec-3] Authentication succeed
-2019-09-17 09:07:10,249 INFO com.atm.services.BalanceService [http-nio-8084-exec-3] Success checking balance of 123456 with amount 143900
-2019-09-17 09:07:10,254 INFO com.atm.controllers.HttpController [DefaultMessageListenerContainer-1] Sending Http Request to http://localhost:8084/check
-2019-09-17 10:14:04,534 INFO com.atm.controllers.iso.ISOBalanceController [main] Built ISO Message to Check Balance
-2019-09-17 10:14:04,564 INFO com.atm.dao.Dao [http-nio-8084-exec-5] Authentication failed
-2019-09-17 10:14:04,571 INFO com.atm.controllers.HttpController [DefaultMessageListenerContainer-1] Sending Http Request to http://localhost:8084/check
-2019-09-17 10:14:22,765 INFO com.atm.controllers.iso.ISOTransInquiryController [main] Built ISO Message for Transfer Inquiry
-2019-09-17 10:14:22,799 INFO com.atm.dao.TransferDao [http-nio-8084-exec-7] Beneficiary bank number does not exist
-2019-09-17 10:14:22,801 INFO com.atm.controllers.HttpController [DefaultMessageListenerContainer-1] Sending Http Request to http://localhost:8084/transinquiry
-2019-09-17 13:02:29,973 INFO com.atm.AtmApplication [main] Starting AtmApplication on Ariansyah with PID 1073 (/Users/ariansyah.nugroho/Downloads/G2Academy/Code/Project/ATM_Project/atm/target/classes started by ariansyah.nugroho in /Users/ariansyah.nugroho/Downloads/G2Academy/Code/Project/ATM_Project/atm)
-2019-09-17 13:02:29,975 DEBUG com.atm.AtmApplication [main] Running with Spring Boot v2.1.8.RELEASE, Spring v5.1.9.RELEASE
-2019-09-17 13:02:29,976 INFO com.atm.AtmApplication [main] The following profiles are active: @spring.profiles.active@
-2019-09-17 13:02:32,234 INFO com.atm.AtmApplication [main] Started AtmApplication in 2.786 seconds (JVM running for 3.643)
-2019-09-17 13:03:13,880 INFO com.atm.controllers.iso.ISOPaymentInquiryController [main] Built ISO Message for Payment Inquiry
-2019-09-17 13:03:14,617 INFO com.atm.dao.PaymentDao [http-nio-8084-exec-1] Virtual Account does not exist
-2019-09-17 13:03:14,641 INFO com.atm.controllers.HttpController [DefaultMessageListenerContainer-1] Sending Http Request to http://localhost:8084/paymentinquiry
-2019-09-17 13:03:25,431 INFO com.atm.controllers.iso.ISOBalanceController [main] Built ISO Message to Check Balance
-2019-09-17 13:03:25,461 INFO com.atm.dao.Dao [http-nio-8084-exec-3] Authentication failed
-2019-09-17 13:03:25,466 INFO com.atm.controllers.HttpController [DefaultMessageListenerContainer-1] Sending Http Request to http://localhost:8084/check
-2019-09-17 13:03:36,254 INFO com.atm.controllers.iso.ISOBalanceController [main] Built ISO Message to Check Balance
-2019-09-17 13:03:36,289 INFO com.atm.controllers.HttpController [DefaultMessageListenerContainer-1] Sending Http Request to http://localhost:8084/check
-2019-09-17 13:07:02,628 INFO com.atm.AtmApplication [main] Starting AtmApplication on Ariansyah with PID 1107 (/Users/ariansyah.nugroho/Downloads/G2Academy/Code/Project/ATM_Project/atm/target/classes started by ariansyah.nugroho in /Users/ariansyah.nugroho/Downloads/G2Academy/Code/Project/ATM_Project/atm)
-2019-09-17 13:07:02,630 DEBUG com.atm.AtmApplication [main] Running with Spring Boot v2.1.8.RELEASE, Spring v5.1.9.RELEASE
-2019-09-17 13:07:02,631 INFO com.atm.AtmApplication [main] The following profiles are active: @spring.profiles.active@
-2019-09-17 13:07:05,911 INFO com.atm.AtmApplication [main] Started AtmApplication in 3.765 seconds (JVM running for 4.577)
-2019-09-17 13:07:18,091 INFO com.atm.controllers.iso.ISOPaymentInquiryController [main] Built ISO Message for Payment Inquiry
-2019-09-17 13:07:18,821 INFO com.atm.dao.PaymentDao [http-nio-8084-exec-1] Authentication Failed
-2019-09-17 13:07:18,855 INFO com.atm.controllers.HttpController [DefaultMessageListenerContainer-1] Sending Http Request to http://localhost:8084/paymentinquiry
-2019-09-17 13:07:33,387 INFO com.atm.controllers.iso.ISOPaymentInquiryController [main] Built ISO Message for Payment Inquiry
-2019-09-17 13:07:33,414 INFO com.atm.dao.Dao [http-nio-8084-exec-3] Authentication succeed
-2019-09-17 13:07:33,418 INFO com.atm.dao.PaymentDao [http-nio-8084-exec-3] Virtual Account does not exist
-2019-09-17 13:07:33,420 INFO com.atm.controllers.HttpController [DefaultMessageListenerContainer-1] Sending Http Request to http://localhost:8084/paymentinquiry
-2019-09-17 13:07:46,082 INFO com.atm.controllers.iso.ISOPaymentInquiryController [main] Built ISO Message for Payment Inquiry
-2019-09-17 13:07:46,116 INFO com.atm.dao.Dao [http-nio-8084-exec-4] Authentication succeed
-2019-09-17 13:07:46,119 INFO com.atm.services.BalanceService [http-nio-8084-exec-4] Success checking balance of 123456 with amount 143900
-2019-09-17 13:07:46,122 INFO com.atm.services.PaymentInquiryService [http-nio-8084-exec-4] Success payment inquiry with amount 50000 to 888888 
-2019-09-17 13:07:46,131 INFO com.atm.controllers.HttpController [DefaultMessageListenerContainer-1] Sending Http Request to http://localhost:8084/paymentinquiry
-2019-09-17 13:07:49,166 INFO com.atm.controllers.iso.ISOPaymentController [main] Built ISO Message for Payment
-2019-09-17 13:07:49,212 INFO com.atm.services.BalanceService [http-nio-8084-exec-6] Success checking balance of 123456 with amount 93900
-2019-09-17 13:07:49,212 INFO com.atm.services.PaymentService [http-nio-8084-exec-6] Success payment with amount 50000 to 888888 
-2019-09-17 13:07:49,217 INFO com.atm.controllers.HttpController [DefaultMessageListenerContainer-1] Sending Http Request to http://localhost:8084/payment
-2019-09-17 13:14:04,175 INFO com.atm.AtmApplication [main] Starting AtmApplication on Ariansyah with PID 1217 (/Users/ariansyah.nugroho/Downloads/G2Academy/Code/Project/ATM_Project/atm/target/classes started by ariansyah.nugroho in /Users/ariansyah.nugroho/Downloads/G2Academy/Code/Project/ATM_Project/atm)
-2019-09-17 13:14:04,177 DEBUG com.atm.AtmApplication [main] Running with Spring Boot v2.1.8.RELEASE, Spring v5.1.9.RELEASE
-2019-09-17 13:14:04,177 INFO com.atm.AtmApplication [main] The following profiles are active: @spring.profiles.active@
-2019-09-17 13:14:07,094 INFO com.atm.AtmApplication [main] Started AtmApplication in 3.259 seconds (JVM running for 4.034)
-2019-09-17 13:14:11,922 INFO com.atm.controllers.iso.ISOBalanceController [main] Built ISO Message to Check Balance
-2019-09-17 13:14:12,661 INFO com.atm.dao.Dao [http-nio-8084-exec-1] Authentication succeed
-2019-09-17 13:14:12,663 INFO com.atm.services.BalanceService [http-nio-8084-exec-1] Success checking balance of 123456 with amount 93900
-2019-09-17 13:14:12,697 INFO com.atm.controllers.HttpController [DefaultMessageListenerContainer-1] Sending Http Request to http://localhost:8084/check
-2019-09-17 13:18:44,612 INFO com.atm.AtmApplication [main] Starting AtmApplication on Ariansyah with PID 1243 (/Users/ariansyah.nugroho/Downloads/G2Academy/Code/Project/ATM_Project/atm/target/classes started by ariansyah.nugroho in /Users/ariansyah.nugroho/Downloads/G2Academy/Code/Project/ATM_Project/atm)
-2019-09-17 13:18:44,615 DEBUG com.atm.AtmApplication [main] Running with Spring Boot v2.1.8.RELEASE, Spring v5.1.9.RELEASE
-2019-09-17 13:18:44,615 INFO com.atm.AtmApplication [main] The following profiles are active: @spring.profiles.active@
-2019-09-17 13:18:46,940 INFO com.atm.AtmApplication [main] Started AtmApplication in 2.645 seconds (JVM running for 3.412)
-2019-09-17 13:19:03,043 INFO com.atm.controllers.iso.ISOBalanceController [main] Built ISO Message to Check Balance
-2019-09-17 13:19:03,292 INFO com.atm.controllers.iso.ISOController [DefaultMessageListenerContainer-1] Parsing ISO Message
-2019-09-17 13:19:03,571 INFO com.atm.controllers.iso.ISOController [http-nio-8084-exec-1] Parsing ISO Message
-2019-09-17 13:19:03,774 INFO com.atm.dao.Dao [http-nio-8084-exec-1] Authentication succeed
-2019-09-17 13:19:03,776 INFO com.atm.services.BalanceService [http-nio-8084-exec-1] Success checking balance of 123456 with amount 93900
-2019-09-17 13:19:03,799 INFO com.atm.controllers.iso.ISOController [main] Parsing ISO Message
-2019-09-17 13:19:03,808 INFO com.atm.controllers.HttpController [DefaultMessageListenerContainer-1] Sending Http Request to http://localhost:8084/check
-2019-09-17 13:21:42,093 INFO com.atm.AtmApplication [main] Starting AtmApplication on Ariansyah with PID 1276 (/Users/ariansyah.nugroho/Downloads/G2Academy/Code/Project/ATM_Project/atm/target/classes started by ariansyah.nugroho in /Users/ariansyah.nugroho/Downloads/G2Academy/Code/Project/ATM_Project/atm)
-2019-09-17 13:21:42,095 DEBUG com.atm.AtmApplication [main] Running with Spring Boot v2.1.8.RELEASE, Spring v5.1.9.RELEASE
-2019-09-17 13:21:42,095 INFO com.atm.AtmApplication [main] The following profiles are active: @spring.profiles.active@
-2019-09-17 13:21:45,806 INFO com.atm.AtmApplication [main] Started AtmApplication in 4.06 seconds (JVM running for 4.774)
-2019-09-17 13:21:50,986 INFO com.atm.controllers.iso.ISOBalanceController [main] Built ISO Message to Check Balance
-2019-09-17 13:21:51,236 INFO com.atm.controllers.iso.ISOController [DefaultMessageListenerContainer-1] Parsing ISO Message
-2019-09-17 13:21:51,444 INFO com.atm.controllers.iso.ISOController [http-nio-8084-exec-1] Parsing ISO Message
-2019-09-17 13:21:51,600 INFO com.atm.dao.Dao [http-nio-8084-exec-1] Authentication succeed
-2019-09-17 13:21:51,601 INFO com.atm.services.BalanceService [http-nio-8084-exec-1] Success checking balance of 123456 with amount 93900
-2019-09-17 13:21:51,635 INFO com.atm.controllers.iso.ISOController [main] Parsing ISO Message
-2019-09-17 13:21:51,634 INFO com.atm.controllers.HttpController [DefaultMessageListenerContainer-1] Sending Http Request to http://localhost:8084/check
-2019-09-17 13:30:14,711 ERROR com.atm.Client [main] For input string: "f"
-2019-09-17 13:32:17,756 ERROR com.atm.Client [main] For input string: "f"
-2019-09-17 13:33:13,418 ERROR com.atm.Client [main] For input string: "f"
-2019-09-17 13:33:17,378 INFO com.atm.controllers.iso.ISOBalanceController [main] Built ISO Message to Check Balance
-2019-09-17 13:33:17,634 INFO com.atm.controllers.iso.ISOController [DefaultMessageListenerContainer-1] Parsing ISO Message
-2019-09-17 13:33:17,653 INFO com.atm.controllers.iso.ISOController [http-nio-8084-exec-3] Parsing ISO Message
-2019-09-17 13:33:17,659 INFO com.atm.dao.Dao [http-nio-8084-exec-3] Authentication succeed
-2019-09-17 13:33:17,660 INFO com.atm.services.BalanceService [http-nio-8084-exec-3] Success checking balance of 123456 with amount 93900
-2019-09-17 13:33:17,670 INFO com.atm.controllers.HttpController [DefaultMessageListenerContainer-1] Sending Http Request to http://localhost:8084/check
-2019-09-17 13:33:17,681 INFO com.atm.controllers.iso.ISOController [main] Parsing ISO Message
-2019-09-17 13:55:11,036 INFO com.atm.controllers.iso.ISOSwitchTransInquiryController [main] Built ISO Message for Transfer Inquiry
-2019-09-17 13:55:11,323 INFO com.atm.controllers.iso.ISOController [DefaultMessageListenerContainer-1] Parsing ISO Message
-2019-09-17 13:55:11,358 INFO com.atm.controllers.iso.ISOController [http-nio-8084-exec-4] Parsing ISO Message
-2019-09-17 13:55:11,374 INFO com.atm.dao.Dao [http-nio-8084-exec-4] Authentication succeed
-2019-09-17 13:55:12,188 INFO com.atm.controllers.HttpController [http-nio-8084-exec-4] Sending Http Request to http://localhost:8083/switchingtransinquiry
-2019-09-17 13:55:12,194 INFO com.atm.controllers.HttpController [DefaultMessageListenerContainer-1] Sending Http Request to http://localhost:8084/switchingtransinquiry
-2019-09-17 13:55:12,203 INFO com.atm.controllers.iso.ISOController [main] Parsing ISO Message
-2019-09-17 13:55:18,053 INFO com.atm.controllers.iso.ISOSwitchTransferController [main] Built ISO Message for Transfer Inquiry
-2019-09-17 13:55:18,070 INFO com.atm.controllers.iso.ISOController [DefaultMessageListenerContainer-1] Parsing ISO Message
-2019-09-17 13:55:18,079 INFO com.atm.controllers.iso.ISOController [http-nio-8084-exec-6] Parsing ISO Message
-2019-09-17 13:55:18,125 INFO com.atm.controllers.HttpController [http-nio-8084-exec-6] Sending Http Request to http://localhost:8083/switchingtransfer
-2019-09-17 13:55:18,129 INFO com.atm.controllers.iso.ISOController [http-nio-8084-exec-6] Parsing ISO Message
-2019-09-17 13:55:18,142 INFO com.atm.services.BalanceService [http-nio-8084-exec-6] Success checking balance of 123456 with amount 67400
-2019-09-17 13:55:18,143 INFO com.atm.services.TransferService [http-nio-8084-exec-6] Success transfer from 123456 to 222111
-2019-09-17 13:55:18,149 INFO com.atm.controllers.HttpController [DefaultMessageListenerContainer-1] Sending Http Request to http://localhost:8084/switchingtransfer
-2019-09-17 13:55:18,159 INFO com.atm.controllers.iso.ISOController [main] Parsing ISO Message
-2019-09-17 14:58:24,120 INFO com.atm.controllers.iso.ISOWithdrawController [main] Built ISO Message for Cash Withdrawal
-2019-09-17 14:58:24,185 INFO com.atm.controllers.iso.ISOController [DefaultMessageListenerContainer-1] Parsing ISO Message
-2019-09-17 14:58:24,215 INFO com.atm.controllers.iso.ISOController [http-nio-8084-exec-8] Parsing ISO Message
-2019-09-17 14:58:24,235 INFO com.atm.dao.Dao [http-nio-8084-exec-8] Authentication succeed
-2019-09-17 14:58:24,236 INFO com.atm.services.BalanceService [http-nio-8084-exec-8] Success checking balance of 999999 with amount 222500
-2019-09-17 14:58:24,249 INFO com.atm.services.BalanceService [http-nio-8084-exec-8] Success checking balance of 999999 with amount 172500
-2019-09-17 14:58:24,250 INFO com.atm.services.WithdrawService [http-nio-8084-exec-8] Success withdrawing 50000 from 999999
-2019-09-17 14:58:24,260 INFO com.atm.controllers.HttpController [DefaultMessageListenerContainer-1] Sending Http Request to http://localhost:8084/withdraw
-2019-09-17 14:58:24,269 INFO com.atm.controllers.iso.ISOController [main] Parsing ISO Message
-2019-09-17 16:47:54,349 INFO com.atm.controllers.iso.ISOPaymentInquiryController [main] Built ISO Message for Payment Inquiry
-2019-09-17 16:47:54,437 INFO com.atm.controllers.iso.ISOController [DefaultMessageListenerContainer-1] Parsing ISO Message
-2019-09-17 16:47:54,481 INFO com.atm.controllers.iso.ISOController [http-nio-8084-exec-9] Parsing ISO Message
-2019-09-17 16:47:54,504 INFO com.atm.dao.Dao [http-nio-8084-exec-9] Authentication succeed
-2019-09-17 16:47:54,518 INFO com.atm.dao.PaymentDao [http-nio-8084-exec-9] Virtual Account does not exist
-2019-09-17 16:47:54,527 INFO com.atm.controllers.HttpController [DefaultMessageListenerContainer-1] Sending Http Request to http://localhost:8084/paymentinquiry
-2019-09-17 16:47:54,529 INFO com.atm.controllers.iso.ISOController [main] Parsing ISO Message
-2019-09-17 17:23:54,650 INFO com.atm.controllers.iso.ISOPurchaseInquiryController [main] Built ISO Message for Purchase Inquiry
-2019-09-17 17:23:54,713 INFO com.atm.controllers.iso.ISOController [DefaultMessageListenerContainer-1] Parsing ISO Message
-2019-09-17 17:23:54,747 INFO com.atm.controllers.iso.ISOController [http-nio-8084-exec-10] Parsing ISO Message
-2019-09-17 17:23:54,761 INFO com.atm.dao.Dao [http-nio-8084-exec-10] Authentication succeed
-2019-09-17 17:23:54,762 INFO com.atm.services.BalanceService [http-nio-8084-exec-10] Success checking balance of 123456 with amount 67400
-2019-09-17 17:23:54,765 INFO com.atm.services.PurchaseInquiryService [http-nio-8084-exec-10] Success purchase inquiry from 123456
-2019-09-17 17:23:54,778 INFO com.atm.controllers.iso.ISOController [main] Parsing ISO Message
-2019-09-17 17:23:54,779 INFO com.atm.controllers.HttpController [DefaultMessageListenerContainer-1] Sending Http Request to http://localhost:8084/purchaseinquiry
-2019-09-17 17:23:57,607 INFO com.atm.controllers.iso.ISOPurchaseController [main] Built ISO Message for Purchase
-2019-09-17 17:23:57,631 INFO com.atm.controllers.iso.ISOController [DefaultMessageListenerContainer-1] Parsing ISO Message
-2019-09-17 17:23:57,639 INFO com.atm.controllers.iso.ISOController [http-nio-8084-exec-2] Parsing ISO Message
-2019-09-17 17:23:57,691 INFO com.atm.services.BalanceService [http-nio-8084-exec-2] Success checking balance of 123456 with amount 40900
-2019-09-17 17:23:57,692 INFO com.atm.services.PurchaseService [http-nio-8084-exec-2] Success purchase to 082165803007
-2019-09-17 17:23:57,696 INFO com.atm.controllers.HttpController [DefaultMessageListenerContainer-1] Sending Http Request to http://localhost:8084/purchase
-2019-09-17 17:23:57,703 INFO com.atm.controllers.iso.ISOController [main] Parsing ISO Message
-2019-09-17 17:31:58,457 INFO com.atm.controllers.iso.ISOBalanceController [main] Built ISO Message to Check Balance
-2019-09-17 17:32:05,395 INFO com.atm.controllers.iso.ISOBalanceController [main] Built ISO Message to Check Balance
-2019-09-17 17:32:18,059 INFO com.atm.AtmApplication [main] Starting AtmApplication on Ariansyah with PID 2610 (/Users/ariansyah.nugroho/Downloads/G2Academy/Code/Project/ATM_Project/atm/target/classes started by ariansyah.nugroho in /Users/ariansyah.nugroho/Downloads/G2Academy/Code/Project/ATM_Project/atm)
-2019-09-17 17:32:18,066 DEBUG com.atm.AtmApplication [main] Running with Spring Boot v2.1.8.RELEASE, Spring v5.1.9.RELEASE
-2019-09-17 17:32:18,066 INFO com.atm.AtmApplication [main] The following profiles are active: @spring.profiles.active@
-2019-09-17 17:32:20,059 INFO com.atm.AtmApplication [main] Started AtmApplication in 2.351 seconds (JVM running for 3.184)
-2019-09-17 17:32:20,077 INFO com.atm.controllers.iso.ISOController [DefaultMessageListenerContainer-1] Parsing ISO Message
-2019-09-17 17:32:20,383 INFO com.atm.controllers.iso.ISOController [http-nio-8084-exec-1] Parsing ISO Message
-2019-09-17 17:32:20,945 INFO com.atm.dao.Dao [http-nio-8084-exec-1] Authentication succeed
-2019-09-17 17:32:20,951 INFO com.atm.services.BalanceService [http-nio-8084-exec-1] Success checking balance of 123456 with amount 40900
-2019-09-17 17:32:20,980 INFO com.atm.controllers.iso.ISOController [main] Parsing ISO Message
-2019-09-17 17:32:21,009 INFO com.atm.controllers.HttpController [DefaultMessageListenerContainer-1] Sending Http Request to http://localhost:8084/check
-2019-09-17 17:32:21,027 INFO com.atm.controllers.iso.ISOController [DefaultMessageListenerContainer-1] Parsing ISO Message
-2019-09-17 17:32:21,037 INFO com.atm.controllers.iso.ISOController [http-nio-8084-exec-3] Parsing ISO Message
-2019-09-17 17:32:21,040 INFO com.atm.dao.Dao [http-nio-8084-exec-3] Authentication succeed
-2019-09-17 17:32:21,041 INFO com.atm.services.BalanceService [http-nio-8084-exec-3] Success checking balance of 999999 with amount 172500
-2019-09-17 17:32:21,053 INFO com.atm.controllers.HttpController [DefaultMessageListenerContainer-1] Sending Http Request to http://localhost:8084/check
-2019-09-17 17:32:21,069 INFO com.atm.controllers.iso.ISOController [main] Parsing ISO Message
-2019-09-17 19:07:32,301 INFO com.atm.controllers.iso.ISOTransInquiryController [main] Built ISO Message for Transfer Inquiry
-2019-09-17 19:07:32,348 INFO com.atm.controllers.iso.ISOController [DefaultMessageListenerContainer-1] Parsing ISO Message
-2019-09-17 19:07:32,383 INFO com.atm.controllers.iso.ISOController [http-nio-8084-exec-4] Parsing ISO Message
-2019-09-17 19:07:32,399 INFO com.atm.dao.Dao [http-nio-8084-exec-4] Authentication succeed
-2019-09-17 19:07:32,400 INFO com.atm.services.BalanceService [http-nio-8084-exec-4] Success checking balance of 123456 with amount 40900
-2019-09-17 19:07:32,401 INFO com.atm.services.TransInquiryService [http-nio-8084-exec-4] Fail transfer inquiry from 123456 to 999999, balance not enough
-2019-09-17 19:07:32,412 INFO com.atm.controllers.HttpController [DefaultMessageListenerContainer-1] Sending Http Request to http://localhost:8084/transinquiry
-2019-09-17 19:07:32,417 INFO com.atm.controllers.iso.ISOController [main] Parsing ISO Message
-2019-09-17 19:08:13,809 INFO com.atm.controllers.iso.ISOWithdrawController [main] Built ISO Message for Cash Withdrawal
-2019-09-17 19:08:13,828 INFO com.atm.controllers.iso.ISOController [DefaultMessageListenerContainer-1] Parsing ISO Message
-2019-09-17 19:08:13,836 INFO com.atm.controllers.iso.ISOController [http-nio-8084-exec-6] Parsing ISO Message
-2019-09-17 19:08:13,839 INFO com.atm.dao.Dao [http-nio-8084-exec-6] Authentication succeed
-2019-09-17 19:08:13,840 INFO com.atm.services.BalanceService [http-nio-8084-exec-6] Success checking balance of 123456 with amount 40900
-2019-09-17 19:08:13,840 INFO com.atm.services.WithdrawService [http-nio-8084-exec-6] Fail withdrawing 100000 from 123456, balance not enough
-2019-09-17 19:08:13,845 INFO com.atm.controllers.HttpController [DefaultMessageListenerContainer-1] Sending Http Request to http://localhost:8084/withdraw
-2019-09-17 19:08:13,854 INFO com.atm.controllers.iso.ISOController [main] Parsing ISO Message
-2019-09-17 19:13:04,140 INFO com.atm.controllers.iso.ISOSwitchTransInquiryController [main] Built ISO Message for Transfer Inquiry
-2019-09-17 19:13:04,618 INFO com.atm.controllers.iso.ISOController [DefaultMessageListenerContainer-1] Parsing ISO Message
-2019-09-17 19:13:04,626 INFO com.atm.controllers.iso.ISOController [http-nio-8084-exec-7] Parsing ISO Message
-2019-09-17 19:13:04,628 INFO com.atm.dao.Dao [http-nio-8084-exec-7] Authentication succeed
-2019-09-17 19:13:05,054 INFO com.atm.controllers.HttpController [http-nio-8084-exec-7] Sending Http Request to http://localhost:8083/switchingtransinquiry
-2019-09-17 19:13:05,075 INFO com.atm.controllers.iso.ISOController [main] Parsing ISO Message
-2019-09-17 19:13:05,095 INFO com.atm.controllers.HttpController [DefaultMessageListenerContainer-1] Sending Http Request to http://localhost:8084/switchingtransinquiry
-2019-09-17 19:21:02,777 INFO com.atm.controllers.iso.ISOBalanceController [main] Built ISO Message to Check Balance
-2019-09-17 19:21:22,932 INFO com.atm.AtmApplication [main] Starting AtmApplication on Ariansyah with PID 2884 (/Users/ariansyah.nugroho/Downloads/G2Academy/Code/Project/ATM_Project/atm/target/classes started by ariansyah.nugroho in /Users/ariansyah.nugroho/Downloads/G2Academy/Code/Project/ATM_Project/atm)
-2019-09-17 19:21:22,934 DEBUG com.atm.AtmApplication [main] Running with Spring Boot v2.1.8.RELEASE, Spring v5.1.9.RELEASE
-2019-09-17 19:21:22,934 INFO com.atm.AtmApplication [main] The following profiles are active: @spring.profiles.active@
-2019-09-17 19:21:24,993 INFO com.atm.AtmApplication [main] Started AtmApplication in 2.606 seconds (JVM running for 3.492)
-2019-09-17 19:21:25,007 INFO com.atm.controllers.iso.ISOController [DefaultMessageListenerContainer-1] Parsing ISO Message
-2019-09-17 19:21:25,401 INFO com.atm.controllers.iso.ISOController [http-nio-8084-exec-1] Parsing ISO Message
-2019-09-17 19:21:25,914 INFO com.atm.dao.Dao [http-nio-8084-exec-1] Authentication succeed
-2019-09-17 19:21:25,916 INFO com.atm.services.BalanceService [http-nio-8084-exec-1] Success checking balance of 123456 with amount 40900
-2019-09-17 19:21:26,023 INFO com.atm.controllers.iso.ISOController [main] Parsing ISO Message
-2019-09-17 19:21:26,071 INFO com.atm.controllers.HttpController [DefaultMessageListenerContainer-1] Sending Http Request to http://localhost:8084/check
-2019-09-17 19:22:22,627 INFO com.atm.controllers.iso.ISOWithdrawController [main] Built ISO Message for Cash Withdrawal
-2019-09-17 19:22:22,645 INFO com.atm.controllers.iso.ISOController [DefaultMessageListenerContainer-1] Parsing ISO Message
-2019-09-17 19:22:22,654 INFO com.atm.controllers.iso.ISOController [http-nio-8084-exec-3] Parsing ISO Message
-2019-09-17 19:22:22,656 INFO com.atm.dao.Dao [http-nio-8084-exec-3] Authentication succeed
-2019-09-17 19:22:22,657 INFO com.atm.services.BalanceService [http-nio-8084-exec-3] Success checking balance of 123456 with amount 40900
-2019-09-17 19:22:22,657 INFO com.atm.services.WithdrawService [http-nio-8084-exec-3] Fail withdrawing 2000000 from 123456, balance not enough
-2019-09-17 19:22:22,663 INFO com.atm.controllers.HttpController [DefaultMessageListenerContainer-1] Sending Http Request to http://localhost:8084/withdraw
-2019-09-17 19:22:22,670 INFO com.atm.controllers.iso.ISOController [main] Parsing ISO Message
-2019-09-17 19:24:32,002 INFO com.atm.controllers.iso.ISOPurchaseInquiryController [main] Built ISO Message for Purchase Inquiry
-2019-09-17 19:24:32,019 INFO com.atm.controllers.iso.ISOController [DefaultMessageListenerContainer-1] Parsing ISO Message
-2019-09-17 19:24:32,026 INFO com.atm.controllers.iso.ISOController [http-nio-8084-exec-5] Parsing ISO Message
-2019-09-17 19:24:32,028 INFO com.atm.dao.Dao [http-nio-8084-exec-5] Authentication succeed
-2019-09-17 19:24:32,029 INFO com.atm.services.BalanceService [http-nio-8084-exec-5] Success checking balance of 123456 with amount 40900
-2019-09-17 19:24:32,030 INFO com.atm.services.PurchaseInquiryService [http-nio-8084-exec-5] Fail purchase inquiry from 123456, balance not enough
-2019-09-17 19:24:32,035 INFO com.atm.controllers.HttpController [DefaultMessageListenerContainer-1] Sending Http Request to http://localhost:8084/purchaseinquiry
-2019-09-17 19:24:32,041 INFO com.atm.controllers.iso.ISOController [main] Parsing ISO Message
-2019-09-17 19:24:32,050 INFO com.atm.controllers.iso.ISOBalanceController [main] Built ISO Message to Check Balance
-2019-09-17 19:24:32,066 INFO com.atm.controllers.iso.ISOController [DefaultMessageListenerContainer-1] Parsing ISO Message
-2019-09-17 19:24:32,072 INFO com.atm.controllers.iso.ISOController [http-nio-8084-exec-7] Parsing ISO Message
-2019-09-17 19:24:32,074 INFO com.atm.dao.Dao [http-nio-8084-exec-7] Authentication succeed
-2019-09-17 19:24:32,075 INFO com.atm.services.BalanceService [http-nio-8084-exec-7] Success checking balance of 123456 with amount 40900
-2019-09-17 19:24:32,080 INFO com.atm.controllers.HttpController [DefaultMessageListenerContainer-1] Sending Http Request to http://localhost:8084/check
-2019-09-17 19:24:32,084 INFO com.atm.controllers.iso.ISOController [main] Parsing ISO Message
-2019-09-17 19:24:57,283 INFO com.atm.controllers.iso.ISOPaymentInquiryController [main] Built ISO Message for Payment Inquiry
-2019-09-17 19:24:57,302 INFO com.atm.controllers.iso.ISOController [DefaultMessageListenerContainer-1] Parsing ISO Message
-2019-09-17 19:24:57,309 INFO com.atm.controllers.iso.ISOController [http-nio-8084-exec-9] Parsing ISO Message
-2019-09-17 19:24:57,315 INFO com.atm.dao.Dao [http-nio-8084-exec-9] Authentication succeed
-2019-09-17 19:24:57,320 INFO com.atm.services.BalanceService [http-nio-8084-exec-9] Success checking balance of 123456 with amount 40900
-2019-09-17 19:24:57,323 INFO com.atm.services.PaymentInquiryService [http-nio-8084-exec-9] Success payment inquiry with amount 1 to 888888 
-2019-09-17 19:24:57,329 INFO com.atm.controllers.HttpController [DefaultMessageListenerContainer-1] Sending Http Request to http://localhost:8084/paymentinquiry
-2019-09-17 19:24:57,334 INFO com.atm.controllers.iso.ISOController [main] Parsing ISO Message
-2019-09-17 19:25:25,022 INFO com.atm.controllers.iso.ISOPaymentController [main] Built ISO Message for Payment
-2019-09-17 19:25:25,041 INFO com.atm.controllers.iso.ISOController [DefaultMessageListenerContainer-1] Parsing ISO Message
-2019-09-17 19:25:25,049 INFO com.atm.controllers.iso.ISOController [http-nio-8084-exec-1] Parsing ISO Message
-2019-09-17 19:25:25,075 INFO com.atm.services.BalanceService [http-nio-8084-exec-1] Success checking balance of 123456 with amount 40899
-2019-09-17 19:25:25,075 INFO com.atm.services.PaymentService [http-nio-8084-exec-1] Success payment with amount 1 to 888888 
-2019-09-17 19:25:25,080 INFO com.atm.controllers.HttpController [DefaultMessageListenerContainer-1] Sending Http Request to http://localhost:8084/payment
-2019-09-17 19:25:25,084 INFO com.atm.controllers.iso.ISOController [main] Parsing ISO Message
-2019-09-17 19:26:52,131 INFO com.atm.controllers.iso.ISOTransInquiryController [main] Built ISO Message for Transfer Inquiry
-2019-09-17 19:26:52,148 INFO com.atm.controllers.iso.ISOController [DefaultMessageListenerContainer-1] Parsing ISO Message
-2019-09-17 19:26:52,155 INFO com.atm.controllers.iso.ISOController [http-nio-8084-exec-3] Parsing ISO Message
-2019-09-17 19:26:52,158 INFO com.atm.dao.Dao [http-nio-8084-exec-3] Authentication succeed
-2019-09-17 19:26:52,158 INFO com.atm.services.BalanceService [http-nio-8084-exec-3] Success checking balance of 123456 with amount 40899
-2019-09-17 19:26:52,159 INFO com.atm.services.TransInquiryService [http-nio-8084-exec-3] Fail transfer inquiry from 123456 to 999999, balance not enough
-2019-09-17 19:26:52,166 INFO com.atm.controllers.HttpController [DefaultMessageListenerContainer-1] Sending Http Request to http://localhost:8084/transinquiry
-2019-09-17 19:26:52,169 INFO com.atm.controllers.iso.ISOController [main] Parsing ISO Message
-2019-09-17 19:28:20,623 INFO com.atm.controllers.iso.ISOSwitchTransInquiryController [main] Built ISO Message for Transfer Inquiry
-2019-09-17 19:28:20,641 INFO com.atm.controllers.iso.ISOController [DefaultMessageListenerContainer-1] Parsing ISO Message
-2019-09-17 19:28:20,648 INFO com.atm.controllers.iso.ISOController [http-nio-8084-exec-5] Parsing ISO Message
-2019-09-17 19:28:20,650 INFO com.atm.dao.Dao [http-nio-8084-exec-5] Authentication succeed
-2019-09-17 19:28:21,235 INFO com.atm.controllers.HttpController [http-nio-8084-exec-5] Sending Http Request to http://localhost:8083/switchingtransinquiry
-2019-09-17 19:28:21,236 INFO com.atm.controllers.HttpController [DefaultMessageListenerContainer-1] Sending Http Request to http://localhost:8084/switchingtransinquiry
-2019-09-17 19:28:21,240 INFO com.atm.controllers.iso.ISOController [main] Parsing ISO Message
-2019-09-17 19:28:28,668 INFO com.atm.controllers.iso.ISOSwitchTransferController [main] Built ISO Message for Transfer Inquiry
-2019-09-17 19:28:28,682 INFO com.atm.controllers.iso.ISOController [DefaultMessageListenerContainer-1] Parsing ISO Message
-2019-09-17 19:28:28,687 INFO com.atm.controllers.iso.ISOController [http-nio-8084-exec-7] Parsing ISO Message
-2019-09-17 19:28:28,728 INFO com.atm.controllers.HttpController [http-nio-8084-exec-7] Sending Http Request to http://localhost:8083/switchingtransfer
-2019-09-17 19:28:28,731 INFO com.atm.controllers.iso.ISOController [http-nio-8084-exec-7] Parsing ISO Message
-2019-09-17 19:28:28,734 INFO com.atm.services.BalanceService [http-nio-8084-exec-7] Success checking balance of 123456 with amount 24399
-2019-09-17 19:28:28,734 INFO com.atm.services.TransferService [http-nio-8084-exec-7] Success transfer from 123456 to 222111
-2019-09-17 19:28:28,739 INFO com.atm.controllers.HttpController [DefaultMessageListenerContainer-1] Sending Http Request to http://localhost:8084/switchingtransfer
-2019-09-17 19:28:28,741 INFO com.atm.controllers.iso.ISOController [main] Parsing ISO Message
-2019-09-17 19:55:07,772 INFO com.atm.controllers.iso.ISOTransInquiryController [main] Built ISO Message for Transfer Inquiry
-2019-09-17 19:55:08,856 INFO com.atm.controllers.iso.ISOController [DefaultMessageListenerContainer-1] Parsing ISO Message
-2019-09-17 19:55:08,874 INFO com.atm.controllers.iso.ISOController [http-nio-8084-exec-8] Parsing ISO Message
-2019-09-17 19:55:08,879 INFO com.atm.dao.Dao [http-nio-8084-exec-8] Authentication succeed
-2019-09-17 19:55:08,880 INFO com.atm.services.BalanceService [http-nio-8084-exec-8] Success checking balance of 123456 with amount 24399
-2019-09-17 19:55:08,881 INFO com.atm.services.TransInquiryService [http-nio-8084-exec-8] Success transfer inquiry from 123456 to 999999
-2019-09-17 19:55:08,890 INFO com.atm.controllers.HttpController [DefaultMessageListenerContainer-1] Sending Http Request to http://localhost:8084/transinquiry
-2019-09-17 19:55:08,900 INFO com.atm.controllers.iso.ISOController [main] Parsing ISO Message
-2019-09-17 19:56:04,410 INFO com.atm.controllers.iso.ISOTransInquiryController [main] Built ISO Message for Transfer Inquiry
-2019-09-17 19:56:04,645 INFO com.atm.controllers.iso.ISOController [DefaultMessageListenerContainer-1] Parsing ISO Message
-2019-09-17 19:56:04,653 INFO com.atm.controllers.iso.ISOController [http-nio-8084-exec-10] Parsing ISO Message
-2019-09-17 19:56:04,654 INFO com.atm.dao.Dao [http-nio-8084-exec-10] Authentication succeed
-2019-09-17 19:56:04,655 INFO com.atm.services.BalanceService [http-nio-8084-exec-10] Success checking balance of 123456 with amount 24399
-2019-09-17 19:56:04,655 INFO com.atm.services.TransInquiryService [http-nio-8084-exec-10] Fail transfer inquiry from 123456 to 999999, balance not enough
-2019-09-17 19:56:04,659 INFO com.atm.controllers.HttpController [DefaultMessageListenerContainer-1] Sending Http Request to http://localhost:8084/transinquiry
-2019-09-17 19:56:04,670 INFO com.atm.controllers.iso.ISOController [main] Parsing ISO Message
-2019-09-17 19:56:36,125 INFO com.atm.controllers.iso.ISOTransInquiryController [main] Built ISO Message for Transfer Inquiry
-2019-09-17 19:56:36,372 INFO com.atm.controllers.iso.ISOController [DefaultMessageListenerContainer-1] Parsing ISO Message
-2019-09-17 19:56:36,380 INFO com.atm.controllers.iso.ISOController [http-nio-8084-exec-1] Parsing ISO Message
-2019-09-17 19:56:36,382 INFO com.atm.dao.Dao [http-nio-8084-exec-1] Authentication succeed
-2019-09-17 19:56:36,383 INFO com.atm.services.BalanceService [http-nio-8084-exec-1] Success checking balance of 123456 with amount 24399
-2019-09-17 19:56:36,384 INFO com.atm.services.TransInquiryService [http-nio-8084-exec-1] Success transfer inquiry from 123456 to 999999
-2019-09-17 19:56:36,388 INFO com.atm.controllers.HttpController [DefaultMessageListenerContainer-1] Sending Http Request to http://localhost:8084/transinquiry
-2019-09-17 19:56:36,402 INFO com.atm.controllers.iso.ISOController [main] Parsing ISO Message
-2019-09-17 19:56:38,476 INFO com.atm.controllers.iso.ISOTransferController [main] Built ISO Message for Transfer
-2019-09-17 19:56:38,492 INFO com.atm.controllers.iso.ISOController [DefaultMessageListenerContainer-1] Parsing ISO Message
-2019-09-17 19:56:38,500 INFO com.atm.controllers.iso.ISOController [http-nio-8084-exec-3] Parsing ISO Message
-2019-09-17 19:56:38,506 INFO com.atm.services.BalanceService [http-nio-8084-exec-3] Success checking balance of 123456 with amount 14399
-2019-09-17 19:56:38,506 INFO com.atm.services.TransferService [http-nio-8084-exec-3] Success transfer from 123456 to 999999
-2019-09-17 19:56:38,510 INFO com.atm.controllers.HttpController [DefaultMessageListenerContainer-1] Sending Http Request to http://localhost:8084/transfer
-2019-09-17 19:56:38,519 INFO com.atm.controllers.iso.ISOController [main] Parsing ISO Message
-2019-09-17 23:50:36,893 INFO com.atm.AtmApplication [main] Starting AtmApplication on Ariansyah with PID 4213 (/Users/ariansyah.nugroho/Downloads/G2Academy/Code/Project/ATM_Project/atm/target/classes started by ariansyah.nugroho in /Users/ariansyah.nugroho/Downloads/G2Academy/Code/Project/ATM_Project/atm)
-2019-09-17 23:50:36,895 DEBUG com.atm.AtmApplication [main] Running with Spring Boot v2.1.8.RELEASE, Spring v5.1.9.RELEASE
-2019-09-17 23:50:36,895 INFO com.atm.AtmApplication [main] The following profiles are active: @spring.profiles.active@
-2019-09-17 23:50:38,984 INFO com.atm.AtmApplication [main] Started AtmApplication in 2.406 seconds (JVM running for 33.311)
-2019-09-17 23:50:49,966 INFO com.atm.controllers.iso.ISOBalanceController [main] Built ISO Message to Check Balance
-2019-09-17 23:51:20,207 INFO com.atm.controllers.messaging.MessageSender [main] Sending ActiveMQTextMessage {commandId = 0, responseRequired = false, messageId = null, originalDestination = null, originalTransactionId = null, producerId = null, destination = null, transactionId = null, expiration = 0, timestamp = 0, arrival = 0, brokerInTime = 0, brokerOutTime = 0, correlationId = null, replyTo = null, persistent = false, type = null, priority = 0, groupID = null, groupSequence = 0, targetConsumerId = null, compressed = false, userID = null, content = null, marshalledProperties = null, dataStructure = null, redeliveryCounter = 0, size = 0, properties = null, readOnlyProperties = false, readOnlyBody = false, droppable = false, jmsXGroupFirstForConsumer = false, text = 0200F23A400188A094040000000004000000061234563...049999049999} to queue
-2019-09-17 23:51:20,281 INFO com.atm.controllers.iso.ISOController [DefaultMessageListenerContainer-1] Parsing ISO Message
-2019-09-17 23:51:20,741 INFO com.atm.controllers.iso.ISOController [http-nio-8084-exec-1] Parsing ISO Message
-2019-09-17 23:51:21,152 INFO com.atm.dao.Dao [http-nio-8084-exec-1] Authentication succeed
-2019-09-17 23:51:21,154 INFO com.atm.services.BalanceService [http-nio-8084-exec-1] Success checking balance of 123456 with amount 14399
-2019-09-17 23:51:21,176 INFO com.atm.controllers.iso.ISOController [main] Parsing ISO Message
-2019-09-17 23:51:21,190 INFO com.atm.controllers.HttpController [DefaultMessageListenerContainer-1] Sending Http Request to http://localhost:8084/check
+2019-09-18 00:56:57,136 INFO com.atm.AtmApplication [main] Starting AtmApplication on Ariansyah with PID 1931 (/Users/ariansyah.nugroho/Downloads/G2Academy/Code/Project/ATM_Project/atm/target/classes started by ariansyah.nugroho in /Users/ariansyah.nugroho/Downloads/G2Academy/Code/Project/ATM_Project/atm)
+2019-09-18 00:56:57,141 DEBUG com.atm.AtmApplication [main] Running with Spring Boot v2.1.8.RELEASE, Spring v5.1.9.RELEASE
+2019-09-18 00:56:57,143 INFO com.atm.AtmApplication [main] The following profiles are active: @spring.profiles.active@
+2019-09-18 00:56:59,917 INFO com.atm.AtmApplication [main] Started AtmApplication in 3.172 seconds (JVM running for 4.494)
+2019-09-18 00:57:07,957 INFO com.atm.controllers.iso.ISOBalanceController [main] Built ISO Message to Check Balance
+2019-09-18 00:57:08,189 INFO com.atm.controllers.messaging.MessageSender [main] Sending ActiveMQTextMessage {commandId = 0, responseRequired = false, messageId = null, originalDestination = null, originalTransactionId = null, producerId = null, destination = null, transactionId = null, expiration = 0, timestamp = 0, arrival = 0, brokerInTime = 0, brokerOutTime = 0, correlationId = null, replyTo = null, persistent = false, type = null, priority = 0, groupID = null, groupSequence = 0, targetConsumerId = null, compressed = false, userID = null, content = null, marshalledProperties = null, dataStructure = null, redeliveryCounter = 0, size = 0, properties = null, readOnlyProperties = false, readOnlyBody = false, droppable = false, jmsXGroupFirstForConsumer = false, text = 0200F23A400188A094040000000004000000061234563...049999049999} to queue
+2019-09-18 00:57:08,242 INFO com.atm.controllers.iso.ISOController [DefaultMessageListenerContainer-1] Parsing ISO Message
+2019-09-18 00:57:08,662 INFO com.atm.controllers.iso.ISOController [http-nio-8084-exec-1] Parsing ISO Message
+2019-09-18 00:57:09,042 INFO com.atm.dao.Dao [http-nio-8084-exec-1] Authentication succeed
+2019-09-18 00:57:09,044 INFO com.atm.services.BalanceService [http-nio-8084-exec-1] Success checking balance of 123456 with amount 14399
+2019-09-18 00:57:09,066 INFO com.atm.controllers.iso.ISOController [main] Parsing ISO Message
+2019-09-18 00:57:09,081 INFO com.atm.controllers.HttpController [DefaultMessageListenerContainer-1] Sending Http Request to http://localhost:8084/check
+2019-09-18 00:57:21,866 INFO com.atm.controllers.iso.ISOBalanceController [main] Built ISO Message to Check Balance
+2019-09-18 00:57:21,873 INFO com.atm.controllers.messaging.MessageSender [main] Sending ActiveMQTextMessage {commandId = 0, responseRequired = false, messageId = null, originalDestination = null, originalTransactionId = null, producerId = null, destination = null, transactionId = null, expiration = 0, timestamp = 0, arrival = 0, brokerInTime = 0, brokerOutTime = 0, correlationId = null, replyTo = null, persistent = false, type = null, priority = 0, groupID = null, groupSequence = 0, targetConsumerId = null, compressed = false, userID = null, content = null, marshalledProperties = null, dataStructure = null, redeliveryCounter = 0, size = 0, properties = null, readOnlyProperties = false, readOnlyBody = false, droppable = false, jmsXGroupFirstForConsumer = false, text = 0200F23A400188A094040000000004000000069999993...049999049999} to queue
+2019-09-18 00:57:21,883 INFO com.atm.controllers.iso.ISOController [DefaultMessageListenerContainer-1] Parsing ISO Message
+2019-09-18 00:57:21,893 INFO com.atm.controllers.iso.ISOController [http-nio-8084-exec-3] Parsing ISO Message
+2019-09-18 00:57:21,895 INFO com.atm.dao.Dao [http-nio-8084-exec-3] Authentication succeed
+2019-09-18 00:57:21,897 INFO com.atm.services.BalanceService [http-nio-8084-exec-3] Success checking balance of 999999 with amount 182500
+2019-09-18 00:57:21,903 INFO com.atm.controllers.HttpController [DefaultMessageListenerContainer-1] Sending Http Request to http://localhost:8084/check
+2019-09-18 00:57:21,912 INFO com.atm.controllers.iso.ISOController [main] Parsing ISO Message
+2019-09-18 00:57:30,040 INFO com.atm.controllers.iso.ISOBalanceController [main] Built ISO Message to Check Balance
+2019-09-18 00:57:30,054 INFO com.atm.controllers.messaging.MessageSender [main] Sending ActiveMQTextMessage {commandId = 0, responseRequired = false, messageId = null, originalDestination = null, originalTransactionId = null, producerId = null, destination = null, transactionId = null, expiration = 0, timestamp = 0, arrival = 0, brokerInTime = 0, brokerOutTime = 0, correlationId = null, replyTo = null, persistent = false, type = null, priority = 0, groupID = null, groupSequence = 0, targetConsumerId = null, compressed = false, userID = null, content = null, marshalledProperties = null, dataStructure = null, redeliveryCounter = 0, size = 0, properties = null, readOnlyProperties = false, readOnlyBody = false, droppable = false, jmsXGroupFirstForConsumer = false, text = 0200F23A400188A094040000000004000000012300000...049999049999} to queue
+2019-09-18 00:57:30,062 INFO com.atm.controllers.iso.ISOController [DefaultMessageListenerContainer-1] Parsing ISO Message
+2019-09-18 00:57:30,071 INFO com.atm.controllers.iso.ISOController [http-nio-8084-exec-5] Parsing ISO Message
+2019-09-18 00:57:30,077 INFO com.atm.controllers.HttpController [DefaultMessageListenerContainer-1] Sending Http Request to http://localhost:8084/check
+2019-09-18 00:57:30,082 INFO com.atm.controllers.iso.ISOController [main] Parsing ISO Message
+2019-09-18 00:58:14,568 INFO com.atm.controllers.iso.ISOSwitchTransInquiryController [main] Built ISO Message for Transfer Inquiry
+2019-09-18 00:58:14,580 INFO com.atm.controllers.messaging.MessageSender [main] Sending ActiveMQTextMessage {commandId = 0, responseRequired = false, messageId = null, originalDestination = null, originalTransactionId = null, producerId = null, destination = null, transactionId = null, expiration = 0, timestamp = 0, arrival = 0, brokerInTime = 0, brokerOutTime = 0, correlationId = null, replyTo = null, persistent = false, type = null, priority = 0, groupID = null, groupSequence = 0, targetConsumerId = null, compressed = false, userID = null, content = null, marshalledProperties = null, dataStructure = null, redeliveryCounter = 0, size = 0, properties = null, readOnlyProperties = false, readOnlyBody = false, droppable = false, jmsXGroupFirstForConsumer = false, text = 0200F23A400188A094040000000016000002069999993...499990043333} to queue
+2019-09-18 00:58:14,589 INFO com.atm.controllers.iso.ISOController [DefaultMessageListenerContainer-1] Parsing ISO Message
+2019-09-18 00:58:14,601 INFO com.atm.controllers.iso.ISOController [http-nio-8084-exec-7] Parsing ISO Message
+2019-09-18 00:58:14,604 INFO com.atm.dao.Dao [http-nio-8084-exec-7] Authentication succeed
+2019-09-18 00:58:15,445 INFO com.atm.controllers.HttpController [http-nio-8084-exec-7] Sending Http Request to http://localhost:8083/switchingtransinquiry
+2019-09-18 00:58:15,447 INFO com.atm.controllers.HttpController [DefaultMessageListenerContainer-1] Sending Http Request to http://localhost:8084/switchingtransinquiry
+2019-09-18 00:58:15,452 INFO com.atm.controllers.iso.ISOController [main] Parsing ISO Message
+2019-09-18 00:58:19,206 INFO com.atm.controllers.iso.ISOSwitchTransferController [main] Built ISO Message for Transfer Inquiry
+2019-09-18 00:58:19,221 INFO com.atm.controllers.messaging.MessageSender [main] Sending ActiveMQTextMessage {commandId = 0, responseRequired = false, messageId = null, originalDestination = null, originalTransactionId = null, producerId = null, destination = null, transactionId = null, expiration = 0, timestamp = 0, arrival = 0, brokerInTime = 0, brokerOutTime = 0, correlationId = null, replyTo = null, persistent = false, type = null, priority = 0, groupID = null, groupSequence = 0, targetConsumerId = null, compressed = false, userID = null, content = null, marshalledProperties = null, dataStructure = null, redeliveryCounter = 0, size = 0, properties = null, readOnlyProperties = false, readOnlyBody = false, droppable = false, jmsXGroupFirstForConsumer = false, text = 0200F23A400188A094040000000016000002069999994...499990043333} to queue
+2019-09-18 00:58:19,227 INFO com.atm.controllers.iso.ISOController [DefaultMessageListenerContainer-1] Parsing ISO Message
+2019-09-18 00:58:19,232 INFO com.atm.controllers.iso.ISOController [http-nio-8084-exec-9] Parsing ISO Message
+2019-09-18 00:58:19,284 INFO com.atm.controllers.HttpController [http-nio-8084-exec-9] Sending Http Request to http://localhost:8083/switchingtransfer
+2019-09-18 00:58:19,287 INFO com.atm.controllers.iso.ISOController [http-nio-8084-exec-9] Parsing ISO Message
+2019-09-18 00:58:19,295 INFO com.atm.services.BalanceService [http-nio-8084-exec-9] Success checking balance of 999999 with amount 126000
+2019-09-18 00:58:19,295 INFO com.atm.services.TransferService [http-nio-8084-exec-9] Success transfer from 999999 to 222111
+2019-09-18 00:58:19,300 INFO com.atm.controllers.HttpController [DefaultMessageListenerContainer-1] Sending Http Request to http://localhost:8084/switchingtransfer
+2019-09-18 00:58:19,304 INFO com.atm.controllers.iso.ISOController [main] Parsing ISO Message
+2019-09-18 01:04:05,623 INFO com.atm.controllers.iso.ISOWithdrawController [main] Built ISO Message for Cash Withdrawal
+2019-09-18 01:04:05,849 INFO com.atm.controllers.messaging.MessageSender [main] Sending ActiveMQTextMessage {commandId = 0, responseRequired = false, messageId = null, originalDestination = null, originalTransactionId = null, producerId = null, destination = null, transactionId = null, expiration = 0, timestamp = 0, arrival = 0, brokerInTime = 0, brokerOutTime = 0, correlationId = null, replyTo = null, persistent = false, type = null, priority = 0, groupID = null, groupSequence = 0, targetConsumerId = null, compressed = false, userID = null, content = null, marshalledProperties = null, dataStructure = null, redeliveryCounter = 0, size = 0, properties = null, readOnlyProperties = false, readOnlyBody = false, droppable = false, jmsXGroupFirstForConsumer = false, text = 0200F23A400188A094040000000004000000069999990...049999049999} to queue
+2019-09-18 01:04:05,861 INFO com.atm.controllers.iso.ISOController [DefaultMessageListenerContainer-1] Parsing ISO Message
+2019-09-18 01:04:05,869 INFO com.atm.controllers.iso.ISOController [http-nio-8084-exec-10] Parsing ISO Message
+2019-09-18 01:04:05,872 INFO com.atm.dao.Dao [http-nio-8084-exec-10] Authentication succeed
+2019-09-18 01:04:05,874 INFO com.atm.services.BalanceService [http-nio-8084-exec-10] Success checking balance of 999999 with amount 126000
+2019-09-18 01:04:05,876 INFO com.atm.services.BalanceService [http-nio-8084-exec-10] Success checking balance of 999999 with amount 126000
+2019-09-18 01:04:05,877 INFO com.atm.services.WithdrawService [http-nio-8084-exec-10] Success withdrawing 0 from 999999
+2019-09-18 01:04:05,884 INFO com.atm.controllers.HttpController [DefaultMessageListenerContainer-1] Sending Http Request to http://localhost:8084/withdraw
+2019-09-18 01:04:05,896 INFO com.atm.controllers.iso.ISOController [main] Parsing ISO Message in Client : 0210F23A40018AA08404000000000400000006999999019999000000000000091801040500000001040509180918999911999999999991199999999999RETRIEVAL12300123400011234000123123400012312340001231234000123840013localhost5000006126000049999
+2019-09-18 01:08:20,274 INFO com.atm.controllers.iso.ISOWithdrawController [main] Built ISO Message for Cash Withdrawal
+2019-09-18 01:08:20,486 INFO com.atm.controllers.messaging.MessageSender [main] Sending ActiveMQTextMessage {commandId = 0, responseRequired = false, messageId = null, originalDestination = null, originalTransactionId = null, producerId = null, destination = null, transactionId = null, expiration = 0, timestamp = 0, arrival = 0, brokerInTime = 0, brokerOutTime = 0, correlationId = null, replyTo = null, persistent = false, type = null, priority = 0, groupID = null, groupSequence = 0, targetConsumerId = null, compressed = false, userID = null, content = null, marshalledProperties = null, dataStructure = null, redeliveryCounter = 0, size = 0, properties = null, readOnlyProperties = false, readOnlyBody = false, droppable = false, jmsXGroupFirstForConsumer = false, text = 0200F23A400188A094040000000004000000069999990...049999049999} to queue
+2019-09-18 01:08:20,501 INFO com.atm.controllers.iso.ISOController [DefaultMessageListenerContainer-1] Parsing ISO Message
+2019-09-18 01:08:20,520 INFO com.atm.controllers.iso.ISOController [http-nio-8084-exec-2] Parsing ISO Message
+2019-09-18 01:08:20,521 INFO com.atm.dao.Dao [http-nio-8084-exec-2] Authentication succeed
+2019-09-18 01:08:20,522 INFO com.atm.services.BalanceService [http-nio-8084-exec-2] Success checking balance of 999999 with amount 126000
+2019-09-18 01:08:20,526 INFO com.atm.services.BalanceService [http-nio-8084-exec-2] Success checking balance of 999999 with amount 76000
+2019-09-18 01:08:20,526 INFO com.atm.services.WithdrawService [http-nio-8084-exec-2] Success withdrawing 50000 from 999999
+2019-09-18 01:08:20,532 INFO com.atm.controllers.HttpController [DefaultMessageListenerContainer-1] Sending Http Request to http://localhost:8084/withdraw
+2019-09-18 01:08:20,543 INFO com.atm.controllers.iso.ISOController [main] Parsing ISO Message in Client : 0210F23A40018AA08404000000000400000006999999019999000000000000091801082000000001082009180918999911999999999991199999999999RETRIEVAL12300123400011234000123123400012312340001231234000123840013localhost500000576000049999
+2019-09-18 01:09:18,676 ERROR com.atm.Client [main] For input string: "f"
+2019-09-18 01:09:18,701 INFO com.atm.controllers.iso.ISOPurchaseInquiryController [main] Built ISO Message for Purchase Inquiry
+2019-09-18 01:09:18,709 INFO com.atm.controllers.messaging.MessageSender [main] Sending ActiveMQTextMessage {commandId = 0, responseRequired = false, messageId = null, originalDestination = null, originalTransactionId = null, producerId = null, destination = null, transactionId = null, expiration = 0, timestamp = 0, arrival = 0, brokerInTime = 0, brokerOutTime = 0, correlationId = null, replyTo = null, persistent = false, type = null, priority = 0, groupID = null, groupSequence = 0, targetConsumerId = null, compressed = false, userID = null, content = null, marshalledProperties = null, dataStructure = null, redeliveryCounter = 0, size = 0, properties = null, readOnlyProperties = false, readOnlyBody = false, droppable = false, jmsXGroupFirstForConsumer = false, text = 0200F23A400108E094040000000014000000069999993...042222049999} to queue
+2019-09-18 01:09:18,718 INFO com.atm.controllers.iso.ISOController [DefaultMessageListenerContainer-1] Parsing ISO Message
+2019-09-18 01:09:18,727 INFO com.atm.controllers.iso.ISOController [http-nio-8084-exec-4] Parsing ISO Message
+2019-09-18 01:09:18,730 INFO com.atm.dao.Dao [http-nio-8084-exec-4] Authentication succeed
+2019-09-18 01:09:18,731 INFO com.atm.services.BalanceService [http-nio-8084-exec-4] Success checking balance of 999999 with amount 76000
+2019-09-18 01:09:18,731 INFO com.atm.services.PurchaseInquiryService [http-nio-8084-exec-4] Success purchase inquiry from 999999
+2019-09-18 01:09:18,736 INFO com.atm.controllers.HttpController [DefaultMessageListenerContainer-1] Sending Http Request to http://localhost:8084/purchaseinquiry
+2019-09-18 01:09:18,743 INFO com.atm.controllers.iso.ISOController [main] Parsing ISO Message in Client : 0210F23A40010AE0840400000000040000000699999999999900000000000009180109189999990109180918091899991199999999999RETRIEVAL12300123400010000000000000001234000123123400012312340001231234000123840013localhost5000005760001108126089946
+2019-09-18 01:09:58,988 INFO com.atm.controllers.iso.ISOPurchaseController [main] Built ISO Message for Purchase
+2019-09-18 01:09:59,000 INFO com.atm.controllers.messaging.MessageSender [main] Sending ActiveMQTextMessage {commandId = 0, responseRequired = false, messageId = null, originalDestination = null, originalTransactionId = null, producerId = null, destination = null, transactionId = null, expiration = 0, timestamp = 0, arrival = 0, brokerInTime = 0, brokerOutTime = 0, correlationId = null, replyTo = null, persistent = false, type = null, priority = 0, groupID = null, groupSequence = 0, targetConsumerId = null, compressed = false, userID = null, content = null, marshalledProperties = null, dataStructure = null, redeliveryCounter = 0, size = 0, properties = null, readOnlyProperties = false, readOnlyBody = false, droppable = false, jmsXGroupFirstForConsumer = false, text = 0200F23A400108E094040000000014000000069999991...042222049999} to queue
+2019-09-18 01:09:59,007 INFO com.atm.controllers.iso.ISOController [DefaultMessageListenerContainer-1] Parsing ISO Message
+2019-09-18 01:09:59,014 INFO com.atm.controllers.iso.ISOController [http-nio-8084-exec-6] Parsing ISO Message
+2019-09-18 01:09:59,040 INFO com.atm.services.BalanceService [http-nio-8084-exec-6] Success checking balance of 999999 with amount 74500
+2019-09-18 01:09:59,040 INFO com.atm.services.PurchaseService [http-nio-8084-exec-6] Success purchase to 08126089946
+2019-09-18 01:09:59,044 INFO com.atm.controllers.HttpController [DefaultMessageListenerContainer-1] Sending Http Request to http://localhost:8084/purchase
+2019-09-18 01:09:59,052 INFO com.atm.controllers.iso.ISOController [main] Parsing ISO Message in Client : 0210F23A40010AE0840400000000040000000699999999999900000000000009180109599999990109590918091899991199999999999RETRIEVAL12300123400010000000000000001234000123123400012312340001231234000123840013localhost5000005745001108126089946
+2019-09-18 01:10:20,537 ERROR com.atm.Client [main] For input string: "f"
+2019-09-18 01:10:20,551 INFO com.atm.controllers.iso.ISOWithdrawController [main] Built ISO Message for Cash Withdrawal
+2019-09-18 01:10:20,560 INFO com.atm.controllers.messaging.MessageSender [main] Sending ActiveMQTextMessage {commandId = 0, responseRequired = false, messageId = null, originalDestination = null, originalTransactionId = null, producerId = null, destination = null, transactionId = null, expiration = 0, timestamp = 0, arrival = 0, brokerInTime = 0, brokerOutTime = 0, correlationId = null, replyTo = null, persistent = false, type = null, priority = 0, groupID = null, groupSequence = 0, targetConsumerId = null, compressed = false, userID = null, content = null, marshalledProperties = null, dataStructure = null, redeliveryCounter = 0, size = 0, properties = null, readOnlyProperties = false, readOnlyBody = false, droppable = false, jmsXGroupFirstForConsumer = false, text = 0200F23A400188A094040000000004000000069999990...049999049999} to queue
+2019-09-18 01:10:20,567 INFO com.atm.controllers.iso.ISOController [DefaultMessageListenerContainer-1] Parsing ISO Message
+2019-09-18 01:10:20,573 INFO com.atm.controllers.iso.ISOController [http-nio-8084-exec-8] Parsing ISO Message
+2019-09-18 01:10:20,574 INFO com.atm.dao.Dao [http-nio-8084-exec-8] Authentication succeed
+2019-09-18 01:10:20,575 INFO com.atm.services.BalanceService [http-nio-8084-exec-8] Success checking balance of 999999 with amount 74500
+2019-09-18 01:10:20,577 INFO com.atm.services.BalanceService [http-nio-8084-exec-8] Success checking balance of 999999 with amount 74500
+2019-09-18 01:10:20,577 INFO com.atm.services.WithdrawService [http-nio-8084-exec-8] Success withdrawing 0 from 999999
+2019-09-18 01:10:20,582 INFO com.atm.controllers.HttpController [DefaultMessageListenerContainer-1] Sending Http Request to http://localhost:8084/withdraw
+2019-09-18 01:10:20,586 INFO com.atm.controllers.iso.ISOController [main] Parsing ISO Message in Client : 0210F23A40018AA08404000000000400000006999999019999000000000000091801102000000001102009180918999911999999999991199999999999RETRIEVAL12300123400011234000123123400012312340001231234000123840013localhost500000574500049999
+2019-09-18 01:15:00,505 ERROR com.atm.Client [main] For input string: "f"
+2019-09-18 01:15:09,665 INFO com.atm.controllers.iso.ISOPurchaseInquiryController [main] Built ISO Message for Purchase Inquiry
+2019-09-18 01:15:09,878 INFO com.atm.controllers.messaging.MessageSender [main] Sending ActiveMQTextMessage {commandId = 0, responseRequired = false, messageId = null, originalDestination = null, originalTransactionId = null, producerId = null, destination = null, transactionId = null, expiration = 0, timestamp = 0, arrival = 0, brokerInTime = 0, brokerOutTime = 0, correlationId = null, replyTo = null, persistent = false, type = null, priority = 0, groupID = null, groupSequence = 0, targetConsumerId = null, compressed = false, userID = null, content = null, marshalledProperties = null, dataStructure = null, redeliveryCounter = 0, size = 0, properties = null, readOnlyProperties = false, readOnlyBody = false, droppable = false, jmsXGroupFirstForConsumer = false, text = 0200F23A400108E094040000000014000000069999993...042222049999} to queue
+2019-09-18 01:15:09,890 INFO com.atm.controllers.iso.ISOController [DefaultMessageListenerContainer-1] Parsing ISO Message
+2019-09-18 01:15:09,898 INFO com.atm.controllers.iso.ISOController [http-nio-8084-exec-10] Parsing ISO Message
+2019-09-18 01:15:09,901 INFO com.atm.dao.Dao [http-nio-8084-exec-10] Authentication succeed
+2019-09-18 01:15:09,902 INFO com.atm.services.BalanceService [http-nio-8084-exec-10] Success checking balance of 999999 with amount 74500
+2019-09-18 01:15:09,902 INFO com.atm.services.PurchaseInquiryService [http-nio-8084-exec-10] Success purchase inquiry from 999999
+2019-09-18 01:15:09,907 INFO com.atm.controllers.HttpController [DefaultMessageListenerContainer-1] Sending Http Request to http://localhost:8084/purchaseinquiry
+2019-09-18 01:15:09,918 INFO com.atm.controllers.iso.ISOController [main] Parsing ISO Message in Client : 0210F23A40010AE0840400000000040000000699999999999900000000000009180115099999990115090918091899991199999999999RETRIEVAL12300123400010000000000000001234000123123400012312340001231234000123840013localhost5000005745001108126089946
+2019-09-18 01:15:13,980 INFO com.atm.controllers.iso.ISOPurchaseController [main] Built ISO Message for Purchase
+2019-09-18 01:15:13,991 INFO com.atm.controllers.messaging.MessageSender [main] Sending ActiveMQTextMessage {commandId = 0, responseRequired = false, messageId = null, originalDestination = null, originalTransactionId = null, producerId = null, destination = null, transactionId = null, expiration = 0, timestamp = 0, arrival = 0, brokerInTime = 0, brokerOutTime = 0, correlationId = null, replyTo = null, persistent = false, type = null, priority = 0, groupID = null, groupSequence = 0, targetConsumerId = null, compressed = false, userID = null, content = null, marshalledProperties = null, dataStructure = null, redeliveryCounter = 0, size = 0, properties = null, readOnlyProperties = false, readOnlyBody = false, droppable = false, jmsXGroupFirstForConsumer = false, text = 0200F23A400108E094040000000014000000069999991...042222049999} to queue
+2019-09-18 01:15:13,997 INFO com.atm.controllers.iso.ISOController [DefaultMessageListenerContainer-1] Parsing ISO Message
+2019-09-18 01:15:14,005 INFO com.atm.controllers.iso.ISOController [http-nio-8084-exec-2] Parsing ISO Message
+2019-09-18 01:15:14,011 INFO com.atm.services.BalanceService [http-nio-8084-exec-2] Success checking balance of 999999 with amount 48000
+2019-09-18 01:15:14,011 INFO com.atm.services.PurchaseService [http-nio-8084-exec-2] Success purchase to 08126089946
+2019-09-18 01:15:14,016 INFO com.atm.controllers.HttpController [DefaultMessageListenerContainer-1] Sending Http Request to http://localhost:8084/purchase
+2019-09-18 01:15:14,024 INFO com.atm.controllers.iso.ISOController [main] Parsing ISO Message in Client : 0210F23A40010AE0840400000000040000000699999999999900000000000009180115149999990115140918091899991199999999999RETRIEVAL12300123400010000000000000001234000123123400012312340001231234000123840013localhost5000005480001108126089946
+2019-09-18 01:16:50,585 ERROR com.atm.Client [main] For input string: "f"
+2019-09-18 01:16:56,027 INFO com.atm.controllers.iso.ISOWithdrawController [main] Built ISO Message for Cash Withdrawal
+2019-09-18 01:16:56,240 INFO com.atm.controllers.messaging.MessageSender [main] Sending ActiveMQTextMessage {commandId = 0, responseRequired = false, messageId = null, originalDestination = null, originalTransactionId = null, producerId = null, destination = null, transactionId = null, expiration = 0, timestamp = 0, arrival = 0, brokerInTime = 0, brokerOutTime = 0, correlationId = null, replyTo = null, persistent = false, type = null, priority = 0, groupID = null, groupSequence = 0, targetConsumerId = null, compressed = false, userID = null, content = null, marshalledProperties = null, dataStructure = null, redeliveryCounter = 0, size = 0, properties = null, readOnlyProperties = false, readOnlyBody = false, droppable = false, jmsXGroupFirstForConsumer = false, text = 0200F23A400188A094040000000004000000069999990...049999049999} to queue
+2019-09-18 01:16:56,252 INFO com.atm.controllers.iso.ISOController [DefaultMessageListenerContainer-1] Parsing ISO Message
+2019-09-18 01:16:56,261 INFO com.atm.controllers.iso.ISOController [http-nio-8084-exec-4] Parsing ISO Message
+2019-09-18 01:16:56,262 INFO com.atm.dao.Dao [http-nio-8084-exec-4] Authentication succeed
+2019-09-18 01:16:56,263 INFO com.atm.services.BalanceService [http-nio-8084-exec-4] Success checking balance of 999999 with amount 48000
+2019-09-18 01:16:56,264 INFO com.atm.services.WithdrawService [http-nio-8084-exec-4] Fail withdrawing 50000 from 999999, balance not enough
+2019-09-18 01:16:56,269 INFO com.atm.controllers.HttpController [DefaultMessageListenerContainer-1] Sending Http Request to http://localhost:8084/withdraw
+2019-09-18 01:16:56,282 INFO com.atm.controllers.iso.ISOController [main] Parsing ISO Message in Client : 0210F23A40018AA08404000000000400000006999999019999000000000000091801165600000001165609180918999911999999999991199999999999RETRIEVAL12351123400011234000123123400012312340001231234000123840013localhost500000548000049999
+2019-09-18 01:22:08,975 ERROR com.atm.Client [main] For input string: "f"
+2019-09-18 01:22:14,640 INFO com.atm.controllers.iso.ISOWithdrawController [main] Built ISO Message for Cash Withdrawal
+2019-09-18 01:22:14,855 INFO com.atm.controllers.messaging.MessageSender [main] Sending ActiveMQTextMessage {commandId = 0, responseRequired = false, messageId = null, originalDestination = null, originalTransactionId = null, producerId = null, destination = null, transactionId = null, expiration = 0, timestamp = 0, arrival = 0, brokerInTime = 0, brokerOutTime = 0, correlationId = null, replyTo = null, persistent = false, type = null, priority = 0, groupID = null, groupSequence = 0, targetConsumerId = null, compressed = false, userID = null, content = null, marshalledProperties = null, dataStructure = null, redeliveryCounter = 0, size = 0, properties = null, readOnlyProperties = false, readOnlyBody = false, droppable = false, jmsXGroupFirstForConsumer = false, text = 0200F23A400188A094040000000004000000069999990...049999049999} to queue
+2019-09-18 01:22:14,868 INFO com.atm.controllers.iso.ISOController [DefaultMessageListenerContainer-1] Parsing ISO Message
+2019-09-18 01:22:14,877 INFO com.atm.controllers.iso.ISOController [http-nio-8084-exec-6] Parsing ISO Message
+2019-09-18 01:22:14,879 INFO com.atm.dao.Dao [http-nio-8084-exec-6] Authentication succeed
+2019-09-18 01:22:14,880 INFO com.atm.services.BalanceService [http-nio-8084-exec-6] Success checking balance of 999999 with amount 1000000
+2019-09-18 01:22:14,882 INFO com.atm.services.BalanceService [http-nio-8084-exec-6] Success checking balance of 999999 with amount 800000
+2019-09-18 01:22:14,882 INFO com.atm.services.WithdrawService [http-nio-8084-exec-6] Success withdrawing 200000 from 999999
+2019-09-18 01:22:14,889 INFO com.atm.controllers.HttpController [DefaultMessageListenerContainer-1] Sending Http Request to http://localhost:8084/withdraw
+2019-09-18 01:22:14,898 INFO com.atm.controllers.iso.ISOController [main] Parsing ISO Message in Client : 0210F23A40018AA08404000000000400000006999999019999000000000000091801221400000001221409180918999911999999999991199999999999RETRIEVAL12300123400011234000123123400012312340001231234000123840013localhost5000006800000049999
+2019-09-18 01:22:45,967 INFO com.atm.controllers.iso.ISOPaymentInquiryController [main] Built ISO Message for Payment Inquiry
+2019-09-18 01:22:45,977 INFO com.atm.controllers.messaging.MessageSender [main] Sending ActiveMQTextMessage {commandId = 0, responseRequired = false, messageId = null, originalDestination = null, originalTransactionId = null, producerId = null, destination = null, transactionId = null, expiration = 0, timestamp = 0, arrival = 0, brokerInTime = 0, brokerOutTime = 0, correlationId = null, replyTo = null, persistent = false, type = null, priority = 0, groupID = null, groupSequence = 0, targetConsumerId = null, compressed = false, userID = null, content = null, marshalledProperties = null, dataStructure = null, redeliveryCounter = 0, size = 0, properties = null, readOnlyProperties = false, readOnlyBody = false, droppable = false, jmsXGroupFirstForConsumer = false, text = 0200F23A400188E094040000000014000000069999993...042222049999} to queue
+2019-09-18 01:22:45,985 INFO com.atm.controllers.iso.ISOController [DefaultMessageListenerContainer-1] Parsing ISO Message
+2019-09-18 01:22:45,994 INFO com.atm.controllers.iso.ISOController [http-nio-8084-exec-8] Parsing ISO Message
+2019-09-18 01:22:45,999 INFO com.atm.dao.Dao [http-nio-8084-exec-8] Authentication succeed
+2019-09-18 01:22:46,001 INFO com.atm.services.BalanceService [http-nio-8084-exec-8] Success checking balance of 999999 with amount 800000
+2019-09-18 01:22:46,006 INFO com.atm.services.PaymentInquiryService [http-nio-8084-exec-8] Success payment inquiry with amount 100000 to 888888 
+2019-09-18 01:22:46,012 INFO com.atm.controllers.HttpController [DefaultMessageListenerContainer-1] Sending Http Request to http://localhost:8084/paymentinquiry
+2019-09-18 01:22:46,021 INFO com.atm.controllers.iso.ISOController [main] Parsing ISO Message in Client : 0210F23A40018AE08404000000000400000006999999999999000000000000091801224699999901224609180918999911999999999990589508RETRIEVAL12300123400010000000000000001234000123123400012312340001231234000123840013localhost500000680000020Virtual Account DANA
+2019-09-18 01:22:50,793 INFO com.atm.controllers.iso.ISOPaymentController [main] Built ISO Message for Payment
+2019-09-18 01:22:50,803 INFO com.atm.controllers.messaging.MessageSender [main] Sending ActiveMQTextMessage {commandId = 0, responseRequired = false, messageId = null, originalDestination = null, originalTransactionId = null, producerId = null, destination = null, transactionId = null, expiration = 0, timestamp = 0, arrival = 0, brokerInTime = 0, brokerOutTime = 0, correlationId = null, replyTo = null, persistent = false, type = null, priority = 0, groupID = null, groupSequence = 0, targetConsumerId = null, compressed = false, userID = null, content = null, marshalledProperties = null, dataStructure = null, redeliveryCounter = 0, size = 0, properties = null, readOnlyProperties = false, readOnlyBody = false, droppable = false, jmsXGroupFirstForConsumer = false, text = 0200F23A400188E094040000000014000000069999991...042222049999} to queue
+2019-09-18 01:22:50,811 INFO com.atm.controllers.iso.ISOController [DefaultMessageListenerContainer-1] Parsing ISO Message
+2019-09-18 01:22:50,818 INFO com.atm.controllers.iso.ISOController [http-nio-8084-exec-10] Parsing ISO Message
+2019-09-18 01:22:50,826 INFO com.atm.services.BalanceService [http-nio-8084-exec-10] Success checking balance of 999999 with amount 700000
+2019-09-18 01:22:50,827 INFO com.atm.services.PaymentService [http-nio-8084-exec-10] Success payment with amount 100000 to 888888 
+2019-09-18 01:22:50,832 INFO com.atm.controllers.HttpController [DefaultMessageListenerContainer-1] Sending Http Request to http://localhost:8084/payment
+2019-09-18 01:22:50,837 INFO com.atm.controllers.iso.ISOController [main] Parsing ISO Message in Client : 0210F23A40018AE08404000000000400000006999999999999000000000000091801225099999901225009180918999911999999999990589508RETRIEVAL12300123400010000000000000001234000123123400012312340001231234000123840013localhost500000670000006888888
+2019-09-18 09:52:17,058 ERROR com.atm.controllers.iso.ISOController [DefaultMessageListenerContainer-1] Error : Index 4 out of bounds for length 4 consumed=4 in parseISOMessage method
+2019-09-18 09:52:18,114 ERROR com.atm.controllers.iso.ISOController [DefaultMessageListenerContainer-1] Error : Index 4 out of bounds for length 4 consumed=4 in parseISOMessage method
+2019-09-18 09:52:19,130 ERROR com.atm.controllers.iso.ISOController [DefaultMessageListenerContainer-1] Error : Index 4 out of bounds for length 4 consumed=4 in parseISOMessage method
+2019-09-18 09:52:20,141 ERROR com.atm.controllers.iso.ISOController [DefaultMessageListenerContainer-1] Error : Index 4 out of bounds for length 4 consumed=4 in parseISOMessage method
+2019-09-18 09:52:21,155 ERROR com.atm.controllers.iso.ISOController [DefaultMessageListenerContainer-1] Error : Index 4 out of bounds for length 4 consumed=4 in parseISOMessage method
+2019-09-18 09:52:22,173 ERROR com.atm.controllers.iso.ISOController [DefaultMessageListenerContainer-1] Error : Index 4 out of bounds for length 4 consumed=4 in parseISOMessage method
+2019-09-18 09:52:23,191 ERROR com.atm.controllers.iso.ISOController [DefaultMessageListenerContainer-1] Error : Index 4 out of bounds for length 4 consumed=4 in parseISOMessage method
+2019-09-18 10:08:37,910 INFO com.atm.controllers.iso.ISOBalanceController [main] Built ISO Message to Check Balance
+2019-09-18 10:08:39,198 INFO com.atm.controllers.messaging.MessageSender [main] Sending ActiveMQTextMessage {commandId = 0, responseRequired = false, messageId = null, originalDestination = null, originalTransactionId = null, producerId = null, destination = null, transactionId = null, expiration = 0, timestamp = 0, arrival = 0, brokerInTime = 0, brokerOutTime = 0, correlationId = null, replyTo = null, persistent = false, type = null, priority = 0, groupID = null, groupSequence = 0, targetConsumerId = null, compressed = false, userID = null, content = null, marshalledProperties = null, dataStructure = null, redeliveryCounter = 0, size = 0, properties = null, readOnlyProperties = false, readOnlyBody = false, droppable = false, jmsXGroupFirstForConsumer = false, text = 0200F23A400188A094040000000004000000061234563...049999049999} to queue
+2019-09-18 10:08:39,222 INFO com.atm.controllers.iso.ISOController [DefaultMessageListenerContainer-1] Parsing ISO Message
+2019-09-18 10:08:39,262 INFO com.atm.controllers.iso.ISOController [http-nio-8084-exec-2] Parsing ISO Message
+2019-09-18 10:08:39,288 INFO com.atm.dao.Dao [http-nio-8084-exec-2] Authentication succeed
+2019-09-18 10:08:39,289 INFO com.atm.services.BalanceService [http-nio-8084-exec-2] Success checking balance of 123456 with amount 14399
+2019-09-18 10:08:39,301 INFO com.atm.controllers.HttpController [DefaultMessageListenerContainer-1] Sending Http Request to http://localhost:8084/check
+2019-09-18 10:08:39,308 INFO com.atm.controllers.iso.ISOController [main] Parsing ISO Message in Client : 0210F23A40018AA08404000000000400000006123456309999000000000000091810083999999910083909180918999911999999999991199999999999RETRIEVAL12300123400011234000123123400012312340001231234000123840013localhost500000514399049999
+2019-09-18 10:15:24,883 ERROR org.springframework.jms.listener.DefaultMessageListenerContainer [DefaultMessageListenerContainer-1] Could not refresh JMS Connection for destination 'bank' - retrying using FixedBackOff{interval=5000, currentAttempts=0, maxAttempts=unlimited}. Cause: Could not connect to broker URL: tcp://localhost:61616. Reason: java.net.ConnectException: Connection refused (Connection refused)
+2019-09-18 10:15:29,887 ERROR org.springframework.jms.listener.DefaultMessageListenerContainer [DefaultMessageListenerContainer-1] Could not refresh JMS Connection for destination 'bank' - retrying using FixedBackOff{interval=5000, currentAttempts=1, maxAttempts=unlimited}. Cause: Could not connect to broker URL: tcp://localhost:61616. Reason: java.net.ConnectException: Connection refused (Connection refused)
+2019-09-18 10:40:04,140 INFO com.atm.AtmApplication [main] Starting AtmApplication on Ariansyah with PID 4956 (/Users/ariansyah.nugroho/Downloads/G2Academy/Code/Project/ATM_Project/atm/target/classes started by ariansyah.nugroho in /Users/ariansyah.nugroho/Downloads/G2Academy/Code/Project/ATM_Project/atm)
+2019-09-18 10:40:04,142 DEBUG com.atm.AtmApplication [main] Running with Spring Boot v2.1.8.RELEASE, Spring v5.1.9.RELEASE
+2019-09-18 10:40:04,143 INFO com.atm.AtmApplication [main] The following profiles are active: @spring.profiles.active@
+2019-09-18 10:40:06,205 INFO com.atm.AtmApplication [main] Started AtmApplication in 2.355 seconds (JVM running for 4.084)
+2019-09-18 10:40:26,564 INFO com.atm.controllers.iso.ISOBalanceController [main] Built ISO Message to Check Balance
+2019-09-18 10:40:26,797 INFO com.atm.controllers.messaging.MessageSender [main] Sending ActiveMQTextMessage {commandId = 0, responseRequired = false, messageId = null, originalDestination = null, originalTransactionId = null, producerId = null, destination = null, transactionId = null, expiration = 0, timestamp = 0, arrival = 0, brokerInTime = 0, brokerOutTime = 0, correlationId = null, replyTo = null, persistent = false, type = null, priority = 0, groupID = null, groupSequence = 0, targetConsumerId = null, compressed = false, userID = null, content = null, marshalledProperties = null, dataStructure = null, redeliveryCounter = 0, size = 0, properties = null, readOnlyProperties = false, readOnlyBody = false, droppable = false, jmsXGroupFirstForConsumer = false, text = 0200F23A400188A094040000000004000000069999993...049999049999} to queue
+2019-09-18 10:40:26,870 INFO com.atm.controllers.iso.ISOController [DefaultMessageListenerContainer-1] Parsing ISO Message : 0200F23A400188A09404000000000400000006999999300000000000000000091810402699999910402609180918999911999999999991199999999999RETRIEVAL1231234000112340001231234000123123400012312340001238400000000000999999013localhost50500049999049999
+2019-09-18 10:40:27,334 INFO com.atm.controllers.iso.ISOController [http-nio-8084-exec-1] Parsing ISO Message : 0200F23A400188A09404000000000400000006999999300000000000000000091810402699999910402609180918999911999999999991199999999999RETRIEVAL1231234000112340001231234000123123400012312340001238400000000000999999013localhost50500049999049999
+2019-09-18 10:40:27,707 INFO com.atm.dao.Dao [http-nio-8084-exec-1] Authentication succeed
+2019-09-18 10:40:27,709 INFO com.atm.services.BalanceService [http-nio-8084-exec-1] Success checking balance of 999999 with amount 700000
+2019-09-18 10:40:27,740 INFO com.atm.controllers.iso.ISOController [main] Parsing ISO Message in Client : 0210F23A40018AA08404000000000400000006999999309999000000000000091810402799999910402709180918999911999999999991199999999999RETRIEVAL12300123400011234000123123400012312340001231234000123840013localhost5050006700000049999
+2019-09-18 10:40:27,768 INFO com.atm.controllers.HttpController [DefaultMessageListenerContainer-1] Sending Http Request to http://localhost:8084/check
+2019-09-18 10:40:30,935 INFO com.atm.controllers.iso.ISOWithdrawController [main] Built ISO Message for Cash Withdrawal
+2019-09-18 10:40:31,154 INFO com.atm.controllers.messaging.MessageSender [main] Sending ActiveMQTextMessage {commandId = 0, responseRequired = false, messageId = null, originalDestination = null, originalTransactionId = null, producerId = null, destination = null, transactionId = null, expiration = 0, timestamp = 0, arrival = 0, brokerInTime = 0, brokerOutTime = 0, correlationId = null, replyTo = null, persistent = false, type = null, priority = 0, groupID = null, groupSequence = 0, targetConsumerId = null, compressed = false, userID = null, content = null, marshalledProperties = null, dataStructure = null, redeliveryCounter = 0, size = 0, properties = null, readOnlyProperties = false, readOnlyBody = false, droppable = false, jmsXGroupFirstForConsumer = false, text = 0200F23A400188A094040000000004000000061234560...049999049999} to queue
+2019-09-18 10:40:31,166 INFO com.atm.controllers.iso.ISOController [DefaultMessageListenerContainer-1] Parsing ISO Message : 0200F23A400188A09404000000000400000006123456010000000000050000091810403099999910403009180918999911999999999991199999999999RETRIEVAL1231234000112340001231234000123123400012312340001238400000000000202020013localhost50000049999049999
+2019-09-18 10:40:31,176 INFO com.atm.controllers.iso.ISOController [http-nio-8084-exec-3] Parsing ISO Message : 0200F23A400188A09404000000000400000006123456010000000000050000091810403099999910403009180918999911999999999991199999999999RETRIEVAL1231234000112340001231234000123123400012312340001238400000000000202020013localhost50000049999049999
+2019-09-18 10:40:31,180 INFO com.atm.dao.Dao [http-nio-8084-exec-3] Authentication succeed
+2019-09-18 10:40:31,181 INFO com.atm.services.BalanceService [http-nio-8084-exec-3] Success checking balance of 123456 with amount 2000000
+2019-09-18 10:40:31,191 INFO com.atm.services.BalanceService [http-nio-8084-exec-3] Success checking balance of 123456 with amount 1950000
+2019-09-18 10:40:31,191 INFO com.atm.services.WithdrawService [http-nio-8084-exec-3] Success withdrawing 50000 from 123456
+2019-09-18 10:40:31,196 INFO com.atm.controllers.HttpController [DefaultMessageListenerContainer-1] Sending Http Request to http://localhost:8084/withdraw
+2019-09-18 10:40:31,209 INFO com.atm.controllers.iso.ISOController [main] Parsing ISO Message in Client : 0210F23A40018AA08404000000000400000006123456019999000000000000091810403100000010403109180918999911999999999991199999999999RETRIEVAL12300123400011234000123123400012312340001231234000123840013localhost50000071950000049999
+2019-09-18 10:42:00,989 INFO com.atm.controllers.iso.ISOSwitchTransInquiryController [main] Built ISO Message for Transfer Inquiry
+2019-09-18 10:42:01,000 INFO com.atm.controllers.messaging.MessageSender [main] Sending ActiveMQTextMessage {commandId = 0, responseRequired = false, messageId = null, originalDestination = null, originalTransactionId = null, producerId = null, destination = null, transactionId = null, expiration = 0, timestamp = 0, arrival = 0, brokerInTime = 0, brokerOutTime = 0, correlationId = null, replyTo = null, persistent = false, type = null, priority = 0, groupID = null, groupSequence = 0, targetConsumerId = null, compressed = false, userID = null, content = null, marshalledProperties = null, dataStructure = null, redeliveryCounter = 0, size = 0, properties = null, readOnlyProperties = false, readOnlyBody = false, droppable = false, jmsXGroupFirstForConsumer = false, text = 0200F23A400188A094040000000016000002069999993...499990043333} to queue
+2019-09-18 10:42:01,014 INFO com.atm.controllers.iso.ISOController [DefaultMessageListenerContainer-1] Parsing ISO Message : 0200F23A400188A09404000000001600000206999999390099000000030000091810420099999910420009180918999911999999999991199999999999RETRIEVAL1231234000112340001231234000123123400012312340001238400000000000999999013localhost50500062221110422220499990499990043333
+2019-09-18 10:42:01,029 INFO com.atm.controllers.iso.ISOController [http-nio-8084-exec-5] Parsing ISO Message : 0200F23A400188A09404000000001600000206999999390099000000030000091810420099999910420009180918999911999999999991199999999999RETRIEVAL1231234000112340001231234000123123400012312340001238400000000000999999013localhost50500062221110422220499990499990043333
+2019-09-18 10:42:01,033 INFO com.atm.dao.Dao [http-nio-8084-exec-5] Authentication succeed
+2019-09-18 10:42:01,350 INFO com.atm.controllers.HttpController [http-nio-8084-exec-5] Sending Http Request to http://localhost:8083/switchingtransinquiry
+2019-09-18 10:42:01,354 INFO com.atm.controllers.HttpController [DefaultMessageListenerContainer-1] Sending Http Request to http://localhost:8084/switchingtransinquiry
+2019-09-18 10:42:01,362 INFO com.atm.controllers.iso.ISOController [main] Parsing ISO Message in Client : 0210F23A40018AE08004000000000600000006999999399999000000036500091810420199999910420109180918999911999999999991199999999999RETRIEVAL1230012340001000000000000000123400012312340001231234000123123400012384000670000004999905amsal
+2019-09-18 10:42:15,474 INFO com.atm.controllers.iso.ISOSwitchTransInquiryController [main] Built ISO Message for Transfer Inquiry
+2019-09-18 10:42:15,487 INFO com.atm.controllers.messaging.MessageSender [main] Sending ActiveMQTextMessage {commandId = 0, responseRequired = false, messageId = null, originalDestination = null, originalTransactionId = null, producerId = null, destination = null, transactionId = null, expiration = 0, timestamp = 0, arrival = 0, brokerInTime = 0, brokerOutTime = 0, correlationId = null, replyTo = null, persistent = false, type = null, priority = 0, groupID = null, groupSequence = 0, targetConsumerId = null, compressed = false, userID = null, content = null, marshalledProperties = null, dataStructure = null, redeliveryCounter = 0, size = 0, properties = null, readOnlyProperties = false, readOnlyBody = false, droppable = false, jmsXGroupFirstForConsumer = false, text = 0200F23A400188A094040000000016000002061234563...499990043333} to queue
+2019-09-18 10:42:15,495 INFO com.atm.controllers.iso.ISOController [DefaultMessageListenerContainer-1] Parsing ISO Message : 0200F23A400188A09404000000001600000206123456390099000000040000091810421599999910421509180918999911999999999991199999999999RETRIEVAL1231234000112340001231234000123123400012312340001238400000000000202020013localhost50000062221110422220499990499990043333
+2019-09-18 10:42:15,503 INFO com.atm.controllers.iso.ISOController [http-nio-8084-exec-7] Parsing ISO Message : 0200F23A400188A09404000000001600000206123456390099000000040000091810421599999910421509180918999911999999999991199999999999RETRIEVAL1231234000112340001231234000123123400012312340001238400000000000202020013localhost50000062221110422220499990499990043333
+2019-09-18 10:42:15,505 INFO com.atm.dao.Dao [http-nio-8084-exec-7] Authentication succeed
+2019-09-18 10:42:15,537 INFO com.atm.controllers.HttpController [http-nio-8084-exec-7] Sending Http Request to http://localhost:8083/switchingtransinquiry
+2019-09-18 10:42:15,540 INFO com.atm.controllers.HttpController [DefaultMessageListenerContainer-1] Sending Http Request to http://localhost:8084/switchingtransinquiry
+2019-09-18 10:42:15,548 INFO com.atm.controllers.iso.ISOController [main] Parsing ISO Message in Client : 0210F23A40018AE08004000000000600000006123456399999000000046500091810421599999910421509180918999911999999999991199999999999RETRIEVAL12300123400010000000000000001234000123123400012312340001231234000123840007195000004999905amsal
+2019-09-18 10:42:24,304 INFO com.atm.controllers.iso.ISOSwitchTransferController [main] Built ISO Message for Transfer Inquiry
+2019-09-18 10:42:24,313 INFO com.atm.controllers.messaging.MessageSender [main] Sending ActiveMQTextMessage {commandId = 0, responseRequired = false, messageId = null, originalDestination = null, originalTransactionId = null, producerId = null, destination = null, transactionId = null, expiration = 0, timestamp = 0, arrival = 0, brokerInTime = 0, brokerOutTime = 0, correlationId = null, replyTo = null, persistent = false, type = null, priority = 0, groupID = null, groupSequence = 0, targetConsumerId = null, compressed = false, userID = null, content = null, marshalledProperties = null, dataStructure = null, redeliveryCounter = 0, size = 0, properties = null, readOnlyProperties = false, readOnlyBody = false, droppable = false, jmsXGroupFirstForConsumer = false, text = 0200F23A400188A094040000000016000002061234564...499990043333} to queue
+2019-09-18 10:42:24,321 INFO com.atm.controllers.iso.ISOController [DefaultMessageListenerContainer-1] Parsing ISO Message : 0200F23A400188A09404000000001600000206123456400099000000040000091810422499999910422409180918999911999999999991199999999999RETRIEVAL1231234000112340001231234000123123400012312340001238400000000000202020013localhost50000062221110422220499990499990043333
+2019-09-18 10:42:24,328 INFO com.atm.controllers.iso.ISOController [http-nio-8084-exec-9] Parsing ISO Message : 0200F23A400188A09404000000001600000206123456400099000000040000091810422499999910422409180918999911999999999991199999999999RETRIEVAL1231234000112340001231234000123123400012312340001238400000000000202020013localhost50000062221110422220499990499990043333
+2019-09-18 10:42:24,368 INFO com.atm.controllers.HttpController [http-nio-8084-exec-9] Sending Http Request to http://localhost:8083/switchingtransfer
+2019-09-18 10:42:24,372 INFO com.atm.controllers.iso.ISOController [http-nio-8084-exec-9] Parsing ISO Message : 0210F23A40018AE08000000000000600000006123456409999000000046500091810422499999910422409180918999911999999999991199999999999RETRIEVAL1230012340001000000000000000123400012312340001231234000123123400012384004999906222111
+2019-09-18 10:42:24,376 INFO com.atm.services.BalanceService [http-nio-8084-exec-9] Success checking balance of 123456 with amount 1903500
+2019-09-18 10:42:24,376 INFO com.atm.services.TransferService [http-nio-8084-exec-9] Success transfer from 123456 to 222111
+2019-09-18 10:42:24,382 INFO com.atm.controllers.HttpController [DefaultMessageListenerContainer-1] Sending Http Request to http://localhost:8084/switchingtransfer
+2019-09-18 10:42:24,389 INFO com.atm.controllers.iso.ISOController [main] Parsing ISO Message in Client : 0210F23A40018AE08404000000000600000006123456409999000000000000091810422499999910422409180918999911999999999991199999999999RETRIEVAL12300123400010000000000000001234000123123400012312340001231234000123840013localhost5000007190350004999906222111
+2019-09-18 10:42:27,810 INFO com.atm.controllers.iso.ISOSwitchTransferController [main] Built ISO Message for Transfer Inquiry
+2019-09-18 10:42:27,824 INFO com.atm.controllers.messaging.MessageSender [main] Sending ActiveMQTextMessage {commandId = 0, responseRequired = false, messageId = null, originalDestination = null, originalTransactionId = null, producerId = null, destination = null, transactionId = null, expiration = 0, timestamp = 0, arrival = 0, brokerInTime = 0, brokerOutTime = 0, correlationId = null, replyTo = null, persistent = false, type = null, priority = 0, groupID = null, groupSequence = 0, targetConsumerId = null, compressed = false, userID = null, content = null, marshalledProperties = null, dataStructure = null, redeliveryCounter = 0, size = 0, properties = null, readOnlyProperties = false, readOnlyBody = false, droppable = false, jmsXGroupFirstForConsumer = false, text = 0200F23A400188A094040000000016000002069999994...499990043333} to queue
+2019-09-18 10:42:27,831 INFO com.atm.controllers.iso.ISOController [DefaultMessageListenerContainer-1] Parsing ISO Message : 0200F23A400188A09404000000001600000206999999400099000000030000091810422799999910422709180918999911999999999991199999999999RETRIEVAL1231234000112340001231234000123123400012312340001238400000000000999999013localhost50500062221110422220499990499990043333
+2019-09-18 10:42:27,840 INFO com.atm.controllers.iso.ISOController [http-nio-8084-exec-1] Parsing ISO Message : 0200F23A400188A09404000000001600000206999999400099000000030000091810422799999910422709180918999911999999999991199999999999RETRIEVAL1231234000112340001231234000123123400012312340001238400000000000999999013localhost50500062221110422220499990499990043333
+2019-09-18 10:42:27,872 INFO com.atm.controllers.HttpController [http-nio-8084-exec-1] Sending Http Request to http://localhost:8083/switchingtransfer
+2019-09-18 10:42:27,877 INFO com.atm.controllers.iso.ISOController [http-nio-8084-exec-1] Parsing ISO Message : 0210F23A40018AE08000000000000600000006999999409999000000036500091810422799999910422709180918999911999999999991199999999999RETRIEVAL1230012340001000000000000000123400012312340001231234000123123400012384004999906222111
+2019-09-18 10:42:27,880 INFO com.atm.services.BalanceService [http-nio-8084-exec-1] Success checking balance of 999999 with amount 663500
+2019-09-18 10:42:27,880 INFO com.atm.services.TransferService [http-nio-8084-exec-1] Success transfer from 999999 to 222111
+2019-09-18 10:42:27,884 INFO com.atm.controllers.HttpController [DefaultMessageListenerContainer-1] Sending Http Request to http://localhost:8084/switchingtransfer
+2019-09-18 10:42:27,891 INFO com.atm.controllers.iso.ISOController [main] Parsing ISO Message in Client : 0210F23A40018AE08404000000000600000006999999409999000000000000091810422799999910422709180918999911999999999991199999999999RETRIEVAL12300123400010000000000000001234000123123400012312340001231234000123840013localhost505000666350004999906222111
+2019-09-18 10:45:55,909 ERROR com.atm.Client [main] For input string: "f"
+2019-09-18 10:45:58,565 INFO com.atm.controllers.iso.ISOPurchaseInquiryController [main] Built ISO Message for Purchase Inquiry
+2019-09-18 10:45:58,577 INFO com.atm.controllers.messaging.MessageSender [main] Sending ActiveMQTextMessage {commandId = 0, responseRequired = false, messageId = null, originalDestination = null, originalTransactionId = null, producerId = null, destination = null, transactionId = null, expiration = 0, timestamp = 0, arrival = 0, brokerInTime = 0, brokerOutTime = 0, correlationId = null, replyTo = null, persistent = false, type = null, priority = 0, groupID = null, groupSequence = 0, targetConsumerId = null, compressed = false, userID = null, content = null, marshalledProperties = null, dataStructure = null, redeliveryCounter = 0, size = 0, properties = null, readOnlyProperties = false, readOnlyBody = false, droppable = false, jmsXGroupFirstForConsumer = false, text = 0200F23A400108E094040000000014000000061234563...042222049999} to queue
+2019-09-18 10:45:58,586 INFO com.atm.controllers.iso.ISOController [DefaultMessageListenerContainer-1] Parsing ISO Message : 0200F23A400108E0940400000000140000000612345638009900000002500009181045589999991045580918091899991199999999999RETRIEVAL1231234000112345678912345612340001231234000123123400012312340001238400000000000202020013localhost5000012082165803007042222049999
+2019-09-18 10:45:58,595 INFO com.atm.controllers.iso.ISOController [http-nio-8084-exec-3] Parsing ISO Message : 0200F23A400108E0940400000000140000000612345638009900000002500009181045589999991045580918091899991199999999999RETRIEVAL1231234000112345678912345612340001231234000123123400012312340001238400000000000202020013localhost5000012082165803007042222049999
+2019-09-18 10:45:58,598 INFO com.atm.dao.Dao [http-nio-8084-exec-3] Authentication succeed
+2019-09-18 10:45:58,598 INFO com.atm.services.BalanceService [http-nio-8084-exec-3] Success checking balance of 123456 with amount 1903500
+2019-09-18 10:45:58,599 INFO com.atm.services.PurchaseInquiryService [http-nio-8084-exec-3] Success purchase inquiry from 123456
+2019-09-18 10:45:58,604 INFO com.atm.controllers.HttpController [DefaultMessageListenerContainer-1] Sending Http Request to http://localhost:8084/purchaseinquiry
+2019-09-18 10:45:58,608 INFO com.atm.controllers.iso.ISOController [main] Parsing ISO Message in Client : 0210F23A40010AE0840400000000040000000612345699999900000000000009181045589999991045580918091899991199999999999RETRIEVAL12300123400010000000000000001234000123123400012312340001231234000123840013localhost5000007190350012082165803007
+2019-09-18 10:46:03,844 INFO com.atm.controllers.iso.ISOPurchaseController [main] Built ISO Message for Purchase
+2019-09-18 10:46:03,856 INFO com.atm.controllers.messaging.MessageSender [main] Sending ActiveMQTextMessage {commandId = 0, responseRequired = false, messageId = null, originalDestination = null, originalTransactionId = null, producerId = null, destination = null, transactionId = null, expiration = 0, timestamp = 0, arrival = 0, brokerInTime = 0, brokerOutTime = 0, correlationId = null, replyTo = null, persistent = false, type = null, priority = 0, groupID = null, groupSequence = 0, targetConsumerId = null, compressed = false, userID = null, content = null, marshalledProperties = null, dataStructure = null, redeliveryCounter = 0, size = 0, properties = null, readOnlyProperties = false, readOnlyBody = false, droppable = false, jmsXGroupFirstForConsumer = false, text = 0200F23A400108E094040000000014000000061234561...042222049999} to queue
+2019-09-18 10:46:03,862 INFO com.atm.controllers.iso.ISOController [DefaultMessageListenerContainer-1] Parsing ISO Message : 0200F23A400108E0940400000000140000000612345618009900000002500009181046039999991046030918091899991199999999999RETRIEVAL1231234000112345678912345612340001231234000123123400012312340001238400000000000202020013localhost5000012082165803007042222049999
+2019-09-18 10:46:03,870 INFO com.atm.controllers.iso.ISOController [http-nio-8084-exec-5] Parsing ISO Message : 0200F23A400108E0940400000000140000000612345618009900000002500009181046039999991046030918091899991199999999999RETRIEVAL1231234000112345678912345612340001231234000123123400012312340001238400000000000202020013localhost5000012082165803007042222049999
+2019-09-18 10:46:03,891 INFO com.atm.services.BalanceService [http-nio-8084-exec-5] Success checking balance of 123456 with amount 1877000
+2019-09-18 10:46:03,892 INFO com.atm.services.PurchaseService [http-nio-8084-exec-5] Success purchase to 082165803007
+2019-09-18 10:46:03,898 INFO com.atm.controllers.HttpController [DefaultMessageListenerContainer-1] Sending Http Request to http://localhost:8084/purchase
+2019-09-18 10:46:03,903 INFO com.atm.controllers.iso.ISOController [main] Parsing ISO Message in Client : 0210F23A40010AE0840400000000040000000612345699999900000000000009181046039999991046030918091899991199999999999RETRIEVAL12300123400010000000000000001234000123123400012312340001231234000123840013localhost5000007187700012082165803007
+2019-09-18 11:25:04,484 ERROR org.springframework.jms.listener.DefaultMessageListenerContainer [DefaultMessageListenerContainer-1] Could not refresh JMS Connection for destination 'bank' - retrying using FixedBackOff{interval=5000, currentAttempts=0, maxAttempts=unlimited}. Cause: Could not connect to broker URL: tcp://localhost:61616. Reason: java.net.ConnectException: Connection refused (Connection refused)
+2019-09-18 11:25:09,492 ERROR org.springframework.jms.listener.DefaultMessageListenerContainer [DefaultMessageListenerContainer-1] Could not refresh JMS Connection for destination 'bank' - retrying using FixedBackOff{interval=5000, currentAttempts=1, maxAttempts=unlimited}. Cause: Could not connect to broker URL: tcp://localhost:61616. Reason: java.net.ConnectException: Connection refused (Connection refused)
+2019-09-18 11:52:06,093 INFO com.atm.controllers.iso.ISOBalanceController [main] Built ISO Message to Check Balance
+2019-09-18 11:52:07,383 INFO com.atm.controllers.messaging.MessageSender [main] Sending ActiveMQTextMessage {commandId = 0, responseRequired = false, messageId = null, originalDestination = null, originalTransactionId = null, producerId = null, destination = null, transactionId = null, expiration = 0, timestamp = 0, arrival = 0, brokerInTime = 0, brokerOutTime = 0, correlationId = null, replyTo = null, persistent = false, type = null, priority = 0, groupID = null, groupSequence = 0, targetConsumerId = null, compressed = false, userID = null, content = null, marshalledProperties = null, dataStructure = null, redeliveryCounter = 0, size = 0, properties = null, readOnlyProperties = false, readOnlyBody = false, droppable = false, jmsXGroupFirstForConsumer = false, text = 0200F23A400188A094040000000004000000061234563...049999049999} to queue
+2019-09-18 11:52:08,830 INFO com.atm.controllers.iso.ISOBalanceController [main] Built ISO Message to Check Balance
+2019-09-18 11:52:09,069 INFO com.atm.controllers.messaging.MessageSender [main] Sending ActiveMQTextMessage {commandId = 0, responseRequired = false, messageId = null, originalDestination = null, originalTransactionId = null, producerId = null, destination = null, transactionId = null, expiration = 0, timestamp = 0, arrival = 0, brokerInTime = 0, brokerOutTime = 0, correlationId = null, replyTo = null, persistent = false, type = null, priority = 0, groupID = null, groupSequence = 0, targetConsumerId = null, compressed = false, userID = null, content = null, marshalledProperties = null, dataStructure = null, redeliveryCounter = 0, size = 0, properties = null, readOnlyProperties = false, readOnlyBody = false, droppable = false, jmsXGroupFirstForConsumer = false, text = 0200F23A400188A094040000000004000000069999993...049999049999} to queue
+2019-09-18 11:53:17,203 INFO com.atm.AtmApplication [main] Starting AtmApplication on Ariansyah with PID 5326 (/Users/ariansyah.nugroho/Downloads/G2Academy/Code/Project/ATM_Project/atm/target/classes started by ariansyah.nugroho in /Users/ariansyah.nugroho/Downloads/G2Academy/Code/Project/ATM_Project/atm)
+2019-09-18 11:53:17,204 DEBUG com.atm.AtmApplication [main] Running with Spring Boot v2.1.8.RELEASE, Spring v5.1.9.RELEASE
+2019-09-18 11:53:17,204 INFO com.atm.AtmApplication [main] The following profiles are active: @spring.profiles.active@
+2019-09-18 11:53:19,349 INFO com.atm.AtmApplication [main] Started AtmApplication in 2.441 seconds (JVM running for 4.279)
+2019-09-18 11:53:19,381 INFO com.atm.controllers.iso.ISOController [DefaultMessageListenerContainer-1] Parsing ISO Message : 0200F23A400188A09404000000000400000006123456300000000000000000091811520699999911520609180918999911999999999991199999999999RETRIEVAL1231234000112340001231234000123123400012312340001238400000000000202020013localhost50000049999049999
+2019-09-18 11:53:19,673 INFO com.atm.controllers.iso.ISOController [http-nio-8084-exec-1] Parsing ISO Message : 0200F23A400188A09404000000000400000006123456300000000000000000091811520699999911520609180918999911999999999991199999999999RETRIEVAL1231234000112340001231234000123123400012312340001238400000000000202020013localhost50000049999049999
+2019-09-18 11:53:19,864 INFO com.atm.dao.Dao [http-nio-8084-exec-1] Authentication succeed
+2019-09-18 11:53:19,866 INFO com.atm.services.BalanceService [http-nio-8084-exec-1] Success checking balance of 123456 with amount 1877000
+2019-09-18 11:53:19,904 INFO com.atm.controllers.iso.ISOController [main] Parsing ISO Message in Client : 0210F23A40018AA08404000000000400000006123456309999000000000000091811531999999911531909180918999911999999999991199999999999RETRIEVAL12300123400011234000123123400012312340001231234000123840013localhost50000071877000049999
+2019-09-18 11:53:19,916 INFO com.atm.controllers.HttpController [DefaultMessageListenerContainer-1] Sending Http Request to http://localhost:8084/check
+2019-09-18 11:53:19,952 INFO com.atm.controllers.iso.ISOController [DefaultMessageListenerContainer-1] Parsing ISO Message : 0200F23A400188A09404000000000400000006999999300000000000000000091811520899999911520809180918999911999999999991199999999999RETRIEVAL1231234000112340001231234000123123400012312340001238400000000000999999013localhost50500049999049999
+2019-09-18 11:53:19,964 INFO com.atm.controllers.iso.ISOController [http-nio-8084-exec-3] Parsing ISO Message : 0200F23A400188A09404000000000400000006999999300000000000000000091811520899999911520809180918999911999999999991199999999999RETRIEVAL1231234000112340001231234000123123400012312340001238400000000000999999013localhost50500049999049999
+2019-09-18 11:53:19,967 INFO com.atm.dao.Dao [http-nio-8084-exec-3] Authentication succeed
+2019-09-18 11:53:19,971 INFO com.atm.services.BalanceService [http-nio-8084-exec-3] Success checking balance of 999999 with amount 663500
+2019-09-18 11:53:20,002 INFO com.atm.controllers.iso.ISOController [main] Parsing ISO Message in Client : 0210F23A40018AA08404000000000400000006999999309999000000000000091811531999999911531909180918999911999999999991199999999999RETRIEVAL12300123400011234000123123400012312340001231234000123840013localhost5050006663500049999
+2019-09-18 11:53:20,010 INFO com.atm.controllers.HttpController [DefaultMessageListenerContainer-1] Sending Http Request to http://localhost:8084/check
+2019-09-18 11:54:12,731 INFO com.atm.controllers.iso.ISOWithdrawController [main] Built ISO Message for Cash Withdrawal
+2019-09-18 11:54:12,743 INFO com.atm.controllers.messaging.MessageSender [main] Sending ActiveMQTextMessage {commandId = 0, responseRequired = false, messageId = null, originalDestination = null, originalTransactionId = null, producerId = null, destination = null, transactionId = null, expiration = 0, timestamp = 0, arrival = 0, brokerInTime = 0, brokerOutTime = 0, correlationId = null, replyTo = null, persistent = false, type = null, priority = 0, groupID = null, groupSequence = 0, targetConsumerId = null, compressed = false, userID = null, content = null, marshalledProperties = null, dataStructure = null, redeliveryCounter = 0, size = 0, properties = null, readOnlyProperties = false, readOnlyBody = false, droppable = false, jmsXGroupFirstForConsumer = false, text = 0200F23A400188A094040000000004000000061234560...049999049999} to queue
+2019-09-18 11:54:12,751 INFO com.atm.controllers.iso.ISOController [DefaultMessageListenerContainer-1] Parsing ISO Message : 0200F23A400188A09404000000000400000006123456010000000000050000091811541299999911541209180918999911999999999991199999999999RETRIEVAL1231234000112340001231234000123123400012312340001238400000000000202020013localhost50000049999049999
+2019-09-18 11:54:12,781 INFO com.atm.controllers.iso.ISOController [http-nio-8084-exec-5] Parsing ISO Message : 0200F23A400188A09404000000000400000006123456010000000000050000091811541299999911541209180918999911999999999991199999999999RETRIEVAL1231234000112340001231234000123123400012312340001238400000000000202020013localhost50000049999049999
+2019-09-18 11:54:12,791 INFO com.atm.dao.Dao [http-nio-8084-exec-5] Authentication succeed
+2019-09-18 11:54:12,793 INFO com.atm.services.BalanceService [http-nio-8084-exec-5] Success checking balance of 123456 with amount 1877000
+2019-09-18 11:54:12,812 INFO com.atm.services.BalanceService [http-nio-8084-exec-5] Success checking balance of 123456 with amount 1827000
+2019-09-18 11:54:12,812 INFO com.atm.services.WithdrawService [http-nio-8084-exec-5] Success withdrawing 50000 from 123456
+2019-09-18 11:54:12,822 INFO com.atm.controllers.HttpController [DefaultMessageListenerContainer-1] Sending Http Request to http://localhost:8084/withdraw
+2019-09-18 11:54:12,834 INFO com.atm.controllers.iso.ISOController [main] Parsing ISO Message in Client : 0210F23A40018AA08404000000000400000006123456019999000000000000091811541200000011541209180918999911999999999991199999999999RETRIEVAL12300123400011234000123123400012312340001231234000123840013localhost50000071827000049999
+2019-09-18 11:54:47,605 INFO com.atm.controllers.iso.ISOTransInquiryController [main] Built ISO Message for Transfer Inquiry
+2019-09-18 11:54:47,617 INFO com.atm.controllers.messaging.MessageSender [main] Sending ActiveMQTextMessage {commandId = 0, responseRequired = false, messageId = null, originalDestination = null, originalTransactionId = null, producerId = null, destination = null, transactionId = null, expiration = 0, timestamp = 0, arrival = 0, brokerInTime = 0, brokerOutTime = 0, correlationId = null, replyTo = null, persistent = false, type = null, priority = 0, groupID = null, groupSequence = 0, targetConsumerId = null, compressed = false, userID = null, content = null, marshalledProperties = null, dataStructure = null, redeliveryCounter = 0, size = 0, properties = null, readOnlyProperties = false, readOnlyBody = false, droppable = false, jmsXGroupFirstForConsumer = false, text = 0200F23A400188A094040000000016000002061234563...499990042222} to queue
+2019-09-18 11:54:47,635 INFO com.atm.controllers.iso.ISOController [DefaultMessageListenerContainer-1] Parsing ISO Message : 0200F23A400188A09404000000001600000206123456390000000000050000091811544799999911544709180918999911999999999991199999999999RETRIEVAL1231234000112340001231234000123123400012312340001238400000000000202020013localhost50000069999990422220499990499990042222
+2019-09-18 11:54:47,643 INFO com.atm.controllers.iso.ISOController [http-nio-8084-exec-6] Parsing ISO Message : 0200F23A400188A09404000000001600000206123456390000000000050000091811544799999911544709180918999911999999999991199999999999RETRIEVAL1231234000112340001231234000123123400012312340001238400000000000202020013localhost50000069999990422220499990499990042222
+2019-09-18 11:54:47,649 INFO com.atm.dao.Dao [http-nio-8084-exec-6] Authentication succeed
+2019-09-18 11:54:47,650 INFO com.atm.services.BalanceService [http-nio-8084-exec-6] Success checking balance of 123456 with amount 1827000
+2019-09-18 11:54:47,655 INFO com.atm.services.TransInquiryService [http-nio-8084-exec-6] Success transfer inquiry from 123456 to 999999
+2019-09-18 11:54:47,663 INFO com.atm.controllers.HttpController [DefaultMessageListenerContainer-1] Sending Http Request to http://localhost:8084/transinquiry
+2019-09-18 11:54:47,671 INFO com.atm.controllers.iso.ISOController [main] Parsing ISO Message in Client : 0210F23A40018AE08404000000000600000006123456399999000000000000091811544799999911544709180918999911999999999991199999999999RETRIEVAL12300123400010000000000000001234000123123400012312340001231234000123840013localhost5000007182700004999906sultan
+2019-09-18 11:55:13,636 INFO com.atm.controllers.iso.ISOTransferController [main] Built ISO Message for Transfer
+2019-09-18 11:55:13,657 INFO com.atm.controllers.messaging.MessageSender [main] Sending ActiveMQTextMessage {commandId = 0, responseRequired = false, messageId = null, originalDestination = null, originalTransactionId = null, producerId = null, destination = null, transactionId = null, expiration = 0, timestamp = 0, arrival = 0, brokerInTime = 0, brokerOutTime = 0, correlationId = null, replyTo = null, persistent = false, type = null, priority = 0, groupID = null, groupSequence = 0, targetConsumerId = null, compressed = false, userID = null, content = null, marshalledProperties = null, dataStructure = null, redeliveryCounter = 0, size = 0, properties = null, readOnlyProperties = false, readOnlyBody = false, droppable = false, jmsXGroupFirstForConsumer = false, text = 0200F23A400188A094040000000016000002061234564...499990042222} to queue
+2019-09-18 11:55:13,664 INFO com.atm.controllers.iso.ISOController [DefaultMessageListenerContainer-1] Parsing ISO Message : 0200F23A400188A09404000000001600000206123456400000000000050000091811551399999911551309180918999911999999999991199999999999RETRIEVAL1231234000112340001231234000123123400012312340001238400000000000202020013localhost50000069999990422220499990499990042222
+2019-09-18 11:55:13,673 INFO com.atm.controllers.iso.ISOController [http-nio-8084-exec-8] Parsing ISO Message : 0200F23A400188A09404000000001600000206123456400000000000050000091811551399999911551309180918999911999999999991199999999999RETRIEVAL1231234000112340001231234000123123400012312340001238400000000000202020013localhost50000069999990422220499990499990042222
+2019-09-18 11:55:13,685 INFO com.atm.services.BalanceService [http-nio-8084-exec-8] Success checking balance of 123456 with amount 1777000
+2019-09-18 11:55:13,685 INFO com.atm.services.TransferService [http-nio-8084-exec-8] Success transfer from 123456 to 999999
+2019-09-18 11:55:13,696 INFO com.atm.controllers.HttpController [DefaultMessageListenerContainer-1] Sending Http Request to http://localhost:8084/transfer
+2019-09-18 11:55:13,702 INFO com.atm.controllers.iso.ISOController [main] Parsing ISO Message in Client : 0210F23A40018AE08404000000000600000006123456409999000000000000091811551399999911551309180918999911999999999991199999999999RETRIEVAL12300123400010000000000000001234000123123400012312340001231234000123840013localhost5000007177700004999906999999
+2019-09-18 11:55:39,380 INFO com.atm.controllers.iso.ISOSwitchTransInquiryController [main] Built ISO Message for Transfer Inquiry
+2019-09-18 11:55:39,403 INFO com.atm.controllers.messaging.MessageSender [main] Sending ActiveMQTextMessage {commandId = 0, responseRequired = false, messageId = null, originalDestination = null, originalTransactionId = null, producerId = null, destination = null, transactionId = null, expiration = 0, timestamp = 0, arrival = 0, brokerInTime = 0, brokerOutTime = 0, correlationId = null, replyTo = null, persistent = false, type = null, priority = 0, groupID = null, groupSequence = 0, targetConsumerId = null, compressed = false, userID = null, content = null, marshalledProperties = null, dataStructure = null, redeliveryCounter = 0, size = 0, properties = null, readOnlyProperties = false, readOnlyBody = false, droppable = false, jmsXGroupFirstForConsumer = false, text = 0200F23A400188A094040000000016000002061234563...499990043333} to queue
+2019-09-18 11:55:39,410 INFO com.atm.controllers.iso.ISOController [DefaultMessageListenerContainer-1] Parsing ISO Message : 0200F23A400188A09404000000001600000206123456390099000000060000091811553999999911553909180918999911999999999991199999999999RETRIEVAL1231234000112340001231234000123123400012312340001238400000000000202020013localhost50000062221110422220499990499990043333
+2019-09-18 11:55:39,421 INFO com.atm.controllers.iso.ISOController [http-nio-8084-exec-10] Parsing ISO Message : 0200F23A400188A09404000000001600000206123456390099000000060000091811553999999911553909180918999911999999999991199999999999RETRIEVAL1231234000112340001231234000123123400012312340001238400000000000202020013localhost50000062221110422220499990499990043333
+2019-09-18 11:55:39,423 INFO com.atm.dao.Dao [http-nio-8084-exec-10] Authentication succeed
+2019-09-18 11:55:39,570 INFO com.atm.controllers.HttpController [http-nio-8084-exec-10] Sending Http Request to http://localhost:8083/switchingtransinquiry
+2019-09-18 11:55:39,573 INFO com.atm.controllers.HttpController [DefaultMessageListenerContainer-1] Sending Http Request to http://localhost:8084/switchingtransinquiry
+2019-09-18 11:55:39,577 INFO com.atm.controllers.iso.ISOController [main] Parsing ISO Message in Client : 0210F23A40018AE08004000000000600000006123456399999000000066500091811553999999911553909180918999911999999999991199999999999RETRIEVAL12300123400010000000000000001234000123123400012312340001231234000123840007177700004999905amsal
+2019-09-18 11:55:55,905 INFO com.atm.controllers.iso.ISOSwitchTransferController [main] Built ISO Message for Transfer Inquiry
+2019-09-18 11:55:55,915 INFO com.atm.controllers.messaging.MessageSender [main] Sending ActiveMQTextMessage {commandId = 0, responseRequired = false, messageId = null, originalDestination = null, originalTransactionId = null, producerId = null, destination = null, transactionId = null, expiration = 0, timestamp = 0, arrival = 0, brokerInTime = 0, brokerOutTime = 0, correlationId = null, replyTo = null, persistent = false, type = null, priority = 0, groupID = null, groupSequence = 0, targetConsumerId = null, compressed = false, userID = null, content = null, marshalledProperties = null, dataStructure = null, redeliveryCounter = 0, size = 0, properties = null, readOnlyProperties = false, readOnlyBody = false, droppable = false, jmsXGroupFirstForConsumer = false, text = 0200F23A400188A094040000000016000002061234564...499990043333} to queue
+2019-09-18 11:55:55,933 INFO com.atm.controllers.iso.ISOController [DefaultMessageListenerContainer-1] Parsing ISO Message : 0200F23A400188A09404000000001600000206123456400099000000060000091811555599999911555509180918999911999999999991199999999999RETRIEVAL1231234000112340001231234000123123400012312340001238400000000000202020013localhost50000062221110422220499990499990043333
+2019-09-18 11:55:55,942 INFO com.atm.controllers.iso.ISOController [http-nio-8084-exec-2] Parsing ISO Message : 0200F23A400188A09404000000001600000206123456400099000000060000091811555599999911555509180918999911999999999991199999999999RETRIEVAL1231234000112340001231234000123123400012312340001238400000000000202020013localhost50000062221110422220499990499990043333
+2019-09-18 11:55:56,010 INFO com.atm.controllers.HttpController [http-nio-8084-exec-2] Sending Http Request to http://localhost:8083/switchingtransfer
+2019-09-18 11:55:56,015 INFO com.atm.controllers.iso.ISOController [http-nio-8084-exec-2] Parsing ISO Message : 0210F23A40018AE08000000000000600000006123456409999000000066500091811555699999911555609180918999911999999999991199999999999RETRIEVAL1230012340001000000000000000123400012312340001231234000123123400012384004999906222111
+2019-09-18 11:55:56,019 INFO com.atm.services.BalanceService [http-nio-8084-exec-2] Success checking balance of 123456 with amount 1710500
+2019-09-18 11:55:56,020 INFO com.atm.services.TransferService [http-nio-8084-exec-2] Success transfer from 123456 to 222111
+2019-09-18 11:55:56,025 INFO com.atm.controllers.HttpController [DefaultMessageListenerContainer-1] Sending Http Request to http://localhost:8084/switchingtransfer
+2019-09-18 11:55:56,029 INFO com.atm.controllers.iso.ISOController [main] Parsing ISO Message in Client : 0210F23A40018AE08404000000000600000006123456409999000000000000091811555699999911555609180918999911999999999991199999999999RETRIEVAL12300123400010000000000000001234000123123400012312340001231234000123840013localhost5000007171050004999906222111
+2019-09-18 11:57:07,098 INFO com.atm.controllers.iso.ISOPurchaseInquiryController [main] Built ISO Message for Purchase Inquiry
+2019-09-18 11:57:07,114 INFO com.atm.controllers.messaging.MessageSender [main] Sending ActiveMQTextMessage {commandId = 0, responseRequired = false, messageId = null, originalDestination = null, originalTransactionId = null, producerId = null, destination = null, transactionId = null, expiration = 0, timestamp = 0, arrival = 0, brokerInTime = 0, brokerOutTime = 0, correlationId = null, replyTo = null, persistent = false, type = null, priority = 0, groupID = null, groupSequence = 0, targetConsumerId = null, compressed = false, userID = null, content = null, marshalledProperties = null, dataStructure = null, redeliveryCounter = 0, size = 0, properties = null, readOnlyProperties = false, readOnlyBody = false, droppable = false, jmsXGroupFirstForConsumer = false, text = 0200F23A400108E094040000000014000000061234563...042222049999} to queue
+2019-09-18 11:57:07,121 INFO com.atm.controllers.iso.ISOController [DefaultMessageListenerContainer-1] Parsing ISO Message : 0200F23A400108E0940400000000140000000612345638009900000020000009181157079999991157070918091899991199999999999RETRIEVAL1231234000112345678912345612340001231234000123123400012312340001238400000000000202020013localhost500001108126089946042222049999
+2019-09-18 11:57:07,130 INFO com.atm.controllers.iso.ISOController [http-nio-8084-exec-4] Parsing ISO Message : 0200F23A400108E0940400000000140000000612345638009900000020000009181157079999991157070918091899991199999999999RETRIEVAL1231234000112345678912345612340001231234000123123400012312340001238400000000000202020013localhost500001108126089946042222049999
+2019-09-18 11:57:07,133 INFO com.atm.dao.Dao [http-nio-8084-exec-4] Authentication succeed
+2019-09-18 11:57:07,134 INFO com.atm.services.BalanceService [http-nio-8084-exec-4] Success checking balance of 123456 with amount 1710500
+2019-09-18 11:57:07,134 INFO com.atm.services.PurchaseInquiryService [http-nio-8084-exec-4] Success purchase inquiry from 123456
+2019-09-18 11:57:07,139 INFO com.atm.controllers.HttpController [DefaultMessageListenerContainer-1] Sending Http Request to http://localhost:8084/purchaseinquiry
+2019-09-18 11:57:07,144 INFO com.atm.controllers.iso.ISOController [main] Parsing ISO Message in Client : 0210F23A40010AE0840400000000040000000612345699999900000000000009181157079999991157070918091899991199999999999RETRIEVAL12300123400010000000000000001234000123123400012312340001231234000123840013localhost500000717105001108126089946
+2019-09-18 11:57:14,371 INFO com.atm.controllers.iso.ISOPurchaseController [main] Built ISO Message for Purchase
+2019-09-18 11:57:14,380 INFO com.atm.controllers.messaging.MessageSender [main] Sending ActiveMQTextMessage {commandId = 0, responseRequired = false, messageId = null, originalDestination = null, originalTransactionId = null, producerId = null, destination = null, transactionId = null, expiration = 0, timestamp = 0, arrival = 0, brokerInTime = 0, brokerOutTime = 0, correlationId = null, replyTo = null, persistent = false, type = null, priority = 0, groupID = null, groupSequence = 0, targetConsumerId = null, compressed = false, userID = null, content = null, marshalledProperties = null, dataStructure = null, redeliveryCounter = 0, size = 0, properties = null, readOnlyProperties = false, readOnlyBody = false, droppable = false, jmsXGroupFirstForConsumer = false, text = 0200F23A400108E094040000000014000000061234561...042222049999} to queue
+2019-09-18 11:57:14,388 INFO com.atm.controllers.iso.ISOController [DefaultMessageListenerContainer-1] Parsing ISO Message : 0200F23A400108E0940400000000140000000612345618009900000020000009181157149999991157140918091899991199999999999RETRIEVAL1231234000112345678912345612340001231234000123123400012312340001238400000000000202020013localhost500001108126089946042222049999
+2019-09-18 11:57:14,394 INFO com.atm.controllers.iso.ISOController [http-nio-8084-exec-6] Parsing ISO Message : 0200F23A400108E0940400000000140000000612345618009900000020000009181157149999991157140918091899991199999999999RETRIEVAL1231234000112345678912345612340001231234000123123400012312340001238400000000000202020013localhost500001108126089946042222049999
+2019-09-18 11:57:14,417 INFO com.atm.services.BalanceService [http-nio-8084-exec-6] Success checking balance of 123456 with amount 1509000
+2019-09-18 11:57:14,418 INFO com.atm.services.PurchaseService [http-nio-8084-exec-6] Success purchase to 08126089946
+2019-09-18 11:57:14,425 INFO com.atm.controllers.HttpController [DefaultMessageListenerContainer-1] Sending Http Request to http://localhost:8084/purchase
+2019-09-18 11:57:14,427 INFO com.atm.controllers.iso.ISOController [main] Parsing ISO Message in Client : 0210F23A40010AE0840400000000040000000612345699999900000000000009181157149999991157140918091899991199999999999RETRIEVAL12300123400010000000000000001234000123123400012312340001231234000123840013localhost500000715090001108126089946
+2019-09-18 11:57:51,630 INFO com.atm.controllers.iso.ISOPaymentInquiryController [main] Built ISO Message for Payment Inquiry
+2019-09-18 11:57:51,637 INFO com.atm.controllers.messaging.MessageSender [main] Sending ActiveMQTextMessage {commandId = 0, responseRequired = false, messageId = null, originalDestination = null, originalTransactionId = null, producerId = null, destination = null, transactionId = null, expiration = 0, timestamp = 0, arrival = 0, brokerInTime = 0, brokerOutTime = 0, correlationId = null, replyTo = null, persistent = false, type = null, priority = 0, groupID = null, groupSequence = 0, targetConsumerId = null, compressed = false, userID = null, content = null, marshalledProperties = null, dataStructure = null, redeliveryCounter = 0, size = 0, properties = null, readOnlyProperties = false, readOnlyBody = false, droppable = false, jmsXGroupFirstForConsumer = false, text = 0200F23A400188E094040000000014000000061234563...042222049999} to queue
+2019-09-18 11:57:51,648 INFO com.atm.controllers.iso.ISOController [DefaultMessageListenerContainer-1] Parsing ISO Message : 0200F23A400188E09404000000001400000006123456380000000000010000091811575199999911575109180918999911999999999990589508RETRIEVAL1231234000112345678912345612340001231234000123123400012312340001238400000000000202020013localhost5000006888888042222049999
+2019-09-18 11:57:51,657 INFO com.atm.controllers.iso.ISOController [http-nio-8084-exec-8] Parsing ISO Message : 0200F23A400188E09404000000001400000006123456380000000000010000091811575199999911575109180918999911999999999990589508RETRIEVAL1231234000112345678912345612340001231234000123123400012312340001238400000000000202020013localhost5000006888888042222049999
+2019-09-18 11:57:51,660 INFO com.atm.dao.Dao [http-nio-8084-exec-8] Authentication succeed
+2019-09-18 11:57:51,662 INFO com.atm.services.BalanceService [http-nio-8084-exec-8] Success checking balance of 123456 with amount 1509000
+2019-09-18 11:57:51,664 INFO com.atm.services.PaymentInquiryService [http-nio-8084-exec-8] Success payment inquiry with amount 10000 to 888888 
+2019-09-18 11:57:51,669 INFO com.atm.controllers.HttpController [DefaultMessageListenerContainer-1] Sending Http Request to http://localhost:8084/paymentinquiry
+2019-09-18 11:57:51,672 INFO com.atm.controllers.iso.ISOController [main] Parsing ISO Message in Client : 0210F23A40018AE08404000000000400000006123456999999000000000000091811575199999911575109180918999911999999999990589508RETRIEVAL12300123400010000000000000001234000123123400012312340001231234000123840013localhost5000007150900020Virtual Account DANA
+2019-09-18 11:57:59,895 INFO com.atm.controllers.iso.ISOPaymentController [main] Built ISO Message for Payment
+2019-09-18 11:57:59,907 INFO com.atm.controllers.messaging.MessageSender [main] Sending ActiveMQTextMessage {commandId = 0, responseRequired = false, messageId = null, originalDestination = null, originalTransactionId = null, producerId = null, destination = null, transactionId = null, expiration = 0, timestamp = 0, arrival = 0, brokerInTime = 0, brokerOutTime = 0, correlationId = null, replyTo = null, persistent = false, type = null, priority = 0, groupID = null, groupSequence = 0, targetConsumerId = null, compressed = false, userID = null, content = null, marshalledProperties = null, dataStructure = null, redeliveryCounter = 0, size = 0, properties = null, readOnlyProperties = false, readOnlyBody = false, droppable = false, jmsXGroupFirstForConsumer = false, text = 0200F23A400188E094040000000014000000061234561...042222049999} to queue
+2019-09-18 11:57:59,912 INFO com.atm.controllers.iso.ISOController [DefaultMessageListenerContainer-1] Parsing ISO Message : 0200F23A400188E09404000000001400000006123456180000000000010000091811575999999911575909180918999911999999999990589508RETRIEVAL1231234000112345678912345612340001231234000123123400012312340001238400000000000202020013localhost5000006888888042222049999
+2019-09-18 11:57:59,918 INFO com.atm.controllers.iso.ISOController [http-nio-8084-exec-10] Parsing ISO Message : 0200F23A400188E09404000000001400000006123456180000000000010000091811575999999911575909180918999911999999999990589508RETRIEVAL1231234000112345678912345612340001231234000123123400012312340001238400000000000202020013localhost5000006888888042222049999
+2019-09-18 11:57:59,926 INFO com.atm.services.BalanceService [http-nio-8084-exec-10] Success checking balance of 123456 with amount 1499000
+2019-09-18 11:57:59,926 INFO com.atm.services.PaymentService [http-nio-8084-exec-10] Success payment with amount 10000 to 888888 
+2019-09-18 11:57:59,931 INFO com.atm.controllers.HttpController [DefaultMessageListenerContainer-1] Sending Http Request to http://localhost:8084/payment
+2019-09-18 11:57:59,934 INFO com.atm.controllers.iso.ISOController [main] Parsing ISO Message in Client : 0210F23A40018AE08404000000000400000006123456999999000000000000091811575999999911575909180918999911999999999990589508RETRIEVAL12300123400010000000000000001234000123123400012312340001231234000123840013localhost5000007149900006888888

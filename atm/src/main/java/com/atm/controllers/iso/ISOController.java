@@ -19,7 +19,8 @@ public class ISOController {
                 }
             }
         } catch (ISOException e) {
-            e.printStackTrace();
+            logger.error(e.getMessage());
+            System.out.println(e.getMessage());
         }
     }
     public ISOMsg parseISOMessage(String message){
@@ -33,7 +34,7 @@ public class ISOController {
             printISOMessage(isoMsg);
 //            System.out.println("Hasil parse "+isoMsg.toString());
 //            return isoMsg;
-            logger.info("Parsing ISO Message");
+            logger.info("Parsing ISO Message : {}",message);
         }catch (Exception e){
             logger.error("Error : {} in {} method",e.getMessage(),
                     Thread.currentThread().getStackTrace()[1].getMethodName());
@@ -52,7 +53,7 @@ public class ISOController {
 //            printISOMessage(isoMsg);
 //            System.out.println("Hasil parse "+isoMsg.toString());
 //            return isoMsg;
-            logger.info("Parsing ISO Message");
+            logger.info("Parsing ISO Message in Client : {}",message);
         }catch (Exception e){
             logger.error("Error : {} in {} method",e.getMessage(),
                     Thread.currentThread().getStackTrace()[1].getMethodName());

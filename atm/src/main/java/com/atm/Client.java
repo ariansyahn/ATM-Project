@@ -416,37 +416,40 @@ public class Client {
 
     private static Integer pilihanTarikTunai(){
         int jumlah=0,opsi;
-        try {
-            System.out.println("1.50000");
-            System.out.println("2.100000");
-            System.out.println("3.200000");
-            System.out.println("4.Jumlah lainnya");
-            System.out.print("Masukkan Pilihan : ");
-            opsi = Integer.parseInt(sc.nextLine());
-            switch (opsi){
-                case 1:
-                    jumlah=50000;
-                    break;
-                case 2:
-                    jumlah=100000;
-                    break;
-                case 3:
-                    jumlah=200000;
-                    break;
-                case 4:
-                    do {
-                        System.out.print("Masukkan nominal (kelipatan 50000) : ");
-                        jumlah = Integer.parseInt(sc.nextLine());
-                    }while (jumlah%50000!=0);
-                    break;
-                default:
-                    System.out.println("Invalid input");
-                    break;
+        System.out.println("1.50000");
+        System.out.println("2.100000");
+        System.out.println("3.200000");
+        System.out.println("4.Jumlah lainnya");
+        label:
+        while (true){
+            try {
+                System.out.print("Masukkan Pilihan : ");
+                opsi = Integer.parseInt(sc.nextLine());
+                switch (opsi){
+                    case 1:
+                        jumlah=50000;
+                        break label;
+                        case 2:
+                            jumlah=100000;
+                            break label;
+                        case 3:
+                            jumlah=200000;
+                            break label;
+                        case 4:
+                            do {
+                                System.out.print("Masukkan nominal (kelipatan 50000) : ");
+                                jumlah = Integer.parseInt(sc.nextLine());
+                            }while (jumlah%50000!=0);
+                            break label;
+                        default:
+                            System.out.println("Invalid input");
+                            break;
+                    }
+                }catch (Exception e){
+                    logger.error(e.getMessage());
+                    System.out.println(e.getMessage());
+                }
             }
-        }catch (Exception e){
-            logger.error(e.getMessage());
-            System.out.println(e.getMessage());
-        }
         return jumlah;
     }
 
@@ -461,23 +464,44 @@ public class Client {
 
     private static Integer pilihanPurchase(){
         int jumlah=0,opsi;
-        try{
             System.out.println("1.25000\t\t4.200000");
             System.out.println("2.50000\t\t5.300000");
             System.out.println("3.100000\t6.500000");
-            System.out.print("Masukkan Pilihan : ");
-            opsi = Integer.parseInt(sc.nextLine());
-            if (opsi==1) jumlah=25000;
-            else if (opsi==2) jumlah=50000;
-            else if (opsi==3) jumlah=100000;
-            else if (opsi==4) jumlah=200000;
-            else if (opsi==5) jumlah=300000;
-            else if (opsi==6) jumlah=500000;
-            else System.out.println("Invalid input");
-        }catch (Exception e){
-            logger.error(e.getMessage());
-            System.out.println(e.getMessage());
-        }
+            while (true){
+                try{
+                    System.out.print("Masukkan Pilihan : ");
+                    opsi = Integer.parseInt(sc.nextLine());
+                    if (opsi==1) {
+                        jumlah=25000;
+                        break;
+                    }
+                    else if (opsi==2) {
+                        jumlah=50000;
+                        break;
+                    }
+                    else if (opsi==3) {
+                        jumlah=100000;
+                        break;
+                    }
+                    else if (opsi==4) {
+                        jumlah=200000;
+                        break;
+                    }
+                    else if (opsi==5) {
+                        jumlah=300000;
+                        break;
+                    }
+                    else if (opsi==6) {
+                        jumlah=500000;
+                        break;
+                    }
+                    else System.out.println("Invalid input");
+                }catch (Exception e){
+                    logger.error(e.getMessage());
+                    System.out.println(e.getMessage());
+                }
+            }
+
         return jumlah;
     }
 }

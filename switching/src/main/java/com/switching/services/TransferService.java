@@ -61,29 +61,4 @@ public class TransferService {
         }
         return new String(result);
     }
-
-    public String transferQuery(String accNumber, int amount,String beneficiaryNumber){
-        String result="";
-        try {
-            BalanceService balanceService = new BalanceService(jdbc);
-            String query = "update account set balance = balance-"+amount+" where acc_number = '"+accNumber+"'";
-            int execute = jdbc.update(query);
-            if (execute==1){
-                System.out.println("Success");
-                //sisa saldo si pengirim
-                result = "00,"+balanceService.checkSaldoQuery(accNumber);
-                logger.info("Success transfer from {} to {}",
-                        accNumber,beneficiaryNumber);
-            }else {
-                result = "12,"+balanceService.checkSaldoQuery(accNumber);
-                logger.info("Fail transfer from {} to {}, balance not enough",
-                        accNumber,beneficiaryNumber);
-            }
-        }catch (Exception e){
-            logger.error("Error : {} in {} method",e.getMessage(),
-                    Thread.currentThread().getStackTrace()[1].getMethodName());
-            System.out.println(e.getMessage());
-        }
-        return result;
-    }
 }
